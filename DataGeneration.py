@@ -1,4 +1,5 @@
 # DataGeneration.py
+import os
 from basketball_reference_scraper.players import get_stats, get_game_logs
 from basketball_reference_scraper.teams import (
     get_roster,
@@ -16,49 +17,11 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler, MaxAbsScaler
 
 
 def get_season_mvp():
-    players = {
-        2024: [
-            "Nikola Jokić",
-            "Shai Gilgeous-Alexander",
-            "Luka Dončić",
-            "Giannis Antetokounmpo",
-            "Jalen Brunson",
-            "Jayson Tatum",
-            "Anthony Edwards",
-            "Domantas Sabonis",
-            "Kevin Durant",
-        ],
-        2023: [
-            "Joel Embiid",
-            "Nikola Jokić",
-            "Giannis Antetokounmpo",
-            "Jayson Tatum",
-            "Shai Gilgeous-Alexander",
-            "Donovan Mitchell",
-            "Domantas Sabonis",
-            "Luka Dončić",
-            "Stephen Curry",
-            "Jimmy Butler",
-            "De'Aaron Fox",
-            "Jalen Brunson",
-            "Ja Morant",
-        ],
-        2022: [
-            "Nikola Jokić",
-            "Joel Embiid",
-            "Giannis Antetokounmpo",
-            "Devin Booker",
-            "Luka Dončić",
-            "Jayson Tatum",
-            "Ja Morant",
-            "Stephen Curry",
-            "Chris Paul",
-            "DeMar DeRozan",
-            "Kevin Durant",
-            "LeBron James",
-        ],
-    }
-    return players
+    file_path_1 = 'MVP_data-sets/2001-2010 MVP Data.csv'
+    file_path_2 = 'MVP_data-sets/2010-2021 MVP Data.csv'
+    file_path_3 = 'MVP_data-sets/2022-2023 MVP Data.csv'
+    temp = load_and_combine_datasets_cleaned(file_path_1, file_path_2, file_path_3)
+    return temp
 
 
 
@@ -193,3 +156,64 @@ def normalize_player_stats(df, method='min-max'):
         df[col] = scaler.fit_transform(df[[col]])
     
     return df
+
+
+
+def load_and_combine_datasets_cleaned(*file_paths):
+    datasets = []
+    
+    for file_path in file_paths:
+        # Load each dataset
+        data = pd.read_csv(file_path)
+        
+        # Clean column names by stripping extra spaces
+        data.columns = data.columns.str.strip()
+        
+        # Define columns to keep, adjusted to cleaned names
+        columns_to_keep = ["Player", "Rank", "Pts Won", "Pts Max", "Share", "year"]
+        
+        # Ensure the necessary columns exist before selecting them
+        available_columns = [col for col in columns_to_keep if col in data.columns]
+        
+        # Keep only the desired columns
+        cleaned_data = data[available_columns]
+        
+        datasets.append(cleaned_data)
+    
+    # Combine the datasets vertically
+    combined_data = pd.concat(datasets, axis=0, ignore_index=True)
+    
+    path = "MVP_data-sets/combined_MVP_data_set.csv"
+    combined_data.to_csv(path, index=False)
+    return combined_data
+
+
+
+def load_combined_mvp_2001_2023():
+    path = "MVP_data-sets/combined_MVP_data_set.csv"
+    return pd.read_csv(path)
+
+
+
+
+# Function to fetch data for each year using the players of that year
+def fetch_mvp_stats_by_year(mvp_dataframe: pd.DataFrame, include_playoffs: bool, output_dir: str):
+    players_by_year = mvp_dataframe.groupby('year')['Player'].apply(list).to_dict()
+
+    for year, players in players_by_year.items():
+        stripped_players = [player.strip() for player in players]
+        print(year, ": ", players)
+        output_file = f"{output_dir}/mvp_stats_{year}.csv"
+
+        # Check if the file already exists
+        if os.path.exists(output_file):
+            print(f"Data for year {year} already exists at {output_file}. Skipping fetching...")
+            continue  # Skip to the next year if the file already exists
+        
+        
+        print(f"Fetching stats for year {year} with {len(stripped_players)} players...")
+        # Call the collect_player_stats function for each year
+        collect_player_stats(stripped_players, year, include_playoffs, output_file)
+
+
+        
