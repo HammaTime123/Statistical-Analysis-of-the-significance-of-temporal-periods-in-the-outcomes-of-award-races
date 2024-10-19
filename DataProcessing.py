@@ -81,16 +81,18 @@ def split_season_into_sections(season_df):
     
     return start_section, middle_section, finish_section
 
-def get_iterable_window_data(players_by_year, data_path: str):
+def get_iterable_window_data(players_by_year, data_path: str, mvp_data_path: str, split_into_sections=True):
     """
     Generate an iterator over combined data sections for each 3-year window.
     
     Parameters:
     players_by_year (dict): A dictionary where keys are years and values are lists of players.
     data_path (str): The path to the directory containing the season data CSV files.
+    mvp_data_path (str): The path to the MVP CSV data file.
+    split_into_sections (bool): Whether to split the season data into start, middle, and finish sections.
     
     Yields:
-    dict: A dictionary containing window_years, combined_start_section, combined_middle_section, and combined_finish_section.
+    dict: A dictionary containing window_years, and combined data sections (split or whole).
     """
     # Generate the 3-year windows using the players_by_year dictionary
     windows = generate_3_wide_window(players_by_year)
@@ -107,6 +109,8 @@ def get_iterable_window_data(players_by_year, data_path: str):
             if os.path.exists(file_path):
                 # Read the CSV file into a dataframe
                 df = pd.read_csv(file_path)
+                # Add 'year' column to match MVP data
+                df['year'] = year
                 dfs.append(df)
             else:
                 # Print a warning if the file for the year is not found
@@ -116,30 +120,48 @@ def get_iterable_window_data(players_by_year, data_path: str):
         if dfs:
             normalized_dfs = normalize_columns_auto(dfs)
             
-            # Split each normalized season into start, middle, and finish sections
-            start_sections = []
-            middle_sections = []
-            finish_sections = []
-            for df in normalized_dfs:
-                # Split the season into three sections
-                start, middle, finish = split_season_into_sections(df)
-                # Append each section to the respective list
-                start_sections.append(start)
-                middle_sections.append(middle)
-                finish_sections.append(finish)
-            
-            # Concatenate the respective sections from all seasons in the window
-            combined_start_section = pd.concat(start_sections)
-            combined_middle_section = pd.concat(middle_sections)
-            combined_finish_section = pd.concat(finish_sections)
-            
-            # Yield the combined sections as an iterator
-            yield {
-                "window_years": window,
-                "combined_start_section": combined_start_section,
-                "combined_middle_section": combined_middle_section,
-                "combined_finish_section": combined_finish_section
-            }
+            if split_into_sections:
+                # Split each normalized season into start, middle, and finish sections
+                start_sections = []
+                middle_sections = []
+                finish_sections = []
+                for df in normalized_dfs:
+                    # Split the season into three sections
+                    start, middle, finish = split_season_into_sections(df)
+                    # Append each section to the respective list
+                    start_sections.append(start)
+                    middle_sections.append(middle)
+                    finish_sections.append(finish)
+                
+                # Concatenate the respective sections from all seasons in the window
+                combined_start_section = pd.concat(start_sections)
+                combined_middle_section = pd.concat(middle_sections)
+                combined_finish_section = pd.concat(finish_sections)
+                
+                # Add MVP share to each combined section
+                combined_start_section = add_mvp_share_to_sections(combined_start_section, mvp_data_path)
+                combined_middle_section = add_mvp_share_to_sections(combined_middle_section, mvp_data_path)
+                combined_finish_section = add_mvp_share_to_sections(combined_finish_section, mvp_data_path)
+                
+                # Yield the combined sections as an iterator
+                yield {
+                    "window_years": window,
+                    "combined_start_section": combined_start_section,
+                    "combined_middle_section": combined_middle_section,
+                    "combined_finish_section": combined_finish_section
+                }
+            else:
+                # Concatenate the entire seasons from all years in the window
+                combined_season = pd.concat(normalized_dfs)
+                
+                # Add MVP share to the combined season
+                combined_season = add_mvp_share_to_sections(combined_season, mvp_data_path)
+                
+                # Yield the combined season as an iterator
+                yield {
+                    "window_years": window,
+                    "combined_season": combined_season
+                }
 
 def print_combined_section_intervals(section_list):
     """
@@ -159,3 +181,42 @@ def print_combined_section_intervals(section_list):
         # Print the interval details
         print(f"Interval {idx + 1}: Start Date: {start_date}, End Date: {end_date}, Length: {length}")
         print("---")
+
+def add_mvp_share_to_sections(section_data, mvp_data_path):
+    """
+    Add MVP share to each player in the provided sections based on the player name and year.
+    
+    Parameters:
+    section_data (DataFrame): A pandas DataFrame containing player statistics for a section.
+    mvp_data_path (str): The path to the MVP CSV data file.
+    
+    Returns:
+    DataFrame: The updated section data with MVP share added.
+    """
+    # Load the MVP data from the CSV file
+    mvp_data = pd.read_csv(mvp_data_path)
+    
+    # Ensure the column names are consistent
+    if 'Year' in mvp_data.columns:
+        mvp_data.rename(columns={'Year': 'year'}, inplace=True)
+    if 'Year' in section_data.columns:
+        section_data.rename(columns={'Year': 'year'}, inplace=True)
+    
+    # Extract the year from the DATE column in section_data if year column is missing
+    if 'year' not in section_data.columns:
+        section_data['year'] = pd.to_datetime(section_data['DATE']).dt.year
+    
+    # Make sure column names are consistent for merging
+    mvp_data.rename(columns={"Player": "Player", "year": "year"}, inplace=True)
+    
+    # Print columns to ensure consistency before merging (for debugging)
+    print("Section Data Columns:", section_data.columns)
+    print("MVP Data Columns:", mvp_data.columns)
+    
+    # Merge the section data with the MVP data based on 'Player' and 'year'
+    try:
+        section_data = section_data.merge(mvp_data[['Player', 'year', 'Share']], on=['Player', 'year'], how='left')
+    except KeyError as e:
+        print(f"KeyError during merging: {e}")
+    
+    return section_data

@@ -2,38 +2,47 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def visualize_combined_sections(start_section, middle_section, finish_section):
+def visualize_combined_sections(start_section=None, middle_section=None, finish_section=None, combined_season=None):
     """
-    Generate all visualizations for the given combined sections (start, middle, finish).
+    Generate all visualizations for the given combined sections (start, middle, finish) or the entire season.
     
     Parameters:
-    start_section (DataFrame): The combined start section of player data.
-    middle_section (DataFrame): The combined middle section of player data.
-    finish_section (DataFrame): The combined finish section of player data.
+    start_section (DataFrame, optional): The combined start section of player data.
+    middle_section (DataFrame, optional): The combined middle section of player data.
+    finish_section (DataFrame, optional): The combined finish section of player data.
+    combined_season (DataFrame, optional): The combined season data of player data.
     """
-    # Plot average performance for each section
-    plot_average_performance(start_section, 'Start')
-    plot_average_performance(middle_section, 'Middle')
-    plot_average_performance(finish_section, 'Finish')
-    
-    # Compare player contributions for each section
-    compare_player_contributions(start_section, 'Start')
-    compare_player_contributions(middle_section, 'Middle')
-    compare_player_contributions(finish_section, 'Finish')
-    
-    # Plot the performance trend across sections
-    plot_performance_trend(start_section, middle_section, finish_section)
-    
-    # Plot correlation heatmap for each section
-    plot_correlation_heatmap(start_section, 'Start')
-    plot_correlation_heatmap(middle_section, 'Middle')
-    plot_correlation_heatmap(finish_section, 'Finish')
-    
-    # Plot player contributions over different seasons
-    compare_player_contributions_by_season(start_section, middle_section, finish_section)
-    
-    # Plot performance trend by distinguishing different seasons
-    plot_performance_trend_by_season(start_section, middle_section, finish_section)
+    if combined_season is not None:
+        # Visualizations for the entire combined season
+        plot_average_performance(combined_season, 'Entire Season')
+        compare_player_contributions(combined_season, 'Entire Season')
+        plot_correlation_heatmap(combined_season, 'Entire Season')
+    else:
+        # Visualizations for each section
+        if start_section is not None and middle_section is not None and finish_section is not None:
+            # Plot average performance for each section
+            plot_average_performance(start_section, 'Start')
+            plot_average_performance(middle_section, 'Middle')
+            plot_average_performance(finish_section, 'Finish')
+            
+            # Compare player contributions for each section
+            compare_player_contributions(start_section, 'Start')
+            compare_player_contributions(middle_section, 'Middle')
+            compare_player_contributions(finish_section, 'Finish')
+            
+            # Plot the performance trend across sections
+            plot_performance_trend(start_section, middle_section, finish_section)
+            
+            # Plot correlation heatmap for each section
+            plot_correlation_heatmap(start_section, 'Start')
+            plot_correlation_heatmap(middle_section, 'Middle')
+            plot_correlation_heatmap(finish_section, 'Finish')
+            
+            # Plot player contributions over different seasons
+            compare_player_contributions_by_season(start_section, middle_section, finish_section)
+            
+            # Plot performance trend by distinguishing different seasons
+            plot_performance_trend_by_season(start_section, middle_section, finish_section)
 
 def plot_average_performance(combined_section, section_name):
     """
@@ -109,6 +118,12 @@ def compare_player_contributions_by_season(start_section, middle_section, finish
     plt.xlabel('Player')
     plt.ylabel('Average Contribution per Game')
     plt.xticks(rotation=90)
+    
+    # Calculate and add the sum of all contributions to the player labels
+    player_sums = player_contributions.sum(axis=1)
+    labels = [f'{player} ({sum_value:.2f})' for player, sum_value in zip(player_contributions.index, player_sums)]
+    ax.set_xticklabels(labels, rotation=90)
+    
     plt.tight_layout()
     plt.show()
 
