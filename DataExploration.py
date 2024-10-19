@@ -37,14 +37,14 @@ def visualize_combined_sections(start_section, middle_section, finish_section):
 
 def plot_average_performance(combined_section, section_name):
     """
-    Plot the average performance metrics (PTS, TRB, AST) for the given combined section.
+    Plot the average performance metrics (PTS, TRB, AST, BLK, STL) for the given combined section.
     
     Parameters:
     combined_section (DataFrame): The combined section of player data (start, middle, or finish).
     section_name (str): The name of the section being visualized (e.g., 'Start', 'Middle', 'Finish').
     """
     # Calculate the average of each metric in the combined section
-    average_performance = combined_section[['PTS', 'TRB', 'AST']].mean()
+    average_performance = combined_section[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean()
     
     # Plot the average performance
     average_performance.plot(kind='bar', title=f'Average Performance Metrics - {section_name} Section')
@@ -56,19 +56,20 @@ def plot_average_performance(combined_section, section_name):
 
 def compare_player_contributions(combined_section, section_name):
     """
-    Compare player contributions across key metrics (PTS, TRB, AST) in the given combined section.
+    Compare player contributions across key metrics (PTS, TRB, AST, BLK, STL) in the given combined section.
     
     Parameters:
     combined_section (DataFrame): The combined section of player data (start, middle, or finish).
     section_name (str): The name of the section being visualized (e.g., 'Start', 'Middle', 'Finish').
     """
-    # Group by player and calculate the sum of each metric
-    player_contributions = combined_section.groupby('Player')[['PTS', 'TRB', 'AST']].sum()
+    # Group by player and calculate the mean of each metric (average per game contribution)
+    player_contributions = combined_section.groupby('Player')[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean()
     
     # Plot the contributions of each player
-    player_contributions.plot(kind='bar', stacked=True, title=f'Player Contributions - {section_name} Section', figsize=(10, 6))
+    ax = player_contributions.plot(kind='bar', stacked=True, title=f'Player Contributions - {section_name} Section (Average per Game)', figsize=(10, 6))
+    plt.axhline(0, color='black', linewidth=1, linestyle='--')  # Add a line to distinguish where 0 on the y-axis is
     plt.xlabel('Player')
-    plt.ylabel('Total Contribution')
+    plt.ylabel('Average Contribution per Game')
     plt.xticks(rotation=90)
     plt.tight_layout()
     plt.show()
@@ -90,20 +91,30 @@ def compare_player_contributions_by_season(start_section, middle_section, finish
     # Concatenate all sections
     combined_data = pd.concat([start_section, middle_section, finish_section])
     
-    # Group by player and season section, and calculate the sum of each metric
-    player_contributions = combined_data.groupby(['Player', 'Season Section'])[['PTS', 'TRB', 'AST']].sum().unstack()
+    # Group by player and season section, and calculate the mean of each metric (average per game contribution)
+    player_contributions = combined_data.groupby(['Player', 'Season Section'])[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean().unstack()
+    
+    # Define colors for different metrics and sections
+    colors = {
+        ('PTS', 'Start'): 'lightcoral', ('PTS', 'Middle'): 'red', ('PTS', 'Finish'): 'darkred',
+        ('AST', 'Start'): 'lightgreen', ('AST', 'Middle'): 'green', ('AST', 'Finish'): 'darkgreen',
+        ('TRB', 'Start'): 'lightblue', ('TRB', 'Middle'): 'blue', ('TRB', 'Finish'): 'darkblue',
+        ('BLK', 'Start'): 'lightgray', ('BLK', 'Middle'): 'gray', ('BLK', 'Finish'): 'black',
+        ('STL', 'Start'): 'lightyellow', ('STL', 'Middle'): 'yellow', ('STL', 'Finish'): 'gold'
+    }
     
     # Plot player contributions across different seasons
-    player_contributions.plot(kind='bar', stacked=True, figsize=(15, 8), title='Player Contributions by Season Section')
+    ax = player_contributions.plot(kind='bar', stacked=True, figsize=(15, 8), title='Player Contributions by Season Section (Average per Game)', color=[colors[col] for col in player_contributions.columns])
+    plt.axhline(0, color='black', linewidth=1, linestyle='--')  # Add a line to distinguish where 0 on the y-axis is
     plt.xlabel('Player')
-    plt.ylabel('Total Contribution')
+    plt.ylabel('Average Contribution per Game')
     plt.xticks(rotation=90)
     plt.tight_layout()
     plt.show()
 
 def plot_performance_trend(start_section, middle_section, finish_section):
     """
-    Plot the trend of average performance metrics (PTS, TRB, AST) across the start, middle, and finish sections.
+    Plot the trend of average performance metrics (PTS, TRB, AST, BLK, STL) across the start, middle, and finish sections.
     
     Parameters:
     start_section (DataFrame): The combined start section of player data.
@@ -111,9 +122,9 @@ def plot_performance_trend(start_section, middle_section, finish_section):
     finish_section (DataFrame): The combined finish section of player data.
     """
     # Calculate the average metrics for each section
-    avg_start = start_section[['PTS', 'TRB', 'AST']].mean()
-    avg_middle = middle_section[['PTS', 'TRB', 'AST']].mean()
-    avg_finish = finish_section[['PTS', 'TRB', 'AST']].mean()
+    avg_start = start_section[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean()
+    avg_middle = middle_section[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean()
+    avg_finish = finish_section[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean()
     
     # Create a DataFrame to hold the average values for each section
     trend_data = pd.DataFrame({
@@ -151,7 +162,7 @@ def plot_performance_trend_by_season(start_section, middle_section, finish_secti
     combined_data = pd.concat([start_section, middle_section, finish_section])
     
     # Group by season section and calculate the average for each metric
-    trend_data = combined_data.groupby('Season Section')[['PTS', 'TRB', 'AST']].mean()
+    trend_data = combined_data.groupby('Season Section')[['PTS', 'TRB', 'AST', 'BLK', 'STL']].mean()
     
     # Plot the trend of average performance metrics for each season section
     trend_data.plot(kind='line', marker='o', title='Performance Trend by Season Section', figsize=(10, 6))
@@ -163,17 +174,16 @@ def plot_performance_trend_by_season(start_section, middle_section, finish_secti
 
 def plot_correlation_heatmap(combined_section, section_name):
     """
-    Plot a heatmap showing correlations between key metrics (PTS, TRB, AST) in the given combined section.
+    Plot a heatmap showing correlations between key metrics (PTS, TRB, AST, BLK, STL) in the given combined section.
     
     Parameters:
     combined_section (DataFrame): The combined section of player data (start, middle, or finish).
     section_name (str): The name of the section being visualized (e.g., 'Start', 'Middle', 'Finish').
     """
     # Calculate the correlation matrix for the key metrics
-    correlation_matrix = combined_section[['PTS', 'TRB', 'AST']].corr()
+    correlation_matrix = combined_section[['PTS', 'TRB', 'AST', 'BLK', 'STL']].corr()
     
-    # Plot the correlation heatmap
-    plt.figure(figsize=(8, 6))
+    # Plot the heatmap of the correlation matrix
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
     plt.title(f'Correlation Heatmap - {section_name} Section')
     plt.tight_layout()

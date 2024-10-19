@@ -36,11 +36,11 @@ def get_player_season(player_name, season_year: int, include_playoffs: bool, pos
     clear_jupyter()
 
     # Choose the columns you are interested in
-    columns_to_keep = ["DATE", "PTS", "AST", "TRB"]
+    columns_to_keep = ["DATE", "PTS", "AST", "BLK", "STL", "TRB"]
     df_selected = df.loc[:, columns_to_keep]
 
     # Convert PTS, AST, TRB to numeric, coercing errors to NaN
-    df_numeric = df_selected[["PTS", "AST", "TRB"]].apply(pd.to_numeric, errors="coerce")
+    df_numeric = df_selected[["PTS", "AST", "TRB","BLK", "STL"]].apply(pd.to_numeric, errors="coerce")
 
     # Create a mask where all PTS, AST, TRB are not NaN (i.e., are numeric)
     mask = df_numeric.notnull().all(axis=1)
@@ -110,54 +110,6 @@ def collect_player_stats(players: list, target_year: int, include_playoffs: bool
         logging.warning("No player stats were fetched. Returning an empty DataFrame.")
 
     return mvp_stats
-
-
-
-def normalize_player_stats(df, method='min-max'):
-    # ANSI escape codes for blue color
-    RESET = "\033[0m"
-    GREEN = "\033[92m"
-    
-    # Define a custom bar format with blue color for the progress bar
-    custom_bar_format = (
-        "{l_bar}"
-        f"{GREEN}"  # Start blue color
-        "{bar}"
-        f"{RESET}"  # Reset color
-        " | {n_fmt}/{total_fmt} [{elapsed}<{remaining}]"
-    )
-    
-    # Define the columns to normalize
-    columns_to_normalize = ['PTS', 'AST', 'TRB']
-    
-    # Check if the necessary columns exist in the DataFrame
-    for col in columns_to_normalize:
-        if col not in df.columns:
-            raise KeyError(f"Column '{col}' not found in DataFrame.")
-    
-    # Choose the normalization method
-    if method == 'min-max':
-        scaler = MinMaxScaler()
-    elif method == 'z-score':
-        scaler = StandardScaler()
-    elif method == 'max-abs':
-        scaler = MaxAbsScaler()
-    else:
-        raise ValueError("Unsupported normalization method. Choose 'min-max', 'z-score', or 'max-abs'.")
-    
-    # Iterate over each column with a blue progress bar
-    for col in tqdm(
-        columns_to_normalize, 
-        desc="Normalizing Columns", 
-        unit="column",
-        bar_format=custom_bar_format
-    ):
-        # Reshape the data for the scaler and overwrite the column with normalized values
-        df[col] = scaler.fit_transform(df[[col]])
-    
-    return df
-
-
 
 def load_and_combine_datasets_cleaned(*file_paths):
     datasets = []
@@ -277,15 +229,3 @@ def print_missing_players(missing_players_by_year: dict):
             for player in missing_players:
                 print(f" - {player}")
         print("-" * 40)  # Separator for clarity
-
-
-
-def generate_3_wide_window(players_by_year: dict):
-    # Get the sorted list of unique years from the dictionary keys
-    years = sorted(players_by_year.keys())
-    
-    # Create a list of lists where each list is a 3-wide window over the years
-    windowed_years = [years[i:i + 3] for i in range(len(years) - 2)]
-    
-    return windowed_years
-

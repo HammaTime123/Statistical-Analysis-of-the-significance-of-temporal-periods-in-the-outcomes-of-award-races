@@ -33,7 +33,7 @@ def normalize_columns_auto(dfs):
     list of DataFrame: A list of normalized DataFrames.
     """
     # Columns to normalize
-    columns_to_normalize = ["PTS", "TRB", "AST"]
+    columns_to_normalize = ["PTS", "TRB", "AST", "BLK", "STL"]
     
     # Concatenate all the dataframes to calculate the combined mean and standard deviation
     combined_df = pd.concat(dfs)
