@@ -1,1074 +1,1074 @@
-DATE       ,PTS ,AST ,TRB ,Player            ,Position
-2004-11-03 , 12 ,  4 ,  3 ,Steve Nash        ,       1
-2004-11-05 ,  9 , 10 ,  4 ,Steve Nash        ,       1
-2004-11-06 , 17 ,  8 ,  2 ,Steve Nash        ,       1
-2004-11-09 ,  8 , 12 ,  3 ,Steve Nash        ,       1
-2004-11-10 , 15 , 17 ,  7 ,Steve Nash        ,       1
-2004-11-13 , 29 ,  7 ,  3 ,Steve Nash        ,       1
-2004-11-16 , 17 , 18 ,  6 ,Steve Nash        ,       1
-2004-11-17 , 16 , 12 ,  6 ,Steve Nash        ,       1
-2004-11-19 , 18 , 16 ,  1 ,Steve Nash        ,       1
-2004-11-21 , 22 , 18 ,  3 ,Steve Nash        ,       1
-2004-11-22 , 15 ,  6 ,  1 ,Steve Nash        ,       1
-2004-11-24 , 22 , 12 ,  1 ,Steve Nash        ,       1
-2004-11-26 ,  4 ,  6 ,  0 ,Steve Nash        ,       1
-2004-11-30 , 20 , 14 ,  0 ,Steve Nash        ,       1
-2004-12-01 , 21 ,  7 ,  7 ,Steve Nash        ,       1
-2004-12-03 , 22 ,  8 ,  3 ,Steve Nash        ,       1
-2004-12-05 , 10 , 11 ,  3 ,Steve Nash        ,       1
-2004-12-07 , 26 , 11 ,  6 ,Steve Nash        ,       1
-2004-12-08 , 12 , 10 ,  6 ,Steve Nash        ,       1
-2004-12-10 ,  9 , 14 ,  2 ,Steve Nash        ,       1
-2004-12-13 ,  6 , 10 ,  5 ,Steve Nash        ,       1
-2004-12-15 , 13 , 11 ,  1 ,Steve Nash        ,       1
-2004-12-17 , 21 , 12 ,  6 ,Steve Nash        ,       1
-2004-12-18 , 13 , 11 ,  5 ,Steve Nash        ,       1
-2004-12-20 , 15 , 10 ,  1 ,Steve Nash        ,       1
-2004-12-23 , 17 , 14 ,  2 ,Steve Nash        ,       1
-2004-12-26 , 18 , 13 ,  2 ,Steve Nash        ,       1
-2004-12-28 , 12 ,  4 ,  3 ,Steve Nash        ,       1
-2004-12-29 , 22 ,  9 ,  3 ,Steve Nash        ,       1
-2005-01-02 ,  4 , 10 ,  3 ,Steve Nash        ,       1
-2005-01-04 , 20 , 16 ,  3 ,Steve Nash        ,       1
-2005-01-05 , 12 , 13 ,  4 ,Steve Nash        ,       1
-2005-01-08 , 10 , 10 ,  3 ,Steve Nash        ,       1
-2005-01-09 , 10 ,  9 ,  1 ,Steve Nash        ,       1
-2005-01-11 , 16 , 16 ,  1 ,Steve Nash        ,       1
-2005-01-12 , 22 , 11 ,  3 ,Steve Nash        ,       1
-2005-01-14 , 11 ,  2 ,  1 ,Steve Nash        ,       1
-2005-01-21 , 16 , 13 ,  2 ,Steve Nash        ,       1
-2005-01-23 , 30 ,  9 ,  3 ,Steve Nash        ,       1
-2005-01-25 ,  9 ,  7 ,  6 ,Steve Nash        ,       1
-2005-01-26 , 21 , 17 ,  6 ,Steve Nash        ,       1
-2005-01-28 , 13 , 15 ,  2 ,Steve Nash        ,       1
-2005-01-30 , 19 , 12 ,  3 ,Steve Nash        ,       1
-2005-02-01 ,  7 , 12 ,  4 ,Steve Nash        ,       1
-2005-02-02 , 15 , 11 ,  3 ,Steve Nash        ,       1
-2005-02-05 , 26 , 14 ,  3 ,Steve Nash        ,       1
-2005-02-08 , 33 , 17 ,  2 ,Steve Nash        ,       1
-2005-02-11 , 25 , 14 ,  7 ,Steve Nash        ,       1
-2005-02-13 , 20 , 12 ,  3 ,Steve Nash        ,       1
-2005-02-14 , 19 , 18 ,  4 ,Steve Nash        ,       1
-2005-02-17 , 19 , 11 ,  0 ,Steve Nash        ,       1
-2005-03-03 , 16 , 14 ,  3 ,Steve Nash        ,       1
-2005-03-05 ,  9 ,  8 ,  0 ,Steve Nash        ,       1
-2005-03-06 , 12 , 10 ,  3 ,Steve Nash        ,       1
-2005-03-09 , 11 , 15 ,  5 ,Steve Nash        ,       1
-2005-03-11 , 10 , 10 ,  4 ,Steve Nash        ,       1
-2005-03-13 , 25 , 11 ,  6 ,Steve Nash        ,       1
-2005-03-18 , 12 , 13 ,  2 ,Steve Nash        ,       1
-2005-03-20 , 13 , 13 ,  3 ,Steve Nash        ,       1
-2005-03-22 , 13 , 11 ,  4 ,Steve Nash        ,       1
-2005-03-23 , 11 , 10 ,  3 ,Steve Nash        ,       1
-2005-03-25 , 19 , 14 ,  5 ,Steve Nash        ,       1
-2005-03-26 , 23 , 12 ,  4 ,Steve Nash        ,       1
-2005-03-28 , 23 , 12 ,  1 ,Steve Nash        ,       1
-2005-03-30 , 12 , 12 , 13 ,Steve Nash        ,       1
-2005-04-01 , 28 , 11 ,  2 ,Steve Nash        ,       1
-2005-04-03 ,  5 , 11 ,  0 ,Steve Nash        ,       1
-2005-04-05 ,  8 ,  9 ,  4 ,Steve Nash        ,       1
-2005-04-08 , 11 , 12 ,  3 ,Steve Nash        ,       1
-2005-04-09 , 19 ,  5 ,  3 ,Steve Nash        ,       1
-2005-04-11 , 15 , 16 ,  7 ,Steve Nash        ,       1
-2005-04-12 ,  6 , 13 ,  3 ,Steve Nash        ,       1
-2005-04-15 , 14 , 11 ,  3 ,Steve Nash        ,       1
-2005-04-16 ,  4 , 11 ,  6 ,Steve Nash        ,       1
-2005-04-18 ,  8 , 13 ,  0 ,Steve Nash        ,       1
-2004-11-02 , 33 ,  5 , 10 ,Dirk Nowitzki     ,       3
-2004-11-03 , 19 ,  5 ,  7 ,Dirk Nowitzki     ,       3
-2004-11-06 , 22 ,  0 , 13 ,Dirk Nowitzki     ,       3
-2004-11-08 , 25 ,  2 , 10 ,Dirk Nowitzki     ,       3
-2004-11-09 , 20 ,  1 ,  8 ,Dirk Nowitzki     ,       3
-2004-11-11 , 41 ,  4 , 10 ,Dirk Nowitzki     ,       3
-2004-11-13 , 31 ,  7 ,  7 ,Dirk Nowitzki     ,       3
-2004-11-14 , 32 ,  5 , 13 ,Dirk Nowitzki     ,       3
-2004-11-16 , 20 ,  2 , 16 ,Dirk Nowitzki     ,       3
-2004-11-19 , 30 ,  0 , 12 ,Dirk Nowitzki     ,       3
-2004-11-21 , 11 ,  0 ,  5 ,Dirk Nowitzki     ,       3
-2004-11-24 , 23 ,  1 , 11 ,Dirk Nowitzki     ,       3
-2004-11-26 , 23 ,  5 , 14 ,Dirk Nowitzki     ,       3
-2004-11-27 , 32 ,  2 , 18 ,Dirk Nowitzki     ,       3
-2004-11-30 , 21 ,  4 , 13 ,Dirk Nowitzki     ,       3
-2004-12-02 , 53 ,  2 , 16 ,Dirk Nowitzki     ,       3
-2004-12-04 , 30 ,  2 ,  7 ,Dirk Nowitzki     ,       3
-2004-12-06 , 27 ,  2 ,  8 ,Dirk Nowitzki     ,       3
-2004-12-07 , 34 ,  1 ,  7 ,Dirk Nowitzki     ,       3
-2004-12-09 , 27 ,  3 ,  7 ,Dirk Nowitzki     ,       3
-2004-12-11 , 22 ,  4 , 14 ,Dirk Nowitzki     ,       3
-2004-12-13 , 21 ,  2 ,  9 ,Dirk Nowitzki     ,       3
-2004-12-14 , 13 ,  2 ,  6 ,Dirk Nowitzki     ,       3
-2004-12-18 , 15 ,  3 , 12 ,Dirk Nowitzki     ,       3
-2004-12-21 , 23 ,  1 ,  5 ,Dirk Nowitzki     ,       3
-2004-12-22 , 23 ,  3 ,  7 ,Dirk Nowitzki     ,       3
-2004-12-26 , 36 ,  2 ,  8 ,Dirk Nowitzki     ,       3
-2004-12-28 , 29 ,  4 , 11 ,Dirk Nowitzki     ,       3
-2005-01-02 , 39 ,  6 ,  5 ,Dirk Nowitzki     ,       3
-2005-01-05 , 25 ,  4 ,  9 ,Dirk Nowitzki     ,       3
-2005-01-08 , 34 ,  3 , 13 ,Dirk Nowitzki     ,       3
-2005-01-12 , 28 ,  0 ,  3 ,Dirk Nowitzki     ,       3
-2005-01-14 , 36 ,  2 , 14 ,Dirk Nowitzki     ,       3
-2005-01-15 , 26 ,  3 , 12 ,Dirk Nowitzki     ,       3
-2005-01-18 , 28 ,  4 , 11 ,Dirk Nowitzki     ,       3
-2005-01-20 , 28 ,  4 ,  8 ,Dirk Nowitzki     ,       3
-2005-01-21 , 20 ,  2 ,  9 ,Dirk Nowitzki     ,       3
-2005-01-23 , 35 ,  2 , 11 ,Dirk Nowitzki     ,       3
-2005-01-24 , 22 ,  4 , 11 ,Dirk Nowitzki     ,       3
-2005-01-26 , 24 ,  6 , 15 ,Dirk Nowitzki     ,       3
-2005-01-29 , 25 ,  4 ,  9 ,Dirk Nowitzki     ,       3
-2005-02-01 , 19 ,  4 ,  7 ,Dirk Nowitzki     ,       3
-2005-02-02 , 20 ,  2 ,  5 ,Dirk Nowitzki     ,       3
-2005-02-04 , 32 ,  4 ,  7 ,Dirk Nowitzki     ,       3
-2005-02-06 , 30 ,  6 , 11 ,Dirk Nowitzki     ,       3
-2005-02-08 , 27 ,  2 , 12 ,Dirk Nowitzki     ,       3
-2005-02-11 , 27 ,  7 ,  7 ,Dirk Nowitzki     ,       3
-2005-02-13 , 31 ,  6 , 11 ,Dirk Nowitzki     ,       3
-2005-02-15 , 35 ,  5 , 11 ,Dirk Nowitzki     ,       3
-2005-02-17 , 16 ,  4 , 16 ,Dirk Nowitzki     ,       3
-2005-02-23 , 29 ,  2 ,  8 ,Dirk Nowitzki     ,       3
-2005-02-24 , 34 ,  2 , 11 ,Dirk Nowitzki     ,       3
-2005-02-26 , 26 ,  5 , 16 ,Dirk Nowitzki     ,       3
-2005-02-28 , 28 ,  1 , 11 ,Dirk Nowitzki     ,       3
-2005-03-02 , 25 ,  4 ,  5 ,Dirk Nowitzki     ,       3
-2005-03-04 , 23 ,  3 , 13 ,Dirk Nowitzki     ,       3
-2005-03-10 , 25 ,  4 , 11 ,Dirk Nowitzki     ,       3
-2005-03-11 , 29 ,  4 ,  9 ,Dirk Nowitzki     ,       3
-2005-03-13 , 21 ,  1 , 10 ,Dirk Nowitzki     ,       3
-2005-03-15 , 21 ,  4 , 15 ,Dirk Nowitzki     ,       3
-2005-03-17 , 15 ,  2 ,  9 ,Dirk Nowitzki     ,       3
-2005-03-19 , 33 ,  1 ,  6 ,Dirk Nowitzki     ,       3
-2005-03-21 , 25 ,  2 ,  8 ,Dirk Nowitzki     ,       3
-2005-03-23 , 29 ,  2 , 10 ,Dirk Nowitzki     ,       3
-2005-03-24 , 35 ,  5 ,  8 ,Dirk Nowitzki     ,       3
-2005-03-26 , 11 ,  2 , 14 ,Dirk Nowitzki     ,       3
-2005-03-28 , 22 ,  3 , 10 ,Dirk Nowitzki     ,       3
-2005-03-30 , 36 ,  5 ,  9 ,Dirk Nowitzki     ,       3
-2005-04-01 , 29 ,  4 ,  7 ,Dirk Nowitzki     ,       3
-2005-04-03 , 21 ,  3 ,  7 ,Dirk Nowitzki     ,       3
-2005-04-05 , 21 ,  3 ,  9 ,Dirk Nowitzki     ,       3
-2005-04-07 , 16 ,  0 ,  8 ,Dirk Nowitzki     ,       3
-2005-04-09 , 24 ,  5 ,  9 ,Dirk Nowitzki     ,       3
-2005-04-11 , 19 ,  2 ,  8 ,Dirk Nowitzki     ,       3
-2005-04-13 , 31 ,  2 ,  7 ,Dirk Nowitzki     ,       3
-2005-04-17 , 24 ,  3 ,  8 ,Dirk Nowitzki     ,       3
-2005-04-19 , 21 ,  3 ,  2 ,Dirk Nowitzki     ,       3
-2005-04-20 , 16 ,  5 ,  8 ,Dirk Nowitzki     ,       3
-2004-11-03 , 30 ,  2 , 14 ,Tim Duncan        ,       4
-2004-11-05 , 26 ,  2 , 16 ,Tim Duncan        ,       4
-2004-11-07 , 17 ,  2 , 10 ,Tim Duncan        ,       4
-2004-11-10 , 23 ,  3 , 18 ,Tim Duncan        ,       4
-2004-11-12 , 17 ,  6 , 13 ,Tim Duncan        ,       4
-2004-11-13 , 26 ,  0 , 18 ,Tim Duncan        ,       4
-2004-11-16 , 17 ,  4 , 10 ,Tim Duncan        ,       4
-2004-11-18 , 34 ,  1 , 13 ,Tim Duncan        ,       4
-2004-11-19 , 26 ,  3 ,  6 ,Tim Duncan        ,       4
-2004-11-21 , 26 ,  2 , 15 ,Tim Duncan        ,       4
-2004-11-22 , 26 ,  1 ,  9 ,Tim Duncan        ,       4
-2004-11-24 , 27 ,  2 , 13 ,Tim Duncan        ,       4
-2004-11-26 , 23 ,  2 , 13 ,Tim Duncan        ,       4
-2004-11-27 , 12 ,  3 , 13 ,Tim Duncan        ,       4
-2004-11-30 , 20 ,  2 , 13 ,Tim Duncan        ,       4
-2004-12-01 , 24 ,  1 , 12 ,Tim Duncan        ,       4
-2004-12-03 , 18 ,  2 , 18 ,Tim Duncan        ,       4
-2004-12-04 , 20 ,  4 ,  7 ,Tim Duncan        ,       4
-2004-12-06 , 12 ,  1 , 11 ,Tim Duncan        ,       4
-2004-12-08 , 39 ,  2 , 10 ,Tim Duncan        ,       4
-2004-12-09 , 26 ,  3 , 18 ,Tim Duncan        ,       4
-2004-12-11 , 34 ,  5 ,  7 ,Tim Duncan        ,       4
-2004-12-15 , 24 ,  1 , 14 ,Tim Duncan        ,       4
-2004-12-17 , 19 ,  5 , 12 ,Tim Duncan        ,       4
-2004-12-18 , 12 ,  4 ,  7 ,Tim Duncan        ,       4
-2004-12-22 , 24 ,  1 ,  8 ,Tim Duncan        ,       4
-2004-12-23 , 19 ,  2 , 10 ,Tim Duncan        ,       4
-2004-12-26 , 14 ,  4 , 11 ,Tim Duncan        ,       4
-2004-12-28 , 16 ,  6 , 12 ,Tim Duncan        ,       4
-2004-12-30 , 19 ,  5 ,  9 ,Tim Duncan        ,       4
-2004-12-31 , 23 ,  2 ,  8 ,Tim Duncan        ,       4
-2005-01-02 , 14 ,  4 , 11 ,Tim Duncan        ,       4
-2005-01-04 , 12 ,  3 , 15 ,Tim Duncan        ,       4
-2005-01-06 , 27 ,  0 , 12 ,Tim Duncan        ,       4
-2005-01-08 , 19 ,  3 ,  9 ,Tim Duncan        ,       4
-2005-01-10 , 24 ,  1 , 13 ,Tim Duncan        ,       4
-2005-01-12 , 21 ,  2 ,  9 ,Tim Duncan        ,       4
-2005-01-14 , 25 ,  1 ,  6 ,Tim Duncan        ,       4
-2005-01-15 , 18 ,  0 , 12 ,Tim Duncan        ,       4
-2005-01-17 , 11 ,  2 , 11 ,Tim Duncan        ,       4
-2005-01-19 , 12 ,  3 , 14 ,Tim Duncan        ,       4
-2005-01-21 , 30 ,  3 , 19 ,Tim Duncan        ,       4
-2005-01-23 , 23 ,  2 , 13 ,Tim Duncan        ,       4
-2005-01-24 , 24 ,  3 , 11 ,Tim Duncan        ,       4
-2005-01-27 , 20 ,  4 , 12 ,Tim Duncan        ,       4
-2005-01-29 , 12 ,  5 , 14 ,Tim Duncan        ,       4
-2005-01-31 , 21 ,  1 , 10 ,Tim Duncan        ,       4
-2005-02-03 , 17 ,  2 ,  5 ,Tim Duncan        ,       4
-2005-02-11 , 16 ,  9 , 15 ,Tim Duncan        ,       4
-2005-02-13 , 20 ,  3 ,  9 ,Tim Duncan        ,       4
-2005-02-16 , 19 ,  5 ,  6 ,Tim Duncan        ,       4
-2005-02-23 , 30 ,  3 , 11 ,Tim Duncan        ,       4
-2005-02-26 , 27 ,  1 , 19 ,Tim Duncan        ,       4
-2005-02-28 , 20 ,  3 , 11 ,Tim Duncan        ,       4
-2005-03-02 , 13 ,  4 , 11 ,Tim Duncan        ,       4
-2005-03-04 , 31 ,  2 , 13 ,Tim Duncan        ,       4
-2005-03-06 , 12 ,  4 ,  4 ,Tim Duncan        ,       4
-2005-03-08 , 19 ,  4 ,  8 ,Tim Duncan        ,       4
-2005-03-14 , 18 ,  3 , 13 ,Tim Duncan        ,       4
-2005-03-16 , 25 ,  6 , 14 ,Tim Duncan        ,       4
-2005-03-18 , 19 ,  3 ,  6 ,Tim Duncan        ,       4
-2005-03-20 ,  2 ,  0 ,  1 ,Tim Duncan        ,       4
-2005-04-13 , 17 ,  1 ,  7 ,Tim Duncan        ,       4
-2005-04-16 , 11 ,  1 ,  8 ,Tim Duncan        ,       4
-2005-04-18 , 17 ,  2 ,  6 ,Tim Duncan        ,       4
-2005-04-20 ,  3 ,  3 ,  6 ,Tim Duncan        ,       4
-2004-11-03 , 30 ,  6 ,  2 ,Allen Iverson     ,       5
-2004-11-05 , 25 ,  9 ,  1 ,Allen Iverson     ,       5
-2004-11-06 , 31 ,  5 ,  0 ,Allen Iverson     ,       5
-2004-11-09 , 29 , 10 ,  5 ,Allen Iverson     ,       5
-2004-11-10 , 26 ,  6 ,  5 ,Allen Iverson     ,       5
-2004-11-12 , 15 ,  9 ,  5 ,Allen Iverson     ,       5
-2004-11-14 , 29 , 12 ,  6 ,Allen Iverson     ,       5
-2004-11-16 , 26 ,  4 ,  2 ,Allen Iverson     ,       5
-2004-11-18 , 24 ,  4 ,  3 ,Allen Iverson     ,       5
-2004-11-24 , 28 , 10 ,  2 ,Allen Iverson     ,       5
-2004-11-26 , 28 , 13 ,  5 ,Allen Iverson     ,       5
-2004-11-27 , 27 , 10 ,  5 ,Allen Iverson     ,       5
-2004-12-01 , 14 ,  2 ,  3 ,Allen Iverson     ,       5
-2004-12-03 , 25 ,  3 ,  2 ,Allen Iverson     ,       5
-2004-12-04 , 20 ,  8 ,  4 ,Allen Iverson     ,       5
-2004-12-06 , 36 ,  4 ,  3 ,Allen Iverson     ,       5
-2004-12-08 , 14 ,  5 ,  8 ,Allen Iverson     ,       5
-2004-12-10 , 22 , 10 ,  2 ,Allen Iverson     ,       5
-2004-12-12 , 40 , 10 ,  1 ,Allen Iverson     ,       5
-2004-12-14 , 31 ,  8 , 10 ,Allen Iverson     ,       5
-2004-12-17 , 24 ,  8 ,  7 ,Allen Iverson     ,       5
-2004-12-18 , 54 ,  5 ,  8 ,Allen Iverson     ,       5
-2004-12-20 , 51 ,  6 ,  1 ,Allen Iverson     ,       5
-2004-12-22 , 40 ,  5 ,  4 ,Allen Iverson     ,       5
-2004-12-27 , 28 ,  6 ,  1 ,Allen Iverson     ,       5
-2004-12-28 , 34 ,  7 ,  9 ,Allen Iverson     ,       5
-2004-12-31 , 29 ,  8 ,  0 ,Allen Iverson     ,       5
-2005-01-02 , 35 ,  6 ,  5 ,Allen Iverson     ,       5
-2005-01-03 , 29 ,  6 ,  3 ,Allen Iverson     ,       5
-2005-01-05 , 23 ,  9 ,  6 ,Allen Iverson     ,       5
-2005-01-10 , 21 ,  9 ,  9 ,Allen Iverson     ,       5
-2005-01-12 , 21 ,  8 ,  2 ,Allen Iverson     ,       5
-2005-01-14 , 32 , 10 ,  5 ,Allen Iverson     ,       5
-2005-01-15 , 28 , 13 ,  4 ,Allen Iverson     ,       5
-2005-01-17 , 29 ,  3 ,  4 ,Allen Iverson     ,       5
-2005-01-19 , 24 ,  6 ,  4 ,Allen Iverson     ,       5
-2005-01-22 , 38 , 10 ,  3 ,Allen Iverson     ,       5
-2005-01-24 , 45 , 10 ,  2 ,Allen Iverson     ,       5
-2005-01-31 , 27 ,  8 ,  9 ,Allen Iverson     ,       5
-2005-02-02 , 28 , 10 ,  4 ,Allen Iverson     ,       5
-2005-02-04 , 22 , 12 ,  3 ,Allen Iverson     ,       5
-2005-02-06 , 28 ,  5 ,  3 ,Allen Iverson     ,       5
-2005-02-09 , 38 , 10 ,  6 ,Allen Iverson     ,       5
-2005-02-11 , 30 ,  8 ,  5 ,Allen Iverson     ,       5
-2005-02-12 , 60 ,  6 ,  4 ,Allen Iverson     ,       5
-2005-02-14 , 38 , 10 ,  2 ,Allen Iverson     ,       5
-2005-02-16 , 23 ,  7 ,  1 ,Allen Iverson     ,       5
-2005-02-24 , 29 ,  8 ,  3 ,Allen Iverson     ,       5
-2005-02-26 , 27 , 14 ,  6 ,Allen Iverson     ,       5
-2005-03-01 , 48 ,  8 ,  3 ,Allen Iverson     ,       5
-2005-03-02 , 37 ,  5 ,  6 ,Allen Iverson     ,       5
-2005-03-04 , 31 ,  9 ,  1 ,Allen Iverson     ,       5
-2005-03-05 , 33 ,  6 ,  1 ,Allen Iverson     ,       5
-2005-03-07 , 27 ,  6 ,  4 ,Allen Iverson     ,       5
-2005-03-08 , 33 ,  5 ,  6 ,Allen Iverson     ,       5
-2005-03-11 , 25 , 12 ,  0 ,Allen Iverson     ,       5
-2005-03-13 , 32 ,  8 ,  4 ,Allen Iverson     ,       5
-2005-03-15 , 36 ,  9 ,  5 ,Allen Iverson     ,       5
-2005-03-18 , 31 ,  5 ,  9 ,Allen Iverson     ,       5
-2005-03-19 , 31 ,  7 ,  2 ,Allen Iverson     ,       5
-2005-03-23 , 39 , 10 ,  2 ,Allen Iverson     ,       5
-2005-03-25 , 36 ,  7 ,  3 ,Allen Iverson     ,       5
-2005-03-27 , 20 , 15 ,  2 ,Allen Iverson     ,       5
-2005-03-28 , 34 ,  8 ,  3 ,Allen Iverson     ,       5
-2005-03-30 , 26 ,  4 ,  9 ,Allen Iverson     ,       5
-2005-04-01 , 22 ,  2 ,  1 ,Allen Iverson     ,       5
-2005-04-03 , 38 ,  9 ,  4 ,Allen Iverson     ,       5
-2005-04-06 , 48 ,  8 ,  7 ,Allen Iverson     ,       5
-2005-04-08 , 23 , 16 ,  7 ,Allen Iverson     ,       5
-2005-04-12 , 28 , 11 ,  2 ,Allen Iverson     ,       5
-2005-04-14 , 38 , 16 ,  6 ,Allen Iverson     ,       5
-2005-04-15 , 43 ,  7 ,  4 ,Allen Iverson     ,       5
-2005-04-17 , 33 ,  8 ,  4 ,Allen Iverson     ,       5
-2005-04-18 , 39 , 12 ,  7 ,Allen Iverson     ,       5
-2005-04-20 , 16 ,  2 ,  0 ,Allen Iverson     ,       5
-2004-11-03 , 28 ,  8 ,  5 ,LeBron James      ,       6
-2004-11-04 , 21 ,  8 ,  6 ,LeBron James      ,       6
-2004-11-06 , 31 ,  6 ,  8 ,LeBron James      ,       6
-2004-11-09 , 25 ,  4 , 10 ,LeBron James      ,       6
-2004-11-10 , 38 ,  6 , 10 ,LeBron James      ,       6
-2004-11-13 , 24 ,  4 ,  9 ,LeBron James      ,       6
-2004-11-15 , 33 ,  4 , 12 ,LeBron James      ,       6
-2004-11-18 , 19 ,  9 ,  6 ,LeBron James      ,       6
-2004-11-20 , 25 ,  2 ,  8 ,LeBron James      ,       6
-2004-11-21 , 13 , 10 ,  9 ,LeBron James      ,       6
-2004-11-24 , 43 ,  5 ,  6 ,LeBron James      ,       6
-2004-11-26 , 20 ,  8 ,  6 ,LeBron James      ,       6
-2004-11-27 , 26 ,  7 ,  7 ,LeBron James      ,       6
-2004-11-29 , 22 ,  5 ,  7 ,LeBron James      ,       6
-2004-12-01 , 15 ,  6 ,  3 ,LeBron James      ,       6
-2004-12-02 , 17 ,  9 ,  8 ,LeBron James      ,       6
-2004-12-04 , 27 , 10 ,  6 ,LeBron James      ,       6
-2004-12-07 , 27 ,  8 ,  2 ,LeBron James      ,       6
-2004-12-08 , 19 ,  6 ,  2 ,LeBron James      ,       6
-2004-12-11 , 23 , 10 ,  6 ,LeBron James      ,       6
-2004-12-13 , 31 ,  8 ,  5 ,LeBron James      ,       6
-2004-12-15 , 25 ,  7 , 11 ,LeBron James      ,       6
-2004-12-16 , 11 ,  7 ,  9 ,LeBron James      ,       6
-2004-12-18 , 31 ,  4 ,  5 ,LeBron James      ,       6
-2004-12-21 , 26 , 12 ,  6 ,LeBron James      ,       6
-2004-12-22 , 23 ,  9 ,  9 ,LeBron James      ,       6
-2004-12-26 , 22 , 14 ,  9 ,LeBron James      ,       6
-2004-12-28 , 40 ,  7 ,  9 ,LeBron James      ,       6
-2004-12-29 ,  3 ,  5 ,  3 ,LeBron James      ,       6
-2005-01-03 , 26 ,  6 ,  8 ,LeBron James      ,       6
-2005-01-05 , 20 ,  9 ,  6 ,LeBron James      ,       6
-2005-01-08 , 22 ,  4 ,  3 ,LeBron James      ,       6
-2005-01-11 , 29 ,  9 ,  8 ,LeBron James      ,       6
-2005-01-13 , 28 ,  9 , 13 ,LeBron James      ,       6
-2005-01-15 , 27 ,  5 ,  8 ,LeBron James      ,       6
-2005-01-16 , 35 , 11 ,  5 ,LeBron James      ,       6
-2005-01-19 , 27 , 10 , 11 ,LeBron James      ,       6
-2005-01-20 , 18 ,  6 ,  8 ,LeBron James      ,       6
-2005-01-22 , 28 , 10 , 12 ,LeBron James      ,       6
-2005-01-24 , 31 ,  8 , 10 ,LeBron James      ,       6
-2005-01-26 , 27 , 15 ,  9 ,LeBron James      ,       6
-2005-02-01 , 28 ,  7 ,  5 ,LeBron James      ,       6
-2005-02-03 , 31 , 10 ,  2 ,LeBron James      ,       6
-2005-02-05 , 30 ,  9 ,  6 ,LeBron James      ,       6
-2005-02-08 , 15 , 11 ,  8 ,LeBron James      ,       6
-2005-02-11 , 35 ,  6 ,  6 ,LeBron James      ,       6
-2005-02-13 , 25 ,  9 ,  8 ,LeBron James      ,       6
-2005-02-16 , 28 ,  6 ,  5 ,LeBron James      ,       6
-2005-02-17 , 26 ,  8 ,  7 ,LeBron James      ,       6
-2005-02-23 , 27 , 11 ,  6 ,LeBron James      ,       6
-2005-02-25 , 21 ,  5 ,  7 ,LeBron James      ,       6
-2005-02-27 , 28 ,  7 ,  4 ,LeBron James      ,       6
-2005-02-28 , 20 ,  7 ,  8 ,LeBron James      ,       6
-2005-03-02 , 32 ,  5 ,  5 ,LeBron James      ,       6
-2005-03-04 , 34 ,  7 ,  7 ,LeBron James      ,       6
-2005-03-06 , 23 ,  5 ,  4 ,LeBron James      ,       6
-2005-03-08 , 23 ,  8 ,  7 ,LeBron James      ,       6
-2005-03-13 , 35 ,  5 ,  5 ,LeBron James      ,       6
-2005-03-15 , 36 ,  2 ,  9 ,LeBron James      ,       6
-2005-03-16 , 34 ,  6 ,  7 ,LeBron James      ,       6
-2005-03-18 , 16 ,  8 ,  8 ,LeBron James      ,       6
-2005-03-20 , 56 ,  5 , 10 ,LeBron James      ,       6
-2005-03-22 , 29 ,  6 ,  6 ,LeBron James      ,       6
-2005-03-24 , 19 ,  8 ,  4 ,LeBron James      ,       6
-2005-03-26 , 19 ,  6 ,  4 ,LeBron James      ,       6
-2005-03-28 , 44 ,  3 ,  6 ,LeBron James      ,       6
-2005-03-29 , 22 ,  5 ,  7 ,LeBron James      ,       6
-2005-03-31 , 26 ,  7 ,  6 ,LeBron James      ,       6
-2005-04-01 , 35 ,  9 ,  8 ,LeBron James      ,       6
-2005-04-03 , 37 ,  7 , 10 ,LeBron James      ,       6
-2005-04-05 , 24 ,  4 ,  9 ,LeBron James      ,       6
-2005-04-06 , 20 ,  3 ,  4 ,LeBron James      ,       6
-2005-04-08 , 37 ,  7 , 13 ,LeBron James      ,       6
-2005-04-09 , 40 , 10 , 10 ,LeBron James      ,       6
-2005-04-11 , 33 ,  6 ,  7 ,LeBron James      ,       6
-2005-04-14 , 27 ,  7 , 18 ,LeBron James      ,       6
-2005-04-15 , 38 ,  6 ,  6 ,LeBron James      ,       6
-2005-04-17 , 37 ,  6 , 11 ,LeBron James      ,       6
-2005-04-19 , 32 ,  6 ,  8 ,LeBron James      ,       6
-2005-04-20 , 27 , 14 , 14 ,LeBron James      ,       6
-2004-11-02 , 18 ,  1 ,  2 ,Tracy McGrady     ,       7
-2004-11-03 , 21 ,  5 ,  4 ,Tracy McGrady     ,       7
-2004-11-05 , 30 ,  9 ,  4 ,Tracy McGrady     ,       7
-2004-11-06 , 23 ,  5 , 13 ,Tracy McGrady     ,       7
-2004-11-09 , 12 ,  7 ,  6 ,Tracy McGrady     ,       7
-2004-11-15 , 14 ,  4 ,  1 ,Tracy McGrady     ,       7
-2004-11-16 , 21 ,  2 ,  4 ,Tracy McGrady     ,       7
-2004-11-18 , 24 ,  8 ,  6 ,Tracy McGrady     ,       7
-2004-11-20 , 32 ,  5 ,  7 ,Tracy McGrady     ,       7
-2004-11-21 , 16 , 11 ,  4 ,Tracy McGrady     ,       7
-2004-11-23 , 25 ,  6 ,  8 ,Tracy McGrady     ,       7
-2004-11-26 , 17 ,  1 ,  2 ,Tracy McGrady     ,       7
-2004-11-27 , 14 ,  7 ,  5 ,Tracy McGrady     ,       7
-2004-11-30 , 16 ,  5 ,  6 ,Tracy McGrady     ,       7
-2004-12-02 , 48 ,  9 ,  9 ,Tracy McGrady     ,       7
-2004-12-04 , 17 ,  7 ,  8 ,Tracy McGrady     ,       7
-2004-12-07 , 18 ,  4 ,  5 ,Tracy McGrady     ,       7
-2004-12-09 , 33 ,  2 ,  8 ,Tracy McGrady     ,       7
-2004-12-11 , 15 ,  3 ,  2 ,Tracy McGrady     ,       7
-2004-12-15 , 25 ,  4 ,  6 ,Tracy McGrady     ,       7
-2004-12-17 , 27 ,  4 ,  9 ,Tracy McGrady     ,       7
-2004-12-18 , 29 ,  9 ,  7 ,Tracy McGrady     ,       7
-2004-12-20 , 34 ,  7 , 12 ,Tracy McGrady     ,       7
-2004-12-22 , 25 ,  6 ,  9 ,Tracy McGrady     ,       7
-2004-12-26 , 21 ,  9 ,  7 ,Tracy McGrady     ,       7
-2004-12-28 , 20 ,  5 ,  3 ,Tracy McGrady     ,       7
-2004-12-29 , 34 ,  5 ,  7 ,Tracy McGrady     ,       7
-2004-12-31 , 42 ,  5 , 10 ,Tracy McGrady     ,       7
-2005-01-02 , 25 ,  6 ,  5 ,Tracy McGrady     ,       7
-2005-01-05 , 24 ,  5 ,  9 ,Tracy McGrady     ,       7
-2005-01-07 , 26 ,  8 ,  4 ,Tracy McGrady     ,       7
-2005-01-09 , 45 ,  5 , 12 ,Tracy McGrady     ,       7
-2005-01-12 , 30 , 11 ,  5 ,Tracy McGrady     ,       7
-2005-01-13 , 18 ,  7 ,  5 ,Tracy McGrady     ,       7
-2005-01-15 , 28 ,  4 ,  5 ,Tracy McGrady     ,       7
-2005-01-17 , 28 ,  5 ,  5 ,Tracy McGrady     ,       7
-2005-01-18 , 28 ,  4 ,  6 ,Tracy McGrady     ,       7
-2005-01-20 , 27 ,  4 ,  6 ,Tracy McGrady     ,       7
-2005-01-21 , 35 ,  5 ,  6 ,Tracy McGrady     ,       7
-2005-01-26 , 33 ,  5 ,  8 ,Tracy McGrady     ,       7
-2005-01-28 , 30 , 12 ,  7 ,Tracy McGrady     ,       7
-2005-01-30 , 28 ,  4 ,  9 ,Tracy McGrady     ,       7
-2005-01-31 , 16 ,  4 ,  5 ,Tracy McGrady     ,       7
-2005-02-02 , 34 ,  9 ,  4 ,Tracy McGrady     ,       7
-2005-02-04 , 40 ,  4 , 13 ,Tracy McGrady     ,       7
-2005-02-06 , 21 ,  7 ,  2 ,Tracy McGrady     ,       7
-2005-02-09 , 24 ,  9 ,  5 ,Tracy McGrady     ,       7
-2005-02-11 , 16 ,  7 ,  7 ,Tracy McGrady     ,       7
-2005-02-13 , 18 ,  9 ,  4 ,Tracy McGrady     ,       7
-2005-02-15 , 34 ,  9 ,  6 ,Tracy McGrady     ,       7
-2005-02-22 , 17 ,  9 ,  5 ,Tracy McGrady     ,       7
-2005-02-23 , 22 ,  6 ,  3 ,Tracy McGrady     ,       7
-2005-02-27 , 23 ,  3 ,  5 ,Tracy McGrady     ,       7
-2005-03-01 , 32 ,  7 ,  3 ,Tracy McGrady     ,       7
-2005-03-02 , 26 ,  7 ,  9 ,Tracy McGrady     ,       7
-2005-03-06 , 32 ,  5 , 10 ,Tracy McGrady     ,       7
-2005-03-08 , 35 ,  5 ,  8 ,Tracy McGrady     ,       7
-2005-03-11 , 38 ,  6 ,  9 ,Tracy McGrady     ,       7
-2005-03-13 , 22 ,  7 ,  5 ,Tracy McGrady     ,       7
-2005-03-14 , 20 ,  4 ,  7 ,Tracy McGrady     ,       7
-2005-03-16 , 19 ,  6 ,  6 ,Tracy McGrady     ,       7
-2005-03-18 , 22 ,  5 ,  5 ,Tracy McGrady     ,       7
-2005-03-20 , 15 ,  4 ,  7 ,Tracy McGrady     ,       7
-2005-03-22 , 26 ,  5 ,  6 ,Tracy McGrady     ,       7
-2005-03-24 , 31 ,  5 ,  4 ,Tracy McGrady     ,       7
-2005-03-25 ,  0 ,  1 ,  0 ,Tracy McGrady     ,       7
-2005-03-27 , 26 ,  4 ,  7 ,Tracy McGrady     ,       7
-2005-03-28 , 44 ,  4 ,  6 ,Tracy McGrady     ,       7
-2005-03-30 , 26 ,  4 , 10 ,Tracy McGrady     ,       7
-2005-04-01 , 21 ,  3 ,  3 ,Tracy McGrady     ,       7
-2005-04-03 , 13 ,  3 , 11 ,Tracy McGrady     ,       7
-2005-04-05 , 44 ,  7 ,  5 ,Tracy McGrady     ,       7
-2005-04-07 , 27 ,  7 ,  4 ,Tracy McGrady     ,       7
-2005-04-09 , 34 ,  3 ,  8 ,Tracy McGrady     ,       7
-2005-04-11 , 38 ,  4 , 11 ,Tracy McGrady     ,       7
-2005-04-13 , 23 ,  8 ,  8 ,Tracy McGrady     ,       7
-2005-04-16 , 32 ,  8 ,  2 ,Tracy McGrady     ,       7
-2005-04-18 , 16 , 10 ,  5 ,Tracy McGrady     ,       7
-2004-11-03 , 21 ,  6 ,  5 ,Dwyane Wade       ,       8
-2004-11-04 , 28 ,  5 ,  6 ,Dwyane Wade       ,       8
-2004-11-06 , 37 , 12 ,  8 ,Dwyane Wade       ,       8
-2004-11-09 , 22 ,  9 ,  4 ,Dwyane Wade       ,       8
-2004-11-11 , 20 ,  5 ,  8 ,Dwyane Wade       ,       8
-2004-11-16 , 25 ,  6 ,  2 ,Dwyane Wade       ,       8
-2004-11-17 , 18 ,  7 ,  5 ,Dwyane Wade       ,       8
-2004-11-19 , 39 ,  8 ,  4 ,Dwyane Wade       ,       8
-2004-11-21 , 25 ,  7 ,  3 ,Dwyane Wade       ,       8
-2004-11-23 , 19 ,  9 ,  3 ,Dwyane Wade       ,       8
-2004-11-24 , 31 , 11 ,  8 ,Dwyane Wade       ,       8
-2004-11-26 , 17 ,  6 ,  5 ,Dwyane Wade       ,       8
-2004-11-28 , 25 ,  9 ,  5 ,Dwyane Wade       ,       8
-2004-11-30 , 22 ,  4 ,  9 ,Dwyane Wade       ,       8
-2004-12-03 , 15 ,  8 , 10 ,Dwyane Wade       ,       8
-2004-12-04 , 26 ,  8 ,  6 ,Dwyane Wade       ,       8
-2004-12-06 , 23 ,  4 ,  4 ,Dwyane Wade       ,       8
-2004-12-08 , 17 , 10 ,  4 ,Dwyane Wade       ,       8
-2004-12-10 , 26 ,  9 ,  9 ,Dwyane Wade       ,       8
-2004-12-12 , 20 ,  6 ,  9 ,Dwyane Wade       ,       8
-2004-12-13 ,  0 ,  3 ,  3 ,Dwyane Wade       ,       8
-2004-12-15 , 29 ,  9 ,  5 ,Dwyane Wade       ,       8
-2004-12-17 , 25 ,  4 ,  5 ,Dwyane Wade       ,       8
-2004-12-19 , 22 ,  4 ,  5 ,Dwyane Wade       ,       8
-2004-12-21 , 33 , 11 ,  4 ,Dwyane Wade       ,       8
-2004-12-23 , 22 , 10 ,  8 ,Dwyane Wade       ,       8
-2004-12-25 , 29 , 10 ,  3 ,Dwyane Wade       ,       8
-2004-12-27 , 27 ,  9 ,  3 ,Dwyane Wade       ,       8
-2004-12-30 , 31 , 10 , 10 ,Dwyane Wade       ,       8
-2005-01-01 , 26 ,  9 ,  3 ,Dwyane Wade       ,       8
-2005-01-03 , 28 ,  4 ,  2 ,Dwyane Wade       ,       8
-2005-01-05 , 21 ,  9 ,  6 ,Dwyane Wade       ,       8
-2005-01-07 , 25 , 12 ,  4 ,Dwyane Wade       ,       8
-2005-01-09 , 16 ,  6 ,  2 ,Dwyane Wade       ,       8
-2005-01-11 , 23 ,  8 ,  5 ,Dwyane Wade       ,       8
-2005-01-19 , 25 ,  7 ,  2 ,Dwyane Wade       ,       8
-2005-01-21 , 30 ,  3 ,  9 ,Dwyane Wade       ,       8
-2005-01-23 , 18 ,  7 ,  2 ,Dwyane Wade       ,       8
-2005-01-24 , 17 , 11 ,  6 ,Dwyane Wade       ,       8
-2005-01-26 , 16 , 10 ,  2 ,Dwyane Wade       ,       8
-2005-01-28 , 19 ,  5 ,  5 ,Dwyane Wade       ,       8
-2005-01-30 , 30 ,  6 ,  8 ,Dwyane Wade       ,       8
-2005-02-01 , 29 ,  8 ,  6 ,Dwyane Wade       ,       8
-2005-02-03 , 20 ,  3 ,  5 ,Dwyane Wade       ,       8
-2005-02-05 , 25 ,  2 ,  6 ,Dwyane Wade       ,       8
-2005-02-07 , 18 ,  3 ,  3 ,Dwyane Wade       ,       8
-2005-02-09 , 30 ,  6 ,  6 ,Dwyane Wade       ,       8
-2005-02-11 , 11 ,  7 ,  9 ,Dwyane Wade       ,       8
-2005-02-13 , 28 ,  6 ,  5 ,Dwyane Wade       ,       8
-2005-02-16 , 28 , 12 ,  3 ,Dwyane Wade       ,       8
-2005-02-22 , 21 , 11 ,  6 ,Dwyane Wade       ,       8
-2005-02-23 , 38 ,  8 ,  4 ,Dwyane Wade       ,       8
-2005-02-26 , 25 ,  4 ,  3 ,Dwyane Wade       ,       8
-2005-02-27 , 28 , 11 ,  3 ,Dwyane Wade       ,       8
-2005-03-03 , 27 ,  8 ,  6 ,Dwyane Wade       ,       8
-2005-03-04 , 22 ,  7 ,  7 ,Dwyane Wade       ,       8
-2005-03-06 , 18 ,  4 , 10 ,Dwyane Wade       ,       8
-2005-03-07 , 32 ,  7 ,  5 ,Dwyane Wade       ,       8
-2005-03-10 , 20 ,  3 ,  7 ,Dwyane Wade       ,       8
-2005-03-12 , 13 ,  2 ,  6 ,Dwyane Wade       ,       8
-2005-03-14 , 29 ,  4 ,  3 ,Dwyane Wade       ,       8
-2005-03-15 , 24 ,  5 ,  3 ,Dwyane Wade       ,       8
-2005-03-17 , 27 ,  5 ,  8 ,Dwyane Wade       ,       8
-2005-03-19 , 30 ,  4 ,  2 ,Dwyane Wade       ,       8
-2005-03-22 , 20 ,  4 ,  4 ,Dwyane Wade       ,       8
-2005-03-25 , 35 ,  9 ,  7 ,Dwyane Wade       ,       8
-2005-03-26 , 19 ,  4 ,  5 ,Dwyane Wade       ,       8
-2005-03-29 , 27 ,  8 ,  4 ,Dwyane Wade       ,       8
-2005-03-31 , 37 ,  6 ,  9 ,Dwyane Wade       ,       8
-2005-04-02 , 33 ,  9 ,  2 ,Dwyane Wade       ,       8
-2005-04-05 , 39 ,  7 ,  4 ,Dwyane Wade       ,       8
-2005-04-08 , 16 ,  7 ,  4 ,Dwyane Wade       ,       8
-2005-04-10 ,  5 ,  1 ,  1 ,Dwyane Wade       ,       8
-2005-04-14 , 48 ,  6 , 10 ,Dwyane Wade       ,       8
-2005-04-15 , 17 ,  2 ,  3 ,Dwyane Wade       ,       8
-2005-04-17 , 13 ,  8 ,  5 ,Dwyane Wade       ,       8
-2005-04-19 , 14 ,  3 ,  4 ,Dwyane Wade       ,       8
-2004-11-03 , 23 ,  1 ,  8 ,Amar'e Stoudemire ,       9
-2004-11-05 , 29 ,  2 , 10 ,Amar'e Stoudemire ,       9
-2004-11-06 , 22 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2004-11-09 , 26 ,  0 , 15 ,Amar'e Stoudemire ,       9
-2004-11-10 , 20 ,  1 ,  4 ,Amar'e Stoudemire ,       9
-2004-11-13 , 29 ,  0 ,  9 ,Amar'e Stoudemire ,       9
-2004-11-16 , 34 ,  0 , 11 ,Amar'e Stoudemire ,       9
-2004-11-17 , 38 ,  0 ,  5 ,Amar'e Stoudemire ,       9
-2004-11-19 , 33 ,  2 , 14 ,Amar'e Stoudemire ,       9
-2004-11-21 , 33 ,  0 ,  7 ,Amar'e Stoudemire ,       9
-2004-11-22 , 21 ,  5 ,  6 ,Amar'e Stoudemire ,       9
-2004-11-24 , 16 ,  1 ,  6 ,Amar'e Stoudemire ,       9
-2004-11-26 , 14 ,  0 , 14 ,Amar'e Stoudemire ,       9
-2004-11-30 , 29 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2004-12-01 , 21 ,  0 ,  9 ,Amar'e Stoudemire ,       9
-2004-12-03 , 28 ,  2 ,  4 ,Amar'e Stoudemire ,       9
-2004-12-05 , 19 ,  3 ,  9 ,Amar'e Stoudemire ,       9
-2004-12-07 , 33 ,  0 , 11 ,Amar'e Stoudemire ,       9
-2004-12-08 , 23 ,  2 , 10 ,Amar'e Stoudemire ,       9
-2004-12-10 , 36 ,  8 , 15 ,Amar'e Stoudemire ,       9
-2004-12-13 , 21 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2004-12-15 , 19 ,  1 ,  4 ,Amar'e Stoudemire ,       9
-2004-12-17 , 20 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2004-12-18 ,  8 ,  4 ,  2 ,Amar'e Stoudemire ,       9
-2004-12-20 , 32 ,  3 ,  9 ,Amar'e Stoudemire ,       9
-2004-12-23 , 30 ,  0 , 11 ,Amar'e Stoudemire ,       9
-2004-12-26 , 33 ,  2 ,  6 ,Amar'e Stoudemire ,       9
-2004-12-28 , 37 ,  1 ,  7 ,Amar'e Stoudemire ,       9
-2004-12-29 , 15 ,  0 ,  5 ,Amar'e Stoudemire ,       9
-2005-01-02 , 50 ,  3 , 11 ,Amar'e Stoudemire ,       9
-2005-01-04 , 34 ,  2 ,  8 ,Amar'e Stoudemire ,       9
-2005-01-05 , 19 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2005-01-08 , 17 ,  1 ,  6 ,Amar'e Stoudemire ,       9
-2005-01-09 , 20 ,  4 , 14 ,Amar'e Stoudemire ,       9
-2005-01-11 , 34 ,  2 ,  7 ,Amar'e Stoudemire ,       9
-2005-01-12 , 19 ,  1 ,  8 ,Amar'e Stoudemire ,       9
-2005-01-14 , 26 ,  1 , 11 ,Amar'e Stoudemire ,       9
-2005-01-15 , 26 ,  2 ,  9 ,Amar'e Stoudemire ,       9
-2005-01-17 , 16 ,  0 ,  9 ,Amar'e Stoudemire ,       9
-2005-01-19 ,  8 ,  0 ,  4 ,Amar'e Stoudemire ,       9
-2005-01-21 , 35 ,  3 ,  7 ,Amar'e Stoudemire ,       9
-2005-01-23 , 33 ,  1 ,  8 ,Amar'e Stoudemire ,       9
-2005-01-25 , 29 ,  3 ,  9 ,Amar'e Stoudemire ,       9
-2005-01-26 , 23 ,  4 ,  4 ,Amar'e Stoudemire ,       9
-2005-01-28 , 42 ,  2 ,  5 ,Amar'e Stoudemire ,       9
-2005-01-30 , 27 ,  2 ,  4 ,Amar'e Stoudemire ,       9
-2005-02-01 , 22 ,  2 , 19 ,Amar'e Stoudemire ,       9
-2005-02-02 , 23 ,  1 ,  7 ,Amar'e Stoudemire ,       9
-2005-02-05 , 32 ,  1 , 15 ,Amar'e Stoudemire ,       9
-2005-02-08 , 22 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2005-02-11 , 33 ,  0 ,  8 ,Amar'e Stoudemire ,       9
-2005-02-13 ,  9 ,  2 , 10 ,Amar'e Stoudemire ,       9
-2005-02-14 , 42 ,  2 , 12 ,Amar'e Stoudemire ,       9
-2005-02-17 , 31 ,  0 , 12 ,Amar'e Stoudemire ,       9
-2005-02-23 , 17 ,  3 ,  3 ,Amar'e Stoudemire ,       9
-2005-02-26 , 33 ,  2 , 10 ,Amar'e Stoudemire ,       9
-2005-02-27 , 27 ,  1 ,  6 ,Amar'e Stoudemire ,       9
-2005-03-03 , 26 ,  1 , 10 ,Amar'e Stoudemire ,       9
-2005-03-05 , 20 ,  1 ,  3 ,Amar'e Stoudemire ,       9
-2005-03-06 , 22 ,  2 ,  5 ,Amar'e Stoudemire ,       9
-2005-03-09 , 44 ,  1 ,  7 ,Amar'e Stoudemire ,       9
-2005-03-11 , 31 ,  1 , 10 ,Amar'e Stoudemire ,       9
-2005-03-13 , 13 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2005-03-18 , 31 ,  1 , 10 ,Amar'e Stoudemire ,       9
-2005-03-20 , 15 ,  1 ,  9 ,Amar'e Stoudemire ,       9
-2005-03-22 , 40 ,  2 , 13 ,Amar'e Stoudemire ,       9
-2005-03-23 , 23 ,  1 , 14 ,Amar'e Stoudemire ,       9
-2005-03-25 , 25 ,  4 ,  7 ,Amar'e Stoudemire ,       9
-2005-03-26 , 14 ,  1 ,  7 ,Amar'e Stoudemire ,       9
-2005-04-01 , 22 ,  5 ,  9 ,Amar'e Stoudemire ,       9
-2005-04-03 ,  9 ,  4 , 14 ,Amar'e Stoudemire ,       9
-2005-04-05 , 23 ,  2 ,  8 ,Amar'e Stoudemire ,       9
-2005-04-08 , 44 ,  5 , 16 ,Amar'e Stoudemire ,       9
-2005-04-09 , 32 ,  1 , 12 ,Amar'e Stoudemire ,       9
-2005-04-11 , 10 ,  1 ,  6 ,Amar'e Stoudemire ,       9
-2005-04-12 , 27 ,  1 , 11 ,Amar'e Stoudemire ,       9
-2005-04-15 , 24 ,  1 , 17 ,Amar'e Stoudemire ,       9
-2005-04-16 , 38 ,  0 ,  9 ,Amar'e Stoudemire ,       9
-2005-04-18 , 26 ,  3 ,  5 ,Amar'e Stoudemire ,       9
-2005-04-20 , 30 ,  2 , 11 ,Amar'e Stoudemire ,       9
-2004-11-03 , 20 ,  5 ,  5 ,Ray Allen         ,      10
-2004-11-05 , 25 ,  3 ,  1 ,Ray Allen         ,      10
-2004-11-07 , 24 ,  1 ,  6 ,Ray Allen         ,      10
-2004-11-09 , 30 ,  3 ,  7 ,Ray Allen         ,      10
-2004-11-10 , 20 ,  5 ,  5 ,Ray Allen         ,      10
-2004-11-12 , 29 ,  7 ,  4 ,Ray Allen         ,      10
-2004-11-14 , 34 ,  2 ,  5 ,Ray Allen         ,      10
-2004-11-16 , 37 ,  5 ,  5 ,Ray Allen         ,      10
-2004-11-17 , 14 ,  1 ,  4 ,Ray Allen         ,      10
-2004-11-19 , 24 ,  6 ,  2 ,Ray Allen         ,      10
-2004-11-21 , 21 ,  6 ,  1 ,Ray Allen         ,      10
-2004-11-23 , 24 ,  1 ,  2 ,Ray Allen         ,      10
-2004-11-24 , 20 ,  5 ,  5 ,Ray Allen         ,      10
-2004-11-26 , 19 ,  3 ,  4 ,Ray Allen         ,      10
-2004-11-28 , 19 ,  9 ,  5 ,Ray Allen         ,      10
-2004-11-30 , 21 ,  5 ,  6 ,Ray Allen         ,      10
-2004-12-01 , 38 ,  7 ,  2 ,Ray Allen         ,      10
-2004-12-04 , 14 ,  4 ,  5 ,Ray Allen         ,      10
-2004-12-08 , 29 ,  3 ,  4 ,Ray Allen         ,      10
-2004-12-09 , 22 ,  4 ,  5 ,Ray Allen         ,      10
-2004-12-11 , 16 ,  6 ,  5 ,Ray Allen         ,      10
-2004-12-14 , 26 ,  5 ,  5 ,Ray Allen         ,      10
-2004-12-17 , 32 ,  3 ,  5 ,Ray Allen         ,      10
-2004-12-22 , 20 ,  2 ,  5 ,Ray Allen         ,      10
-2004-12-27 , 19 ,  4 ,  4 ,Ray Allen         ,      10
-2004-12-28 , 32 ,  8 ,  3 ,Ray Allen         ,      10
-2004-12-30 , 20 ,  2 ,  1 ,Ray Allen         ,      10
-2004-12-31 , 18 ,  4 ,  2 ,Ray Allen         ,      10
-2005-01-03 , 35 ,  1 ,  2 ,Ray Allen         ,      10
-2005-01-05 , 30 ,  1 ,  5 ,Ray Allen         ,      10
-2005-01-06 , 17 ,  4 ,  6 ,Ray Allen         ,      10
-2005-01-09 , 15 ,  7 ,  3 ,Ray Allen         ,      10
-2005-01-11 , 31 ,  7 ,  6 ,Ray Allen         ,      10
-2005-01-12 , 22 ,  8 ,  7 ,Ray Allen         ,      10
-2005-01-14 , 22 ,  4 ,  1 ,Ray Allen         ,      10
-2005-01-16 , 27 ,  0 ,  6 ,Ray Allen         ,      10
-2005-01-18 , 17 ,  3 ,  5 ,Ray Allen         ,      10
-2005-01-21 , 25 ,  4 ,  6 ,Ray Allen         ,      10
-2005-01-23 , 20 ,  3 ,  3 ,Ray Allen         ,      10
-2005-01-25 , 25 ,  4 ,  4 ,Ray Allen         ,      10
-2005-01-26 , 27 ,  3 ,  3 ,Ray Allen         ,      10
-2005-01-28 , 26 ,  3 ,  5 ,Ray Allen         ,      10
-2005-02-05 , 25 ,  5 ,  4 ,Ray Allen         ,      10
-2005-02-08 , 26 ,  5 ,  4 ,Ray Allen         ,      10
-2005-02-10 , 34 ,  3 ,  4 ,Ray Allen         ,      10
-2005-02-11 , 21 ,  3 ,  4 ,Ray Allen         ,      10
-2005-02-13 , 10 ,  3 ,  4 ,Ray Allen         ,      10
-2005-02-16 , 26 ,  7 ,  5 ,Ray Allen         ,      10
-2005-02-22 , 29 ,  2 ,  5 ,Ray Allen         ,      10
-2005-02-23 , 25 ,  1 ,  5 ,Ray Allen         ,      10
-2005-02-25 , 32 ,  6 ,  4 ,Ray Allen         ,      10
-2005-02-27 , 16 ,  0 ,  1 ,Ray Allen         ,      10
-2005-03-01 , 18 ,  2 ,  3 ,Ray Allen         ,      10
-2005-03-02 , 31 ,  3 ,  5 ,Ray Allen         ,      10
-2005-03-04 , 15 ,  6 ,  7 ,Ray Allen         ,      10
-2005-03-06 , 27 ,  2 ,  6 ,Ray Allen         ,      10
-2005-03-08 , 32 ,  4 ,  7 ,Ray Allen         ,      10
-2005-03-11 , 17 ,  1 ,  4 ,Ray Allen         ,      10
-2005-03-13 , 19 ,  1 ,  1 ,Ray Allen         ,      10
-2005-03-15 , 17 ,  7 ,  1 ,Ray Allen         ,      10
-2005-03-16 , 20 ,  3 ,  6 ,Ray Allen         ,      10
-2005-03-18 , 38 ,  4 ,  7 ,Ray Allen         ,      10
-2005-03-20 ,  6 ,  3 ,  1 ,Ray Allen         ,      10
-2005-03-24 , 19 ,  1 ,  8 ,Ray Allen         ,      10
-2005-03-25 , 40 ,  2 ,  9 ,Ray Allen         ,      10
-2005-03-27 , 27 ,  2 ,  8 ,Ray Allen         ,      10
-2005-03-29 , 22 ,  2 ,  6 ,Ray Allen         ,      10
-2005-03-30 , 14 ,  1 ,  4 ,Ray Allen         ,      10
-2005-04-01 , 19 ,  4 ,  3 ,Ray Allen         ,      10
-2005-04-03 , 27 ,  5 ,  9 ,Ray Allen         ,      10
-2005-04-05 , 23 ,  4 ,  6 ,Ray Allen         ,      10
-2005-04-08 , 30 ,  3 ,  4 ,Ray Allen         ,      10
-2005-04-09 , 32 ,  5 ,  2 ,Ray Allen         ,      10
-2005-04-11 , 18 ,  3 ,  5 ,Ray Allen         ,      10
-2005-04-13 , 19 ,  3 ,  6 ,Ray Allen         ,      10
-2005-04-15 , 32 ,  7 ,  0 ,Ray Allen         ,      10
-2005-04-17 , 34 ,  2 , 10 ,Ray Allen         ,      10
-2005-04-19 , 21 ,  3 ,  4 ,Ray Allen         ,      10
-2004-11-03 , 28 ,  7 , 20 ,Kevin Garnett     ,      11
-2004-11-04 , 25 ,  7 , 15 ,Kevin Garnett     ,      11
-2004-11-06 , 29 ,  4 , 15 ,Kevin Garnett     ,      11
-2004-11-09 , 22 ,  8 , 10 ,Kevin Garnett     ,      11
-2004-11-11 , 20 ,  9 , 17 ,Kevin Garnett     ,      11
-2004-11-16 , 25 ,  8 , 21 ,Kevin Garnett     ,      11
-2004-11-17 , 24 ,  4 , 13 ,Kevin Garnett     ,      11
-2004-11-20 , 20 ,  5 , 12 ,Kevin Garnett     ,      11
-2004-11-22 , 21 ,  9 , 17 ,Kevin Garnett     ,      11
-2004-11-23 , 16 ,  6 , 14 ,Kevin Garnett     ,      11
-2004-11-25 , 23 ,  5 ,  9 ,Kevin Garnett     ,      11
-2004-11-26 , 26 ,  5 , 15 ,Kevin Garnett     ,      11
-2004-11-28 , 28 ,  3 , 16 ,Kevin Garnett     ,      11
-2004-12-01 , 17 ,  9 , 16 ,Kevin Garnett     ,      11
-2004-12-03 , 23 ,  8 , 19 ,Kevin Garnett     ,      11
-2004-12-04 , 22 ,  3 , 15 ,Kevin Garnett     ,      11
-2004-12-07 , 32 ,  5 , 12 ,Kevin Garnett     ,      11
-2004-12-08 , 19 ,  7 ,  8 ,Kevin Garnett     ,      11
-2004-12-10 , 35 ,  9 , 18 ,Kevin Garnett     ,      11
-2004-12-11 , 16 ,  5 , 21 ,Kevin Garnett     ,      11
-2004-12-14 , 19 ,  5 , 19 ,Kevin Garnett     ,      11
-2004-12-15 , 23 ,  5 , 15 ,Kevin Garnett     ,      11
-2004-12-17 , 28 ,  7 , 10 ,Kevin Garnett     ,      11
-2004-12-21 , 26 ,  6 , 13 ,Kevin Garnett     ,      11
-2004-12-23 , 15 ,  9 , 10 ,Kevin Garnett     ,      11
-2004-12-26 , 18 ,  8 , 12 ,Kevin Garnett     ,      11
-2004-12-29 , 17 ,  8 , 13 ,Kevin Garnett     ,      11
-2005-01-01 , 30 ,  4 , 10 ,Kevin Garnett     ,      11
-2005-01-04 , 47 ,  4 , 17 ,Kevin Garnett     ,      11
-2005-01-05 , 23 ,  5 , 20 ,Kevin Garnett     ,      11
-2005-01-07 , 18 ,  5 , 18 ,Kevin Garnett     ,      11
-2005-01-08 , 25 ,  8 , 19 ,Kevin Garnett     ,      11
-2005-01-10 , 23 ,  7 , 13 ,Kevin Garnett     ,      11
-2005-01-12 , 19 ,  8 , 25 ,Kevin Garnett     ,      11
-2005-01-14 , 15 ,  7 , 10 ,Kevin Garnett     ,      11
-2005-01-15 , 17 ,  4 , 10 ,Kevin Garnett     ,      11
-2005-01-17 , 20 ,  4 , 14 ,Kevin Garnett     ,      11
-2005-01-19 , 27 ,  4 ,  9 ,Kevin Garnett     ,      11
-2005-01-21 , 24 ,  7 ,  8 ,Kevin Garnett     ,      11
-2005-01-22 , 14 ,  4 , 16 ,Kevin Garnett     ,      11
-2005-01-24 , 22 ,  4 ,  9 ,Kevin Garnett     ,      11
-2005-01-26 , 17 ,  4 , 10 ,Kevin Garnett     ,      11
-2005-01-28 , 25 ,  5 , 14 ,Kevin Garnett     ,      11
-2005-01-30 , 21 ,  7 , 13 ,Kevin Garnett     ,      11
-2005-02-01 , 15 ,  7 , 13 ,Kevin Garnett     ,      11
-2005-02-02 , 12 ,  3 , 13 ,Kevin Garnett     ,      11
-2005-02-04 , 22 ,  5 , 14 ,Kevin Garnett     ,      11
-2005-02-06 , 21 ,  7 , 13 ,Kevin Garnett     ,      11
-2005-02-08 , 24 ,  4 ,  7 ,Kevin Garnett     ,      11
-2005-02-09 , 24 ,  6 , 11 ,Kevin Garnett     ,      11
-2005-02-11 , 12 ,  1 ,  8 ,Kevin Garnett     ,      11
-2005-02-13 , 23 ,  5 , 14 ,Kevin Garnett     ,      11
-2005-02-15 , 17 ,  3 ,  8 ,Kevin Garnett     ,      11
-2005-02-17 , 20 ,  6 , 18 ,Kevin Garnett     ,      11
-2005-02-24 , 14 ,  2 ,  8 ,Kevin Garnett     ,      11
-2005-02-25 , 31 ,  4 , 14 ,Kevin Garnett     ,      11
-2005-02-27 , 17 ,  5 , 12 ,Kevin Garnett     ,      11
-2005-03-02 , 28 ,  5 , 13 ,Kevin Garnett     ,      11
-2005-03-04 , 25 ,  5 , 10 ,Kevin Garnett     ,      11
-2005-03-06 , 21 ,  9 , 13 ,Kevin Garnett     ,      11
-2005-03-08 , 30 ,  3 , 15 ,Kevin Garnett     ,      11
-2005-03-10 , 22 ,  5 , 19 ,Kevin Garnett     ,      11
-2005-03-11 , 25 ,  6 , 18 ,Kevin Garnett     ,      11
-2005-03-13 , 24 ,  6 , 13 ,Kevin Garnett     ,      11
-2005-03-15 , 25 ,  7 , 12 ,Kevin Garnett     ,      11
-2005-03-16 , 12 ,  0 , 11 ,Kevin Garnett     ,      11
-2005-03-18 , 30 ,  6 , 19 ,Kevin Garnett     ,      11
-2005-03-20 , 30 ,  6 , 17 ,Kevin Garnett     ,      11
-2005-03-23 , 24 ,  5 , 13 ,Kevin Garnett     ,      11
-2005-03-26 , 13 ,  8 ,  8 ,Kevin Garnett     ,      11
-2005-03-27 , 20 ,  4 , 13 ,Kevin Garnett     ,      11
-2005-03-31 , 23 ,  6 , 12 ,Kevin Garnett     ,      11
-2005-04-01 , 15 ,  3 , 15 ,Kevin Garnett     ,      11
-2005-04-03 , 30 ,  6 , 13 ,Kevin Garnett     ,      11
-2005-04-06 , 18 ,  6 , 16 ,Kevin Garnett     ,      11
-2005-04-08 , 26 ,  7 , 16 ,Kevin Garnett     ,      11
-2005-04-09 , 31 ,  7 , 12 ,Kevin Garnett     ,      11
-2005-04-13 , 21 , 11 , 15 ,Kevin Garnett     ,      11
-2005-04-15 , 22 ,  5 ,  9 ,Kevin Garnett     ,      11
-2005-04-17 , 17 ,  5 ,  8 ,Kevin Garnett     ,      11
-2005-04-18 , 14 ,  7 ,  4 ,Kevin Garnett     ,      11
-2005-04-20 , 15 ,  5 , 11 ,Kevin Garnett     ,      11
-2004-11-04 , 19 ,  8 ,  7 ,Gilbert Arenas    ,      12
-2004-11-06 , 27 ,  5 ,  0 ,Gilbert Arenas    ,      12
-2004-11-09 , 20 ,  6 ,  0 ,Gilbert Arenas    ,      12
-2004-11-10 , 10 ,  6 ,  4 ,Gilbert Arenas    ,      12
-2004-11-13 , 25 ,  2 ,  1 ,Gilbert Arenas    ,      12
-2004-11-14 , 20 ,  9 ,  2 ,Gilbert Arenas    ,      12
-2004-11-17 , 25 ,  7 ,  5 ,Gilbert Arenas    ,      12
-2004-11-20 ,  7 ,  5 ,  3 ,Gilbert Arenas    ,      12
-2004-11-23 , 26 ,  4 ,  5 ,Gilbert Arenas    ,      12
-2004-11-26 , 23 ,  4 ,  3 ,Gilbert Arenas    ,      12
-2004-11-28 , 27 ,  5 ,  2 ,Gilbert Arenas    ,      12
-2004-12-01 , 30 ,  5 ,  7 ,Gilbert Arenas    ,      12
-2004-12-03 , 13 ,  8 ,  4 ,Gilbert Arenas    ,      12
-2004-12-04 , 34 ,  3 ,  3 ,Gilbert Arenas    ,      12
-2004-12-08 , 28 ,  3 ,  4 ,Gilbert Arenas    ,      12
-2004-12-10 , 20 ,  7 ,  5 ,Gilbert Arenas    ,      12
-2004-12-12 , 16 ,  6 ,  6 ,Gilbert Arenas    ,      12
-2004-12-13 , 18 ,  4 ,  2 ,Gilbert Arenas    ,      12
-2004-12-15 , 22 ,  8 ,  7 ,Gilbert Arenas    ,      12
-2004-12-17 , 37 ,  7 ,  6 ,Gilbert Arenas    ,      12
-2004-12-18 , 19 ,  4 ,  4 ,Gilbert Arenas    ,      12
-2004-12-20 , 29 ,  5 ,  7 ,Gilbert Arenas    ,      12
-2004-12-21 , 22 ,  4 ,  6 ,Gilbert Arenas    ,      12
-2004-12-26 , 21 ,  3 ,  5 ,Gilbert Arenas    ,      12
-2004-12-27 , 17 ,  3 ,  4 ,Gilbert Arenas    ,      12
-2004-12-29 , 34 ,  4 ,  4 ,Gilbert Arenas    ,      12
-2005-01-02 , 17 ,  4 ,  2 ,Gilbert Arenas    ,      12
-2005-01-04 , 20 ,  3 ,  6 ,Gilbert Arenas    ,      12
-2005-01-06 , 27 ,  4 ,  7 ,Gilbert Arenas    ,      12
-2005-01-08 , 40 ,  4 ,  1 ,Gilbert Arenas    ,      12
-2005-01-12 , 26 ,  5 ,  4 ,Gilbert Arenas    ,      12
-2005-01-14 , 20 ,  2 ,  7 ,Gilbert Arenas    ,      12
-2005-01-15 , 26 ,  7 ,  7 ,Gilbert Arenas    ,      12
-2005-01-17 ,  3 ,  2 ,  2 ,Gilbert Arenas    ,      12
-2005-01-18 , 43 ,  3 ,  3 ,Gilbert Arenas    ,      12
-2005-01-21 , 23 ,  8 ,  2 ,Gilbert Arenas    ,      12
-2005-01-22 , 33 ,  6 ,  2 ,Gilbert Arenas    ,      12
-2005-01-24 , 30 ,  1 ,  4 ,Gilbert Arenas    ,      12
-2005-01-26 , 33 ,  9 ,  6 ,Gilbert Arenas    ,      12
-2005-01-28 , 30 ,  8 ,  4 ,Gilbert Arenas    ,      12
-2005-01-29 , 37 ,  6 ,  8 ,Gilbert Arenas    ,      12
-2005-02-01 , 21 ,  8 ,  6 ,Gilbert Arenas    ,      12
-2005-02-04 , 21 ,  4 ,  0 ,Gilbert Arenas    ,      12
-2005-02-05 , 31 ,  9 ,  6 ,Gilbert Arenas    ,      12
-2005-02-07 , 43 ,  6 ,  9 ,Gilbert Arenas    ,      12
-2005-02-09 , 24 ,  4 ,  6 ,Gilbert Arenas    ,      12
-2005-02-11 , 35 ,  9 ,  2 ,Gilbert Arenas    ,      12
-2005-02-12 , 24 ,  5 ,  1 ,Gilbert Arenas    ,      12
-2005-02-14 , 34 ,  6 ,  4 ,Gilbert Arenas    ,      12
-2005-02-15 , 11 ,  9 ,  4 ,Gilbert Arenas    ,      12
-2005-02-23 , 30 ,  6 , 10 ,Gilbert Arenas    ,      12
-2005-02-25 , 36 ,  7 ,  5 ,Gilbert Arenas    ,      12
-2005-02-27 , 43 ,  3 ,  7 ,Gilbert Arenas    ,      12
-2005-03-02 , 33 ,  5 ,  8 ,Gilbert Arenas    ,      12
-2005-03-04 , 23 ,  8 ,  3 ,Gilbert Arenas    ,      12
-2005-03-05 , 21 ,  1 ,  4 ,Gilbert Arenas    ,      12
-2005-03-08 , 23 ,  2 ,  8 ,Gilbert Arenas    ,      12
-2005-03-13 , 25 ,  6 ,  2 ,Gilbert Arenas    ,      12
-2005-03-14 , 21 ,  5 ,  2 ,Gilbert Arenas    ,      12
-2005-03-16 , 29 ,  4 ,  4 ,Gilbert Arenas    ,      12
-2005-03-18 , 27 ,  7 , 10 ,Gilbert Arenas    ,      12
-2005-03-19 , 22 ,  5 ,  8 ,Gilbert Arenas    ,      12
-2005-03-22 , 25 ,  3 ,  5 ,Gilbert Arenas    ,      12
-2005-03-24 , 29 ,  6 ,  3 ,Gilbert Arenas    ,      12
-2005-03-25 , 33 ,  4 ,  7 ,Gilbert Arenas    ,      12
-2005-03-27 , 18 ,  9 ,  7 ,Gilbert Arenas    ,      12
-2005-03-28 , 28 ,  2 ,  6 ,Gilbert Arenas    ,      12
-2005-03-30 , 36 ,  2 ,  4 ,Gilbert Arenas    ,      12
-2005-04-01 , 31 ,  4 ,  4 ,Gilbert Arenas    ,      12
-2005-04-03 , 22 ,  4 ,  7 ,Gilbert Arenas    ,      12
-2005-04-05 , 43 ,  4 ,  9 ,Gilbert Arenas    ,      12
-2005-04-06 , 19 ,  5 ,  4 ,Gilbert Arenas    ,      12
-2005-04-08 , 14 ,  2 ,  3 ,Gilbert Arenas    ,      12
-2005-04-09 , 44 ,  3 ,  4 ,Gilbert Arenas    ,      12
-2005-04-11 ,  8 , 13 ,  2 ,Gilbert Arenas    ,      12
-2005-04-13 , 21 ,  3 ,  7 ,Gilbert Arenas    ,      12
-2005-04-15 , 33 ,  9 ,  4 ,Gilbert Arenas    ,      12
-2005-04-17 , 27 ,  4 ,  8 ,Gilbert Arenas    ,      12
-2005-04-19 ,  8 ,  6 ,  6 ,Gilbert Arenas    ,      12
-2005-04-20 , 25 ,  2 ,  8 ,Gilbert Arenas    ,      12
-2004-11-03 , 16 ,  6 ,  3 ,Vince Carter      ,      13
-2004-11-05 , 12 ,  5 ,  8 ,Vince Carter      ,      13
-2004-11-07 , 25 ,  4 ,  3 ,Vince Carter      ,      13
-2004-11-09 , 12 ,  1 ,  4 ,Vince Carter      ,      13
-2004-11-10 , 16 ,  5 ,  1 ,Vince Carter      ,      13
-2004-11-12 , 15 ,  3 ,  4 ,Vince Carter      ,      13
-2004-11-13 ,  4 ,  4 ,  3 ,Vince Carter      ,      13
-2004-11-16 , 21 ,  0 ,  5 ,Vince Carter      ,      13
-2004-11-17 , 14 ,  4 ,  4 ,Vince Carter      ,      13
-2004-11-19 , 21 ,  5 ,  2 ,Vince Carter      ,      13
-2004-11-21 ,  4 ,  1 ,  2 ,Vince Carter      ,      13
-2004-11-23 , 25 ,  1 ,  9 ,Vince Carter      ,      13
-2004-11-24 , 22 ,  3 ,  1 ,Vince Carter      ,      13
-2004-11-27 , 19 ,  3 ,  4 ,Vince Carter      ,      13
-2004-11-28 , 26 ,  4 ,  4 ,Vince Carter      ,      13
-2004-11-30 ,  5 ,  4 ,  1 ,Vince Carter      ,      13
-2004-12-01 , 21 ,  3 ,  3 ,Vince Carter      ,      13
-2004-12-03 , 12 ,  3 ,  5 ,Vince Carter      ,      13
-2004-12-06 , 22 ,  1 ,  0 ,Vince Carter      ,      13
-2004-12-08 ,  5 ,  1 ,  0 ,Vince Carter      ,      13
-2004-12-27 , 23 ,  5 ,  4 ,Vince Carter      ,      13
-2004-12-28 , 25 ,  2 ,  6 ,Vince Carter      ,      13
-2004-12-30 , 25 ,  3 ,  8 ,Vince Carter      ,      13
-2005-01-01 , 16 ,  5 ,  6 ,Vince Carter      ,      13
-2005-01-04 , 31 ,  3 ,  7 ,Vince Carter      ,      13
-2005-01-05 , 15 ,  2 ,  3 ,Vince Carter      ,      13
-2005-01-07 , 22 ,  4 ,  6 ,Vince Carter      ,      13
-2005-01-08 , 16 ,  3 ,  9 ,Vince Carter      ,      13
-2005-01-11 , 19 ,  4 ,  7 ,Vince Carter      ,      13
-2005-01-13 , 17 ,  6 ,  7 ,Vince Carter      ,      13
-2005-01-15 , 29 ,  5 ,  5 ,Vince Carter      ,      13
-2005-01-17 , 23 ,  6 ,  7 ,Vince Carter      ,      13
-2005-01-19 , 33 ,  9 ,  9 ,Vince Carter      ,      13
-2005-01-21 , 25 ,  7 ,  0 ,Vince Carter      ,      13
-2005-01-23 , 32 ,  4 ,  9 ,Vince Carter      ,      13
-2005-01-25 , 23 ,  3 ,  2 ,Vince Carter      ,      13
-2005-01-26 , 17 ,  9 ,  1 ,Vince Carter      ,      13
-2005-01-28 , 30 ,  9 ,  2 ,Vince Carter      ,      13
-2005-01-29 , 30 , 10 ,  8 ,Vince Carter      ,      13
-2005-02-01 , 31 ,  6 ,  5 ,Vince Carter      ,      13
-2005-02-02 , 22 ,  5 ,  3 ,Vince Carter      ,      13
-2005-02-05 , 41 ,  5 , 11 ,Vince Carter      ,      13
-2005-02-07 , 43 ,  5 , 14 ,Vince Carter      ,      13
-2005-02-09 , 27 ,  4 ,  6 ,Vince Carter      ,      13
-2005-02-11 , 43 ,  3 ,  4 ,Vince Carter      ,      13
-2005-02-13 , 23 ,  3 ,  3 ,Vince Carter      ,      13
-2005-02-15 , 32 ,  4 ,  3 ,Vince Carter      ,      13
-2005-02-16 , 21 ,  5 ,  6 ,Vince Carter      ,      13
-2005-02-22 , 22 ,  4 ,  7 ,Vince Carter      ,      13
-2005-02-23 , 26 ,  2 ,  4 ,Vince Carter      ,      13
-2005-02-25 , 28 ,  3 ,  5 ,Vince Carter      ,      13
-2005-02-27 , 34 ,  1 , 11 ,Vince Carter      ,      13
-2005-03-02 , 32 ,  7 ,  8 ,Vince Carter      ,      13
-2005-03-03 , 27 ,  9 ,  3 ,Vince Carter      ,      13
-2005-03-05 , 20 ,  5 ,  6 ,Vince Carter      ,      13
-2005-03-08 , 13 ,  2 ,  9 ,Vince Carter      ,      13
-2005-03-09 , 24 ,  3 , 10 ,Vince Carter      ,      13
-2005-03-12 , 20 ,  2 ,  5 ,Vince Carter      ,      13
-2005-03-13 , 33 ,  3 ,  7 ,Vince Carter      ,      13
-2005-03-16 , 30 ,  8 ,  8 ,Vince Carter      ,      13
-2005-03-18 , 23 ,  4 ,  3 ,Vince Carter      ,      13
-2005-03-20 , 39 ,  4 , 11 ,Vince Carter      ,      13
-2005-03-22 , 33 ,  7 ,  5 ,Vince Carter      ,      13
-2005-03-24 , 22 ,  8 ,  4 ,Vince Carter      ,      13
-2005-03-26 , 16 ,  4 ,  4 ,Vince Carter      ,      13
-2005-03-28 , 39 ,  2 ,  6 ,Vince Carter      ,      13
-2005-03-30 , 31 ,  5 ,  5 ,Vince Carter      ,      13
-2005-04-01 , 31 ,  6 ,  4 ,Vince Carter      ,      13
-2005-04-02 , 21 ,  6 ,  2 ,Vince Carter      ,      13
-2005-04-05 , 27 ,  8 ,  6 ,Vince Carter      ,      13
-2005-04-07 , 32 ,  2 ,  3 ,Vince Carter      ,      13
-2005-04-09 , 45 ,  3 ,  7 ,Vince Carter      ,      13
-2005-04-13 , 22 ,  0 ,  5 ,Vince Carter      ,      13
-2005-04-15 , 39 ,  4 ,  9 ,Vince Carter      ,      13
-2005-04-17 , 43 ,  5 , 11 ,Vince Carter      ,      13
-2005-04-19 , 26 ,  9 ,  2 ,Vince Carter      ,      13
-2005-04-20 , 37 ,  1 ,  4 ,Vince Carter      ,      13
-2004-11-02 ,  8 ,  1 , 16 ,Marcus Camby      ,      15
-2004-11-04 ,  8 ,  4 , 10 ,Marcus Camby      ,      15
-2004-11-06 ,  4 ,  0 ,  9 ,Marcus Camby      ,      15
-2004-11-08 ,  8 ,  1 ,  4 ,Marcus Camby      ,      15
-2004-11-09 ,  7 ,  1 ,  7 ,Marcus Camby      ,      15
-2004-11-11 ,  4 ,  0 ,  7 ,Marcus Camby      ,      15
-2004-11-19 ,  2 ,  1 ,  3 ,Marcus Camby      ,      15
-2004-11-21 ,  6 ,  0 ,  2 ,Marcus Camby      ,      15
-2004-11-23 , 12 ,  2 ,  9 ,Marcus Camby      ,      15
-2004-11-26 , 13 ,  2 , 11 ,Marcus Camby      ,      15
-2004-11-27 , 13 ,  1 , 14 ,Marcus Camby      ,      15
-2004-11-29 ,  0 ,  4 , 11 ,Marcus Camby      ,      15
-2004-12-02 ,  7 ,  2 , 10 ,Marcus Camby      ,      15
-2004-12-04 ,  8 ,  1 , 13 ,Marcus Camby      ,      15
-2004-12-06 ,  2 ,  1 ,  4 ,Marcus Camby      ,      15
-2004-12-08 , 16 ,  2 ,  9 ,Marcus Camby      ,      15
-2004-12-12 , 21 ,  2 , 14 ,Marcus Camby      ,      15
-2004-12-14 , 16 ,  3 ,  8 ,Marcus Camby      ,      15
-2004-12-15 , 16 ,  4 , 11 ,Marcus Camby      ,      15
-2004-12-17 ,  8 ,  3 ,  7 ,Marcus Camby      ,      15
-2004-12-18 ,  4 ,  2 ,  6 ,Marcus Camby      ,      15
-2004-12-22 ,  3 ,  1 ,  4 ,Marcus Camby      ,      15
-2004-12-26 ,  9 ,  1 , 11 ,Marcus Camby      ,      15
-2004-12-27 , 16 ,  1 , 12 ,Marcus Camby      ,      15
-2004-12-31 ,  8 ,  0 ,  2 ,Marcus Camby      ,      15
-2005-01-08 , 10 ,  3 , 15 ,Marcus Camby      ,      15
-2005-01-09 ,  9 ,  1 ,  4 ,Marcus Camby      ,      15
-2005-01-11 ,  8 ,  2 , 11 ,Marcus Camby      ,      15
-2005-01-12 ,  8 ,  1 , 15 ,Marcus Camby      ,      15
-2005-01-14 , 12 ,  5 , 12 ,Marcus Camby      ,      15
-2005-01-18 , 25 ,  5 , 24 ,Marcus Camby      ,      15
-2005-01-21 , 18 ,  3 , 13 ,Marcus Camby      ,      15
-2005-01-23 ,  4 ,  0 ,  4 ,Marcus Camby      ,      15
-2005-01-26 , 10 ,  1 , 14 ,Marcus Camby      ,      15
-2005-01-28 , 14 ,  4 ,  9 ,Marcus Camby      ,      15
-2005-01-29 , 13 ,  2 , 12 ,Marcus Camby      ,      15
-2005-02-01 , 10 ,  2 , 10 ,Marcus Camby      ,      15
-2005-02-02 , 10 ,  0 , 11 ,Marcus Camby      ,      15
-2005-02-05 ,  6 ,  2 ,  9 ,Marcus Camby      ,      15
-2005-02-08 ,  8 ,  5 , 14 ,Marcus Camby      ,      15
-2005-02-09 , 15 ,  3 ,  3 ,Marcus Camby      ,      15
-2005-02-11 ,  6 ,  0 ,  1 ,Marcus Camby      ,      15
-2005-02-15 , 17 ,  3 , 10 ,Marcus Camby      ,      15
-2005-02-16 , 12 ,  2 , 13 ,Marcus Camby      ,      15
-2005-02-23 ,  6 ,  3 ,  9 ,Marcus Camby      ,      15
-2005-02-25 , 17 ,  1 , 15 ,Marcus Camby      ,      15
-2005-02-27 ,  5 ,  2 , 10 ,Marcus Camby      ,      15
-2005-03-01 , 11 ,  2 , 13 ,Marcus Camby      ,      15
-2005-03-03 , 17 ,  7 , 22 ,Marcus Camby      ,      15
-2005-03-05 , 14 ,  5 , 12 ,Marcus Camby      ,      15
-2005-03-12 ,  8 ,  1 ,  7 ,Marcus Camby      ,      15
-2005-03-16 ,  7 ,  4 , 12 ,Marcus Camby      ,      15
-2005-03-18 , 20 ,  3 , 17 ,Marcus Camby      ,      15
-2005-03-20 ,  9 ,  4 ,  9 ,Marcus Camby      ,      15
-2005-03-22 ,  6 ,  2 ,  5 ,Marcus Camby      ,      15
-2005-03-28 , 14 ,  3 ,  9 ,Marcus Camby      ,      15
-2005-03-30 , 23 ,  2 , 16 ,Marcus Camby      ,      15
-2005-04-01 , 15 ,  5 , 10 ,Marcus Camby      ,      15
-2005-04-02 ,  6 ,  3 ,  8 ,Marcus Camby      ,      15
-2005-04-05 , 14 ,  3 ,  7 ,Marcus Camby      ,      15
-2005-04-06 , 11 ,  3 , 13 ,Marcus Camby      ,      15
-2005-04-08 , 10 ,  0 ,  9 ,Marcus Camby      ,      15
-2005-04-09 ,  9 ,  3 , 13 ,Marcus Camby      ,      15
-2005-04-11 , 14 ,  4 ,  9 ,Marcus Camby      ,      15
-2005-04-13 ,  6 ,  5 , 10 ,Marcus Camby      ,      15
-2005-04-15 ,  7 ,  3 ,  8 ,Marcus Camby      ,      15
-2004-11-03 , 10 ,  2 ,  9 ,Shawn Marion      ,      16
-2004-11-05 , 24 ,  3 , 11 ,Shawn Marion      ,      16
-2004-11-06 , 13 ,  3 ,  5 ,Shawn Marion      ,      16
-2004-11-09 , 14 ,  1 , 13 ,Shawn Marion      ,      16
-2004-11-10 , 22 ,  3 , 12 ,Shawn Marion      ,      16
-2004-11-13 , 14 ,  3 , 15 ,Shawn Marion      ,      16
-2004-11-16 , 18 ,  0 , 14 ,Shawn Marion      ,      16
-2004-11-17 , 23 ,  3 ,  9 ,Shawn Marion      ,      16
-2004-11-19 , 27 ,  1 , 15 ,Shawn Marion      ,      16
-2004-11-21 , 22 ,  4 , 14 ,Shawn Marion      ,      16
-2004-11-22 , 21 ,  0 , 16 ,Shawn Marion      ,      16
-2004-11-24 , 23 ,  2 , 12 ,Shawn Marion      ,      16
-2004-11-26 , 33 ,  4 , 15 ,Shawn Marion      ,      16
-2004-11-30 , 21 ,  3 ,  9 ,Shawn Marion      ,      16
-2004-12-01 , 10 ,  3 , 12 ,Shawn Marion      ,      16
-2004-12-03 , 21 ,  1 , 18 ,Shawn Marion      ,      16
-2004-12-05 , 16 ,  2 , 12 ,Shawn Marion      ,      16
-2004-12-07 , 23 ,  4 , 10 ,Shawn Marion      ,      16
-2004-12-08 , 19 ,  4 ,  9 ,Shawn Marion      ,      16
-2004-12-10 , 20 ,  0 ,  8 ,Shawn Marion      ,      16
-2004-12-13 , 19 ,  3 , 10 ,Shawn Marion      ,      16
-2004-12-15 , 16 ,  1 , 13 ,Shawn Marion      ,      16
-2004-12-17 , 22 ,  1 ,  6 ,Shawn Marion      ,      16
-2004-12-18 , 36 ,  2 , 14 ,Shawn Marion      ,      16
-2004-12-20 , 12 ,  1 ,  5 ,Shawn Marion      ,      16
-2004-12-23 , 29 ,  4 ,  7 ,Shawn Marion      ,      16
-2004-12-26 , 18 ,  3 , 18 ,Shawn Marion      ,      16
-2004-12-28 ,  6 ,  1 ,  8 ,Shawn Marion      ,      16
-2004-12-29 ,  9 ,  4 ,  7 ,Shawn Marion      ,      16
-2005-01-02 , 15 ,  3 ,  9 ,Shawn Marion      ,      16
-2005-01-04 , 28 ,  2 ,  8 ,Shawn Marion      ,      16
-2005-01-05 , 22 ,  3 ,  9 ,Shawn Marion      ,      16
-2005-01-08 , 22 ,  2 , 11 ,Shawn Marion      ,      16
-2005-01-09 , 21 ,  1 ,  7 ,Shawn Marion      ,      16
-2005-01-11 , 26 ,  2 , 11 ,Shawn Marion      ,      16
-2005-01-12 , 20 ,  0 ,  6 ,Shawn Marion      ,      16
-2005-01-14 , 12 ,  0 ,  3 ,Shawn Marion      ,      16
-2005-01-15 , 14 ,  4 , 15 ,Shawn Marion      ,      16
-2005-01-17 , 11 ,  0 ,  7 ,Shawn Marion      ,      16
-2005-01-19 , 18 ,  5 , 12 ,Shawn Marion      ,      16
-2005-01-21 , 37 ,  1 , 15 ,Shawn Marion      ,      16
-2005-01-23 , 10 ,  5 , 13 ,Shawn Marion      ,      16
-2005-01-25 , 20 ,  3 , 11 ,Shawn Marion      ,      16
-2005-01-26 , 24 ,  1 , 12 ,Shawn Marion      ,      16
-2005-01-28 , 16 ,  4 , 11 ,Shawn Marion      ,      16
-2005-01-30 , 21 ,  3 , 17 ,Shawn Marion      ,      16
-2005-02-01 , 15 ,  2 , 14 ,Shawn Marion      ,      16
-2005-02-02 , 19 ,  1 ,  4 ,Shawn Marion      ,      16
-2005-02-05 , 23 ,  2 , 10 ,Shawn Marion      ,      16
-2005-02-08 , 19 ,  1 , 16 ,Shawn Marion      ,      16
-2005-02-11 , 14 ,  1 , 11 ,Shawn Marion      ,      16
-2005-02-13 , 21 ,  1 , 16 ,Shawn Marion      ,      16
-2005-02-14 , 18 ,  0 ,  7 ,Shawn Marion      ,      16
-2005-02-17 , 17 ,  2 ,  6 ,Shawn Marion      ,      16
-2005-02-23 , 13 ,  3 ,  5 ,Shawn Marion      ,      16
-2005-02-26 , 25 ,  0 , 13 ,Shawn Marion      ,      16
-2005-02-27 , 15 ,  3 , 20 ,Shawn Marion      ,      16
-2005-03-03 , 13 ,  2 , 11 ,Shawn Marion      ,      16
-2005-03-05 , 26 ,  0 ,  9 ,Shawn Marion      ,      16
-2005-03-06 , 18 ,  0 , 10 ,Shawn Marion      ,      16
-2005-03-09 , 18 ,  1 , 17 ,Shawn Marion      ,      16
-2005-03-13 , 19 ,  1 , 15 ,Shawn Marion      ,      16
-2005-03-18 , 28 ,  2 , 17 ,Shawn Marion      ,      16
-2005-03-20 , 14 ,  2 , 16 ,Shawn Marion      ,      16
-2005-03-22 , 21 ,  0 , 11 ,Shawn Marion      ,      16
-2005-03-23 , 26 ,  1 , 10 ,Shawn Marion      ,      16
-2005-03-25 , 15 ,  1 , 11 ,Shawn Marion      ,      16
-2005-03-26 , 27 ,  0 , 14 ,Shawn Marion      ,      16
-2005-03-28 , 30 ,  3 , 14 ,Shawn Marion      ,      16
-2005-03-30 , 26 ,  0 ,  9 ,Shawn Marion      ,      16
-2005-04-01 , 14 ,  2 , 16 ,Shawn Marion      ,      16
-2005-04-03 , 23 ,  2 , 18 ,Shawn Marion      ,      16
-2005-04-05 , 22 ,  4 , 12 ,Shawn Marion      ,      16
-2005-04-08 , 15 ,  2 , 10 ,Shawn Marion      ,      16
-2005-04-09 , 20 ,  3 ,  9 ,Shawn Marion      ,      16
-2005-04-11 , 24 ,  3 , 13 ,Shawn Marion      ,      16
-2005-04-12 , 18 ,  0 , 17 ,Shawn Marion      ,      16
-2005-04-15 , 20 ,  0 , 10 ,Shawn Marion      ,      16
-2005-04-16 , 17 ,  1 ,  8 ,Shawn Marion      ,      16
-2005-04-18 , 18 ,  3 ,  9 ,Shawn Marion      ,      16
-2005-04-20 ,  0 ,  0 ,  4 ,Shawn Marion      ,      16
+DATE,PTS,AST,TRB,Player,Position
+2004-11-03 ,12,4,3,Steve Nash        ,1
+2004-11-05 ,9,10,4,Steve Nash        ,1
+2004-11-06 ,17,8,2,Steve Nash        ,1
+2004-11-09 ,8,12,3,Steve Nash        ,1
+2004-11-10 ,15,17,7,Steve Nash        ,1
+2004-11-13 ,29,7,3,Steve Nash        ,1
+2004-11-16 ,17,18,6,Steve Nash        ,1
+2004-11-17 ,16,12,6,Steve Nash        ,1
+2004-11-19 ,18,16,1,Steve Nash        ,1
+2004-11-21 ,22,18,3,Steve Nash        ,1
+2004-11-22 ,15,6,1,Steve Nash        ,1
+2004-11-24 ,22,12,1,Steve Nash        ,1
+2004-11-26 ,4,6,0,Steve Nash        ,1
+2004-11-30 ,20,14,0,Steve Nash        ,1
+2004-12-01 ,21,7,7,Steve Nash        ,1
+2004-12-03 ,22,8,3,Steve Nash        ,1
+2004-12-05 ,10,11,3,Steve Nash        ,1
+2004-12-07 ,26,11,6,Steve Nash        ,1
+2004-12-08 ,12,10,6,Steve Nash        ,1
+2004-12-10 ,9,14,2,Steve Nash        ,1
+2004-12-13 ,6,10,5,Steve Nash        ,1
+2004-12-15 ,13,11,1,Steve Nash        ,1
+2004-12-17 ,21,12,6,Steve Nash        ,1
+2004-12-18 ,13,11,5,Steve Nash        ,1
+2004-12-20 ,15,10,1,Steve Nash        ,1
+2004-12-23 ,17,14,2,Steve Nash        ,1
+2004-12-26 ,18,13,2,Steve Nash        ,1
+2004-12-28 ,12,4,3,Steve Nash        ,1
+2004-12-29 ,22,9,3,Steve Nash        ,1
+2005-01-02 ,4,10,3,Steve Nash        ,1
+2005-01-04 ,20,16,3,Steve Nash        ,1
+2005-01-05 ,12,13,4,Steve Nash        ,1
+2005-01-08 ,10,10,3,Steve Nash        ,1
+2005-01-09 ,10,9,1,Steve Nash        ,1
+2005-01-11 ,16,16,1,Steve Nash        ,1
+2005-01-12 ,22,11,3,Steve Nash        ,1
+2005-01-14 ,11,2,1,Steve Nash        ,1
+2005-01-21 ,16,13,2,Steve Nash        ,1
+2005-01-23 ,30,9,3,Steve Nash        ,1
+2005-01-25 ,9,7,6,Steve Nash        ,1
+2005-01-26 ,21,17,6,Steve Nash        ,1
+2005-01-28 ,13,15,2,Steve Nash        ,1
+2005-01-30 ,19,12,3,Steve Nash        ,1
+2005-02-01 ,7,12,4,Steve Nash        ,1
+2005-02-02 ,15,11,3,Steve Nash        ,1
+2005-02-05 ,26,14,3,Steve Nash        ,1
+2005-02-08 ,33,17,2,Steve Nash        ,1
+2005-02-11 ,25,14,7,Steve Nash        ,1
+2005-02-13 ,20,12,3,Steve Nash        ,1
+2005-02-14 ,19,18,4,Steve Nash        ,1
+2005-02-17 ,19,11,0,Steve Nash        ,1
+2005-03-03 ,16,14,3,Steve Nash        ,1
+2005-03-05 ,9,8,0,Steve Nash        ,1
+2005-03-06 ,12,10,3,Steve Nash        ,1
+2005-03-09 ,11,15,5,Steve Nash        ,1
+2005-03-11 ,10,10,4,Steve Nash        ,1
+2005-03-13 ,25,11,6,Steve Nash        ,1
+2005-03-18 ,12,13,2,Steve Nash        ,1
+2005-03-20 ,13,13,3,Steve Nash        ,1
+2005-03-22 ,13,11,4,Steve Nash        ,1
+2005-03-23 ,11,10,3,Steve Nash        ,1
+2005-03-25 ,19,14,5,Steve Nash        ,1
+2005-03-26 ,23,12,4,Steve Nash        ,1
+2005-03-28 ,23,12,1,Steve Nash        ,1
+2005-03-30 ,12,12,13,Steve Nash        ,1
+2005-04-01 ,28,11,2,Steve Nash        ,1
+2005-04-03 ,5,11,0,Steve Nash        ,1
+2005-04-05 ,8,9,4,Steve Nash        ,1
+2005-04-08 ,11,12,3,Steve Nash        ,1
+2005-04-09 ,19,5,3,Steve Nash        ,1
+2005-04-11 ,15,16,7,Steve Nash        ,1
+2005-04-12 ,6,13,3,Steve Nash        ,1
+2005-04-15 ,14,11,3,Steve Nash        ,1
+2005-04-16 ,4,11,6,Steve Nash        ,1
+2005-04-18 ,8,13,0,Steve Nash        ,1
+2004-11-02 ,33,5,10,Dirk Nowitzki     ,3
+2004-11-03 ,19,5,7,Dirk Nowitzki     ,3
+2004-11-06 ,22,0,13,Dirk Nowitzki     ,3
+2004-11-08 ,25,2,10,Dirk Nowitzki     ,3
+2004-11-09 ,20,1,8,Dirk Nowitzki     ,3
+2004-11-11 ,41,4,10,Dirk Nowitzki     ,3
+2004-11-13 ,31,7,7,Dirk Nowitzki     ,3
+2004-11-14 ,32,5,13,Dirk Nowitzki     ,3
+2004-11-16 ,20,2,16,Dirk Nowitzki     ,3
+2004-11-19 ,30,0,12,Dirk Nowitzki     ,3
+2004-11-21 ,11,0,5,Dirk Nowitzki     ,3
+2004-11-24 ,23,1,11,Dirk Nowitzki     ,3
+2004-11-26 ,23,5,14,Dirk Nowitzki     ,3
+2004-11-27 ,32,2,18,Dirk Nowitzki     ,3
+2004-11-30 ,21,4,13,Dirk Nowitzki     ,3
+2004-12-02 ,53,2,16,Dirk Nowitzki     ,3
+2004-12-04 ,30,2,7,Dirk Nowitzki     ,3
+2004-12-06 ,27,2,8,Dirk Nowitzki     ,3
+2004-12-07 ,34,1,7,Dirk Nowitzki     ,3
+2004-12-09 ,27,3,7,Dirk Nowitzki     ,3
+2004-12-11 ,22,4,14,Dirk Nowitzki     ,3
+2004-12-13 ,21,2,9,Dirk Nowitzki     ,3
+2004-12-14 ,13,2,6,Dirk Nowitzki     ,3
+2004-12-18 ,15,3,12,Dirk Nowitzki     ,3
+2004-12-21 ,23,1,5,Dirk Nowitzki     ,3
+2004-12-22 ,23,3,7,Dirk Nowitzki     ,3
+2004-12-26 ,36,2,8,Dirk Nowitzki     ,3
+2004-12-28 ,29,4,11,Dirk Nowitzki     ,3
+2005-01-02 ,39,6,5,Dirk Nowitzki     ,3
+2005-01-05 ,25,4,9,Dirk Nowitzki     ,3
+2005-01-08 ,34,3,13,Dirk Nowitzki     ,3
+2005-01-12 ,28,0,3,Dirk Nowitzki     ,3
+2005-01-14 ,36,2,14,Dirk Nowitzki     ,3
+2005-01-15 ,26,3,12,Dirk Nowitzki     ,3
+2005-01-18 ,28,4,11,Dirk Nowitzki     ,3
+2005-01-20 ,28,4,8,Dirk Nowitzki     ,3
+2005-01-21 ,20,2,9,Dirk Nowitzki     ,3
+2005-01-23 ,35,2,11,Dirk Nowitzki     ,3
+2005-01-24 ,22,4,11,Dirk Nowitzki     ,3
+2005-01-26 ,24,6,15,Dirk Nowitzki     ,3
+2005-01-29 ,25,4,9,Dirk Nowitzki     ,3
+2005-02-01 ,19,4,7,Dirk Nowitzki     ,3
+2005-02-02 ,20,2,5,Dirk Nowitzki     ,3
+2005-02-04 ,32,4,7,Dirk Nowitzki     ,3
+2005-02-06 ,30,6,11,Dirk Nowitzki     ,3
+2005-02-08 ,27,2,12,Dirk Nowitzki     ,3
+2005-02-11 ,27,7,7,Dirk Nowitzki     ,3
+2005-02-13 ,31,6,11,Dirk Nowitzki     ,3
+2005-02-15 ,35,5,11,Dirk Nowitzki     ,3
+2005-02-17 ,16,4,16,Dirk Nowitzki     ,3
+2005-02-23 ,29,2,8,Dirk Nowitzki     ,3
+2005-02-24 ,34,2,11,Dirk Nowitzki     ,3
+2005-02-26 ,26,5,16,Dirk Nowitzki     ,3
+2005-02-28 ,28,1,11,Dirk Nowitzki     ,3
+2005-03-02 ,25,4,5,Dirk Nowitzki     ,3
+2005-03-04 ,23,3,13,Dirk Nowitzki     ,3
+2005-03-10 ,25,4,11,Dirk Nowitzki     ,3
+2005-03-11 ,29,4,9,Dirk Nowitzki     ,3
+2005-03-13 ,21,1,10,Dirk Nowitzki     ,3
+2005-03-15 ,21,4,15,Dirk Nowitzki     ,3
+2005-03-17 ,15,2,9,Dirk Nowitzki     ,3
+2005-03-19 ,33,1,6,Dirk Nowitzki     ,3
+2005-03-21 ,25,2,8,Dirk Nowitzki     ,3
+2005-03-23 ,29,2,10,Dirk Nowitzki     ,3
+2005-03-24 ,35,5,8,Dirk Nowitzki     ,3
+2005-03-26 ,11,2,14,Dirk Nowitzki     ,3
+2005-03-28 ,22,3,10,Dirk Nowitzki     ,3
+2005-03-30 ,36,5,9,Dirk Nowitzki     ,3
+2005-04-01 ,29,4,7,Dirk Nowitzki     ,3
+2005-04-03 ,21,3,7,Dirk Nowitzki     ,3
+2005-04-05 ,21,3,9,Dirk Nowitzki     ,3
+2005-04-07 ,16,0,8,Dirk Nowitzki     ,3
+2005-04-09 ,24,5,9,Dirk Nowitzki     ,3
+2005-04-11 ,19,2,8,Dirk Nowitzki     ,3
+2005-04-13 ,31,2,7,Dirk Nowitzki     ,3
+2005-04-17 ,24,3,8,Dirk Nowitzki     ,3
+2005-04-19 ,21,3,2,Dirk Nowitzki     ,3
+2005-04-20 ,16,5,8,Dirk Nowitzki     ,3
+2004-11-03 ,30,2,14,Tim Duncan        ,4
+2004-11-05 ,26,2,16,Tim Duncan        ,4
+2004-11-07 ,17,2,10,Tim Duncan        ,4
+2004-11-10 ,23,3,18,Tim Duncan        ,4
+2004-11-12 ,17,6,13,Tim Duncan        ,4
+2004-11-13 ,26,0,18,Tim Duncan        ,4
+2004-11-16 ,17,4,10,Tim Duncan        ,4
+2004-11-18 ,34,1,13,Tim Duncan        ,4
+2004-11-19 ,26,3,6,Tim Duncan        ,4
+2004-11-21 ,26,2,15,Tim Duncan        ,4
+2004-11-22 ,26,1,9,Tim Duncan        ,4
+2004-11-24 ,27,2,13,Tim Duncan        ,4
+2004-11-26 ,23,2,13,Tim Duncan        ,4
+2004-11-27 ,12,3,13,Tim Duncan        ,4
+2004-11-30 ,20,2,13,Tim Duncan        ,4
+2004-12-01 ,24,1,12,Tim Duncan        ,4
+2004-12-03 ,18,2,18,Tim Duncan        ,4
+2004-12-04 ,20,4,7,Tim Duncan        ,4
+2004-12-06 ,12,1,11,Tim Duncan        ,4
+2004-12-08 ,39,2,10,Tim Duncan        ,4
+2004-12-09 ,26,3,18,Tim Duncan        ,4
+2004-12-11 ,34,5,7,Tim Duncan        ,4
+2004-12-15 ,24,1,14,Tim Duncan        ,4
+2004-12-17 ,19,5,12,Tim Duncan        ,4
+2004-12-18 ,12,4,7,Tim Duncan        ,4
+2004-12-22 ,24,1,8,Tim Duncan        ,4
+2004-12-23 ,19,2,10,Tim Duncan        ,4
+2004-12-26 ,14,4,11,Tim Duncan        ,4
+2004-12-28 ,16,6,12,Tim Duncan        ,4
+2004-12-30 ,19,5,9,Tim Duncan        ,4
+2004-12-31 ,23,2,8,Tim Duncan        ,4
+2005-01-02 ,14,4,11,Tim Duncan        ,4
+2005-01-04 ,12,3,15,Tim Duncan        ,4
+2005-01-06 ,27,0,12,Tim Duncan        ,4
+2005-01-08 ,19,3,9,Tim Duncan        ,4
+2005-01-10 ,24,1,13,Tim Duncan        ,4
+2005-01-12 ,21,2,9,Tim Duncan        ,4
+2005-01-14 ,25,1,6,Tim Duncan        ,4
+2005-01-15 ,18,0,12,Tim Duncan        ,4
+2005-01-17 ,11,2,11,Tim Duncan        ,4
+2005-01-19 ,12,3,14,Tim Duncan        ,4
+2005-01-21 ,30,3,19,Tim Duncan        ,4
+2005-01-23 ,23,2,13,Tim Duncan        ,4
+2005-01-24 ,24,3,11,Tim Duncan        ,4
+2005-01-27 ,20,4,12,Tim Duncan        ,4
+2005-01-29 ,12,5,14,Tim Duncan        ,4
+2005-01-31 ,21,1,10,Tim Duncan        ,4
+2005-02-03 ,17,2,5,Tim Duncan        ,4
+2005-02-11 ,16,9,15,Tim Duncan        ,4
+2005-02-13 ,20,3,9,Tim Duncan        ,4
+2005-02-16 ,19,5,6,Tim Duncan        ,4
+2005-02-23 ,30,3,11,Tim Duncan        ,4
+2005-02-26 ,27,1,19,Tim Duncan        ,4
+2005-02-28 ,20,3,11,Tim Duncan        ,4
+2005-03-02 ,13,4,11,Tim Duncan        ,4
+2005-03-04 ,31,2,13,Tim Duncan        ,4
+2005-03-06 ,12,4,4,Tim Duncan        ,4
+2005-03-08 ,19,4,8,Tim Duncan        ,4
+2005-03-14 ,18,3,13,Tim Duncan        ,4
+2005-03-16 ,25,6,14,Tim Duncan        ,4
+2005-03-18 ,19,3,6,Tim Duncan        ,4
+2005-03-20 ,2,0,1,Tim Duncan        ,4
+2005-04-13 ,17,1,7,Tim Duncan        ,4
+2005-04-16 ,11,1,8,Tim Duncan        ,4
+2005-04-18 ,17,2,6,Tim Duncan        ,4
+2005-04-20 ,3,3,6,Tim Duncan        ,4
+2004-11-03 ,30,6,2,Allen Iverson     ,5
+2004-11-05 ,25,9,1,Allen Iverson     ,5
+2004-11-06 ,31,5,0,Allen Iverson     ,5
+2004-11-09 ,29,10,5,Allen Iverson     ,5
+2004-11-10 ,26,6,5,Allen Iverson     ,5
+2004-11-12 ,15,9,5,Allen Iverson     ,5
+2004-11-14 ,29,12,6,Allen Iverson     ,5
+2004-11-16 ,26,4,2,Allen Iverson     ,5
+2004-11-18 ,24,4,3,Allen Iverson     ,5
+2004-11-24 ,28,10,2,Allen Iverson     ,5
+2004-11-26 ,28,13,5,Allen Iverson     ,5
+2004-11-27 ,27,10,5,Allen Iverson     ,5
+2004-12-01 ,14,2,3,Allen Iverson     ,5
+2004-12-03 ,25,3,2,Allen Iverson     ,5
+2004-12-04 ,20,8,4,Allen Iverson     ,5
+2004-12-06 ,36,4,3,Allen Iverson     ,5
+2004-12-08 ,14,5,8,Allen Iverson     ,5
+2004-12-10 ,22,10,2,Allen Iverson     ,5
+2004-12-12 ,40,10,1,Allen Iverson     ,5
+2004-12-14 ,31,8,10,Allen Iverson     ,5
+2004-12-17 ,24,8,7,Allen Iverson     ,5
+2004-12-18 ,54,5,8,Allen Iverson     ,5
+2004-12-20 ,51,6,1,Allen Iverson     ,5
+2004-12-22 ,40,5,4,Allen Iverson     ,5
+2004-12-27 ,28,6,1,Allen Iverson     ,5
+2004-12-28 ,34,7,9,Allen Iverson     ,5
+2004-12-31 ,29,8,0,Allen Iverson     ,5
+2005-01-02 ,35,6,5,Allen Iverson     ,5
+2005-01-03 ,29,6,3,Allen Iverson     ,5
+2005-01-05 ,23,9,6,Allen Iverson     ,5
+2005-01-10 ,21,9,9,Allen Iverson     ,5
+2005-01-12 ,21,8,2,Allen Iverson     ,5
+2005-01-14 ,32,10,5,Allen Iverson     ,5
+2005-01-15 ,28,13,4,Allen Iverson     ,5
+2005-01-17 ,29,3,4,Allen Iverson     ,5
+2005-01-19 ,24,6,4,Allen Iverson     ,5
+2005-01-22 ,38,10,3,Allen Iverson     ,5
+2005-01-24 ,45,10,2,Allen Iverson     ,5
+2005-01-31 ,27,8,9,Allen Iverson     ,5
+2005-02-02 ,28,10,4,Allen Iverson     ,5
+2005-02-04 ,22,12,3,Allen Iverson     ,5
+2005-02-06 ,28,5,3,Allen Iverson     ,5
+2005-02-09 ,38,10,6,Allen Iverson     ,5
+2005-02-11 ,30,8,5,Allen Iverson     ,5
+2005-02-12 ,60,6,4,Allen Iverson     ,5
+2005-02-14 ,38,10,2,Allen Iverson     ,5
+2005-02-16 ,23,7,1,Allen Iverson     ,5
+2005-02-24 ,29,8,3,Allen Iverson     ,5
+2005-02-26 ,27,14,6,Allen Iverson     ,5
+2005-03-01 ,48,8,3,Allen Iverson     ,5
+2005-03-02 ,37,5,6,Allen Iverson     ,5
+2005-03-04 ,31,9,1,Allen Iverson     ,5
+2005-03-05 ,33,6,1,Allen Iverson     ,5
+2005-03-07 ,27,6,4,Allen Iverson     ,5
+2005-03-08 ,33,5,6,Allen Iverson     ,5
+2005-03-11 ,25,12,0,Allen Iverson     ,5
+2005-03-13 ,32,8,4,Allen Iverson     ,5
+2005-03-15 ,36,9,5,Allen Iverson     ,5
+2005-03-18 ,31,5,9,Allen Iverson     ,5
+2005-03-19 ,31,7,2,Allen Iverson     ,5
+2005-03-23 ,39,10,2,Allen Iverson     ,5
+2005-03-25 ,36,7,3,Allen Iverson     ,5
+2005-03-27 ,20,15,2,Allen Iverson     ,5
+2005-03-28 ,34,8,3,Allen Iverson     ,5
+2005-03-30 ,26,4,9,Allen Iverson     ,5
+2005-04-01 ,22,2,1,Allen Iverson     ,5
+2005-04-03 ,38,9,4,Allen Iverson     ,5
+2005-04-06 ,48,8,7,Allen Iverson     ,5
+2005-04-08 ,23,16,7,Allen Iverson     ,5
+2005-04-12 ,28,11,2,Allen Iverson     ,5
+2005-04-14 ,38,16,6,Allen Iverson     ,5
+2005-04-15 ,43,7,4,Allen Iverson     ,5
+2005-04-17 ,33,8,4,Allen Iverson     ,5
+2005-04-18 ,39,12,7,Allen Iverson     ,5
+2005-04-20 ,16,2,0,Allen Iverson     ,5
+2004-11-03 ,28,8,5,LeBron James      ,6
+2004-11-04 ,21,8,6,LeBron James      ,6
+2004-11-06 ,31,6,8,LeBron James      ,6
+2004-11-09 ,25,4,10,LeBron James      ,6
+2004-11-10 ,38,6,10,LeBron James      ,6
+2004-11-13 ,24,4,9,LeBron James      ,6
+2004-11-15 ,33,4,12,LeBron James      ,6
+2004-11-18 ,19,9,6,LeBron James      ,6
+2004-11-20 ,25,2,8,LeBron James      ,6
+2004-11-21 ,13,10,9,LeBron James      ,6
+2004-11-24 ,43,5,6,LeBron James      ,6
+2004-11-26 ,20,8,6,LeBron James      ,6
+2004-11-27 ,26,7,7,LeBron James      ,6
+2004-11-29 ,22,5,7,LeBron James      ,6
+2004-12-01 ,15,6,3,LeBron James      ,6
+2004-12-02 ,17,9,8,LeBron James      ,6
+2004-12-04 ,27,10,6,LeBron James      ,6
+2004-12-07 ,27,8,2,LeBron James      ,6
+2004-12-08 ,19,6,2,LeBron James      ,6
+2004-12-11 ,23,10,6,LeBron James      ,6
+2004-12-13 ,31,8,5,LeBron James      ,6
+2004-12-15 ,25,7,11,LeBron James      ,6
+2004-12-16 ,11,7,9,LeBron James      ,6
+2004-12-18 ,31,4,5,LeBron James      ,6
+2004-12-21 ,26,12,6,LeBron James      ,6
+2004-12-22 ,23,9,9,LeBron James      ,6
+2004-12-26 ,22,14,9,LeBron James      ,6
+2004-12-28 ,40,7,9,LeBron James      ,6
+2004-12-29 ,3,5,3,LeBron James      ,6
+2005-01-03 ,26,6,8,LeBron James      ,6
+2005-01-05 ,20,9,6,LeBron James      ,6
+2005-01-08 ,22,4,3,LeBron James      ,6
+2005-01-11 ,29,9,8,LeBron James      ,6
+2005-01-13 ,28,9,13,LeBron James      ,6
+2005-01-15 ,27,5,8,LeBron James      ,6
+2005-01-16 ,35,11,5,LeBron James      ,6
+2005-01-19 ,27,10,11,LeBron James      ,6
+2005-01-20 ,18,6,8,LeBron James      ,6
+2005-01-22 ,28,10,12,LeBron James      ,6
+2005-01-24 ,31,8,10,LeBron James      ,6
+2005-01-26 ,27,15,9,LeBron James      ,6
+2005-02-01 ,28,7,5,LeBron James      ,6
+2005-02-03 ,31,10,2,LeBron James      ,6
+2005-02-05 ,30,9,6,LeBron James      ,6
+2005-02-08 ,15,11,8,LeBron James      ,6
+2005-02-11 ,35,6,6,LeBron James      ,6
+2005-02-13 ,25,9,8,LeBron James      ,6
+2005-02-16 ,28,6,5,LeBron James      ,6
+2005-02-17 ,26,8,7,LeBron James      ,6
+2005-02-23 ,27,11,6,LeBron James      ,6
+2005-02-25 ,21,5,7,LeBron James      ,6
+2005-02-27 ,28,7,4,LeBron James      ,6
+2005-02-28 ,20,7,8,LeBron James      ,6
+2005-03-02 ,32,5,5,LeBron James      ,6
+2005-03-04 ,34,7,7,LeBron James      ,6
+2005-03-06 ,23,5,4,LeBron James      ,6
+2005-03-08 ,23,8,7,LeBron James      ,6
+2005-03-13 ,35,5,5,LeBron James      ,6
+2005-03-15 ,36,2,9,LeBron James      ,6
+2005-03-16 ,34,6,7,LeBron James      ,6
+2005-03-18 ,16,8,8,LeBron James      ,6
+2005-03-20 ,56,5,10,LeBron James      ,6
+2005-03-22 ,29,6,6,LeBron James      ,6
+2005-03-24 ,19,8,4,LeBron James      ,6
+2005-03-26 ,19,6,4,LeBron James      ,6
+2005-03-28 ,44,3,6,LeBron James      ,6
+2005-03-29 ,22,5,7,LeBron James      ,6
+2005-03-31 ,26,7,6,LeBron James      ,6
+2005-04-01 ,35,9,8,LeBron James      ,6
+2005-04-03 ,37,7,10,LeBron James      ,6
+2005-04-05 ,24,4,9,LeBron James      ,6
+2005-04-06 ,20,3,4,LeBron James      ,6
+2005-04-08 ,37,7,13,LeBron James      ,6
+2005-04-09 ,40,10,10,LeBron James      ,6
+2005-04-11 ,33,6,7,LeBron James      ,6
+2005-04-14 ,27,7,18,LeBron James      ,6
+2005-04-15 ,38,6,6,LeBron James      ,6
+2005-04-17 ,37,6,11,LeBron James      ,6
+2005-04-19 ,32,6,8,LeBron James      ,6
+2005-04-20 ,27,14,14,LeBron James      ,6
+2004-11-02 ,18,1,2,Tracy McGrady     ,7
+2004-11-03 ,21,5,4,Tracy McGrady     ,7
+2004-11-05 ,30,9,4,Tracy McGrady     ,7
+2004-11-06 ,23,5,13,Tracy McGrady     ,7
+2004-11-09 ,12,7,6,Tracy McGrady     ,7
+2004-11-15 ,14,4,1,Tracy McGrady     ,7
+2004-11-16 ,21,2,4,Tracy McGrady     ,7
+2004-11-18 ,24,8,6,Tracy McGrady     ,7
+2004-11-20 ,32,5,7,Tracy McGrady     ,7
+2004-11-21 ,16,11,4,Tracy McGrady     ,7
+2004-11-23 ,25,6,8,Tracy McGrady     ,7
+2004-11-26 ,17,1,2,Tracy McGrady     ,7
+2004-11-27 ,14,7,5,Tracy McGrady     ,7
+2004-11-30 ,16,5,6,Tracy McGrady     ,7
+2004-12-02 ,48,9,9,Tracy McGrady     ,7
+2004-12-04 ,17,7,8,Tracy McGrady     ,7
+2004-12-07 ,18,4,5,Tracy McGrady     ,7
+2004-12-09 ,33,2,8,Tracy McGrady     ,7
+2004-12-11 ,15,3,2,Tracy McGrady     ,7
+2004-12-15 ,25,4,6,Tracy McGrady     ,7
+2004-12-17 ,27,4,9,Tracy McGrady     ,7
+2004-12-18 ,29,9,7,Tracy McGrady     ,7
+2004-12-20 ,34,7,12,Tracy McGrady     ,7
+2004-12-22 ,25,6,9,Tracy McGrady     ,7
+2004-12-26 ,21,9,7,Tracy McGrady     ,7
+2004-12-28 ,20,5,3,Tracy McGrady     ,7
+2004-12-29 ,34,5,7,Tracy McGrady     ,7
+2004-12-31 ,42,5,10,Tracy McGrady     ,7
+2005-01-02 ,25,6,5,Tracy McGrady     ,7
+2005-01-05 ,24,5,9,Tracy McGrady     ,7
+2005-01-07 ,26,8,4,Tracy McGrady     ,7
+2005-01-09 ,45,5,12,Tracy McGrady     ,7
+2005-01-12 ,30,11,5,Tracy McGrady     ,7
+2005-01-13 ,18,7,5,Tracy McGrady     ,7
+2005-01-15 ,28,4,5,Tracy McGrady     ,7
+2005-01-17 ,28,5,5,Tracy McGrady     ,7
+2005-01-18 ,28,4,6,Tracy McGrady     ,7
+2005-01-20 ,27,4,6,Tracy McGrady     ,7
+2005-01-21 ,35,5,6,Tracy McGrady     ,7
+2005-01-26 ,33,5,8,Tracy McGrady     ,7
+2005-01-28 ,30,12,7,Tracy McGrady     ,7
+2005-01-30 ,28,4,9,Tracy McGrady     ,7
+2005-01-31 ,16,4,5,Tracy McGrady     ,7
+2005-02-02 ,34,9,4,Tracy McGrady     ,7
+2005-02-04 ,40,4,13,Tracy McGrady     ,7
+2005-02-06 ,21,7,2,Tracy McGrady     ,7
+2005-02-09 ,24,9,5,Tracy McGrady     ,7
+2005-02-11 ,16,7,7,Tracy McGrady     ,7
+2005-02-13 ,18,9,4,Tracy McGrady     ,7
+2005-02-15 ,34,9,6,Tracy McGrady     ,7
+2005-02-22 ,17,9,5,Tracy McGrady     ,7
+2005-02-23 ,22,6,3,Tracy McGrady     ,7
+2005-02-27 ,23,3,5,Tracy McGrady     ,7
+2005-03-01 ,32,7,3,Tracy McGrady     ,7
+2005-03-02 ,26,7,9,Tracy McGrady     ,7
+2005-03-06 ,32,5,10,Tracy McGrady     ,7
+2005-03-08 ,35,5,8,Tracy McGrady     ,7
+2005-03-11 ,38,6,9,Tracy McGrady     ,7
+2005-03-13 ,22,7,5,Tracy McGrady     ,7
+2005-03-14 ,20,4,7,Tracy McGrady     ,7
+2005-03-16 ,19,6,6,Tracy McGrady     ,7
+2005-03-18 ,22,5,5,Tracy McGrady     ,7
+2005-03-20 ,15,4,7,Tracy McGrady     ,7
+2005-03-22 ,26,5,6,Tracy McGrady     ,7
+2005-03-24 ,31,5,4,Tracy McGrady     ,7
+2005-03-25 ,0,1,0,Tracy McGrady     ,7
+2005-03-27 ,26,4,7,Tracy McGrady     ,7
+2005-03-28 ,44,4,6,Tracy McGrady     ,7
+2005-03-30 ,26,4,10,Tracy McGrady     ,7
+2005-04-01 ,21,3,3,Tracy McGrady     ,7
+2005-04-03 ,13,3,11,Tracy McGrady     ,7
+2005-04-05 ,44,7,5,Tracy McGrady     ,7
+2005-04-07 ,27,7,4,Tracy McGrady     ,7
+2005-04-09 ,34,3,8,Tracy McGrady     ,7
+2005-04-11 ,38,4,11,Tracy McGrady     ,7
+2005-04-13 ,23,8,8,Tracy McGrady     ,7
+2005-04-16 ,32,8,2,Tracy McGrady     ,7
+2005-04-18 ,16,10,5,Tracy McGrady     ,7
+2004-11-03 ,21,6,5,Dwyane Wade       ,8
+2004-11-04 ,28,5,6,Dwyane Wade       ,8
+2004-11-06 ,37,12,8,Dwyane Wade       ,8
+2004-11-09 ,22,9,4,Dwyane Wade       ,8
+2004-11-11 ,20,5,8,Dwyane Wade       ,8
+2004-11-16 ,25,6,2,Dwyane Wade       ,8
+2004-11-17 ,18,7,5,Dwyane Wade       ,8
+2004-11-19 ,39,8,4,Dwyane Wade       ,8
+2004-11-21 ,25,7,3,Dwyane Wade       ,8
+2004-11-23 ,19,9,3,Dwyane Wade       ,8
+2004-11-24 ,31,11,8,Dwyane Wade       ,8
+2004-11-26 ,17,6,5,Dwyane Wade       ,8
+2004-11-28 ,25,9,5,Dwyane Wade       ,8
+2004-11-30 ,22,4,9,Dwyane Wade       ,8
+2004-12-03 ,15,8,10,Dwyane Wade       ,8
+2004-12-04 ,26,8,6,Dwyane Wade       ,8
+2004-12-06 ,23,4,4,Dwyane Wade       ,8
+2004-12-08 ,17,10,4,Dwyane Wade       ,8
+2004-12-10 ,26,9,9,Dwyane Wade       ,8
+2004-12-12 ,20,6,9,Dwyane Wade       ,8
+2004-12-13 ,0,3,3,Dwyane Wade       ,8
+2004-12-15 ,29,9,5,Dwyane Wade       ,8
+2004-12-17 ,25,4,5,Dwyane Wade       ,8
+2004-12-19 ,22,4,5,Dwyane Wade       ,8
+2004-12-21 ,33,11,4,Dwyane Wade       ,8
+2004-12-23 ,22,10,8,Dwyane Wade       ,8
+2004-12-25 ,29,10,3,Dwyane Wade       ,8
+2004-12-27 ,27,9,3,Dwyane Wade       ,8
+2004-12-30 ,31,10,10,Dwyane Wade       ,8
+2005-01-01 ,26,9,3,Dwyane Wade       ,8
+2005-01-03 ,28,4,2,Dwyane Wade       ,8
+2005-01-05 ,21,9,6,Dwyane Wade       ,8
+2005-01-07 ,25,12,4,Dwyane Wade       ,8
+2005-01-09 ,16,6,2,Dwyane Wade       ,8
+2005-01-11 ,23,8,5,Dwyane Wade       ,8
+2005-01-19 ,25,7,2,Dwyane Wade       ,8
+2005-01-21 ,30,3,9,Dwyane Wade       ,8
+2005-01-23 ,18,7,2,Dwyane Wade       ,8
+2005-01-24 ,17,11,6,Dwyane Wade       ,8
+2005-01-26 ,16,10,2,Dwyane Wade       ,8
+2005-01-28 ,19,5,5,Dwyane Wade       ,8
+2005-01-30 ,30,6,8,Dwyane Wade       ,8
+2005-02-01 ,29,8,6,Dwyane Wade       ,8
+2005-02-03 ,20,3,5,Dwyane Wade       ,8
+2005-02-05 ,25,2,6,Dwyane Wade       ,8
+2005-02-07 ,18,3,3,Dwyane Wade       ,8
+2005-02-09 ,30,6,6,Dwyane Wade       ,8
+2005-02-11 ,11,7,9,Dwyane Wade       ,8
+2005-02-13 ,28,6,5,Dwyane Wade       ,8
+2005-02-16 ,28,12,3,Dwyane Wade       ,8
+2005-02-22 ,21,11,6,Dwyane Wade       ,8
+2005-02-23 ,38,8,4,Dwyane Wade       ,8
+2005-02-26 ,25,4,3,Dwyane Wade       ,8
+2005-02-27 ,28,11,3,Dwyane Wade       ,8
+2005-03-03 ,27,8,6,Dwyane Wade       ,8
+2005-03-04 ,22,7,7,Dwyane Wade       ,8
+2005-03-06 ,18,4,10,Dwyane Wade       ,8
+2005-03-07 ,32,7,5,Dwyane Wade       ,8
+2005-03-10 ,20,3,7,Dwyane Wade       ,8
+2005-03-12 ,13,2,6,Dwyane Wade       ,8
+2005-03-14 ,29,4,3,Dwyane Wade       ,8
+2005-03-15 ,24,5,3,Dwyane Wade       ,8
+2005-03-17 ,27,5,8,Dwyane Wade       ,8
+2005-03-19 ,30,4,2,Dwyane Wade       ,8
+2005-03-22 ,20,4,4,Dwyane Wade       ,8
+2005-03-25 ,35,9,7,Dwyane Wade       ,8
+2005-03-26 ,19,4,5,Dwyane Wade       ,8
+2005-03-29 ,27,8,4,Dwyane Wade       ,8
+2005-03-31 ,37,6,9,Dwyane Wade       ,8
+2005-04-02 ,33,9,2,Dwyane Wade       ,8
+2005-04-05 ,39,7,4,Dwyane Wade       ,8
+2005-04-08 ,16,7,4,Dwyane Wade       ,8
+2005-04-10 ,5,1,1,Dwyane Wade       ,8
+2005-04-14 ,48,6,10,Dwyane Wade       ,8
+2005-04-15 ,17,2,3,Dwyane Wade       ,8
+2005-04-17 ,13,8,5,Dwyane Wade       ,8
+2005-04-19 ,14,3,4,Dwyane Wade       ,8
+2004-11-03 ,23,1,8,Amar'e Stoudemire ,9
+2004-11-05 ,29,2,10,Amar'e Stoudemire ,9
+2004-11-06 ,22,1,9,Amar'e Stoudemire ,9
+2004-11-09 ,26,0,15,Amar'e Stoudemire ,9
+2004-11-10 ,20,1,4,Amar'e Stoudemire ,9
+2004-11-13 ,29,0,9,Amar'e Stoudemire ,9
+2004-11-16 ,34,0,11,Amar'e Stoudemire ,9
+2004-11-17 ,38,0,5,Amar'e Stoudemire ,9
+2004-11-19 ,33,2,14,Amar'e Stoudemire ,9
+2004-11-21 ,33,0,7,Amar'e Stoudemire ,9
+2004-11-22 ,21,5,6,Amar'e Stoudemire ,9
+2004-11-24 ,16,1,6,Amar'e Stoudemire ,9
+2004-11-26 ,14,0,14,Amar'e Stoudemire ,9
+2004-11-30 ,29,1,9,Amar'e Stoudemire ,9
+2004-12-01 ,21,0,9,Amar'e Stoudemire ,9
+2004-12-03 ,28,2,4,Amar'e Stoudemire ,9
+2004-12-05 ,19,3,9,Amar'e Stoudemire ,9
+2004-12-07 ,33,0,11,Amar'e Stoudemire ,9
+2004-12-08 ,23,2,10,Amar'e Stoudemire ,9
+2004-12-10 ,36,8,15,Amar'e Stoudemire ,9
+2004-12-13 ,21,1,9,Amar'e Stoudemire ,9
+2004-12-15 ,19,1,4,Amar'e Stoudemire ,9
+2004-12-17 ,20,1,9,Amar'e Stoudemire ,9
+2004-12-18 ,8,4,2,Amar'e Stoudemire ,9
+2004-12-20 ,32,3,9,Amar'e Stoudemire ,9
+2004-12-23 ,30,0,11,Amar'e Stoudemire ,9
+2004-12-26 ,33,2,6,Amar'e Stoudemire ,9
+2004-12-28 ,37,1,7,Amar'e Stoudemire ,9
+2004-12-29 ,15,0,5,Amar'e Stoudemire ,9
+2005-01-02 ,50,3,11,Amar'e Stoudemire ,9
+2005-01-04 ,34,2,8,Amar'e Stoudemire ,9
+2005-01-05 ,19,1,9,Amar'e Stoudemire ,9
+2005-01-08 ,17,1,6,Amar'e Stoudemire ,9
+2005-01-09 ,20,4,14,Amar'e Stoudemire ,9
+2005-01-11 ,34,2,7,Amar'e Stoudemire ,9
+2005-01-12 ,19,1,8,Amar'e Stoudemire ,9
+2005-01-14 ,26,1,11,Amar'e Stoudemire ,9
+2005-01-15 ,26,2,9,Amar'e Stoudemire ,9
+2005-01-17 ,16,0,9,Amar'e Stoudemire ,9
+2005-01-19 ,8,0,4,Amar'e Stoudemire ,9
+2005-01-21 ,35,3,7,Amar'e Stoudemire ,9
+2005-01-23 ,33,1,8,Amar'e Stoudemire ,9
+2005-01-25 ,29,3,9,Amar'e Stoudemire ,9
+2005-01-26 ,23,4,4,Amar'e Stoudemire ,9
+2005-01-28 ,42,2,5,Amar'e Stoudemire ,9
+2005-01-30 ,27,2,4,Amar'e Stoudemire ,9
+2005-02-01 ,22,2,19,Amar'e Stoudemire ,9
+2005-02-02 ,23,1,7,Amar'e Stoudemire ,9
+2005-02-05 ,32,1,15,Amar'e Stoudemire ,9
+2005-02-08 ,22,1,9,Amar'e Stoudemire ,9
+2005-02-11 ,33,0,8,Amar'e Stoudemire ,9
+2005-02-13 ,9,2,10,Amar'e Stoudemire ,9
+2005-02-14 ,42,2,12,Amar'e Stoudemire ,9
+2005-02-17 ,31,0,12,Amar'e Stoudemire ,9
+2005-02-23 ,17,3,3,Amar'e Stoudemire ,9
+2005-02-26 ,33,2,10,Amar'e Stoudemire ,9
+2005-02-27 ,27,1,6,Amar'e Stoudemire ,9
+2005-03-03 ,26,1,10,Amar'e Stoudemire ,9
+2005-03-05 ,20,1,3,Amar'e Stoudemire ,9
+2005-03-06 ,22,2,5,Amar'e Stoudemire ,9
+2005-03-09 ,44,1,7,Amar'e Stoudemire ,9
+2005-03-11 ,31,1,10,Amar'e Stoudemire ,9
+2005-03-13 ,13,1,9,Amar'e Stoudemire ,9
+2005-03-18 ,31,1,10,Amar'e Stoudemire ,9
+2005-03-20 ,15,1,9,Amar'e Stoudemire ,9
+2005-03-22 ,40,2,13,Amar'e Stoudemire ,9
+2005-03-23 ,23,1,14,Amar'e Stoudemire ,9
+2005-03-25 ,25,4,7,Amar'e Stoudemire ,9
+2005-03-26 ,14,1,7,Amar'e Stoudemire ,9
+2005-04-01 ,22,5,9,Amar'e Stoudemire ,9
+2005-04-03 ,9,4,14,Amar'e Stoudemire ,9
+2005-04-05 ,23,2,8,Amar'e Stoudemire ,9
+2005-04-08 ,44,5,16,Amar'e Stoudemire ,9
+2005-04-09 ,32,1,12,Amar'e Stoudemire ,9
+2005-04-11 ,10,1,6,Amar'e Stoudemire ,9
+2005-04-12 ,27,1,11,Amar'e Stoudemire ,9
+2005-04-15 ,24,1,17,Amar'e Stoudemire ,9
+2005-04-16 ,38,0,9,Amar'e Stoudemire ,9
+2005-04-18 ,26,3,5,Amar'e Stoudemire ,9
+2005-04-20 ,30,2,11,Amar'e Stoudemire ,9
+2004-11-03 ,20,5,5,Ray Allen         ,10
+2004-11-05 ,25,3,1,Ray Allen         ,10
+2004-11-07 ,24,1,6,Ray Allen         ,10
+2004-11-09 ,30,3,7,Ray Allen         ,10
+2004-11-10 ,20,5,5,Ray Allen         ,10
+2004-11-12 ,29,7,4,Ray Allen         ,10
+2004-11-14 ,34,2,5,Ray Allen         ,10
+2004-11-16 ,37,5,5,Ray Allen         ,10
+2004-11-17 ,14,1,4,Ray Allen         ,10
+2004-11-19 ,24,6,2,Ray Allen         ,10
+2004-11-21 ,21,6,1,Ray Allen         ,10
+2004-11-23 ,24,1,2,Ray Allen         ,10
+2004-11-24 ,20,5,5,Ray Allen         ,10
+2004-11-26 ,19,3,4,Ray Allen         ,10
+2004-11-28 ,19,9,5,Ray Allen         ,10
+2004-11-30 ,21,5,6,Ray Allen         ,10
+2004-12-01 ,38,7,2,Ray Allen         ,10
+2004-12-04 ,14,4,5,Ray Allen         ,10
+2004-12-08 ,29,3,4,Ray Allen         ,10
+2004-12-09 ,22,4,5,Ray Allen         ,10
+2004-12-11 ,16,6,5,Ray Allen         ,10
+2004-12-14 ,26,5,5,Ray Allen         ,10
+2004-12-17 ,32,3,5,Ray Allen         ,10
+2004-12-22 ,20,2,5,Ray Allen         ,10
+2004-12-27 ,19,4,4,Ray Allen         ,10
+2004-12-28 ,32,8,3,Ray Allen         ,10
+2004-12-30 ,20,2,1,Ray Allen         ,10
+2004-12-31 ,18,4,2,Ray Allen         ,10
+2005-01-03 ,35,1,2,Ray Allen         ,10
+2005-01-05 ,30,1,5,Ray Allen         ,10
+2005-01-06 ,17,4,6,Ray Allen         ,10
+2005-01-09 ,15,7,3,Ray Allen         ,10
+2005-01-11 ,31,7,6,Ray Allen         ,10
+2005-01-12 ,22,8,7,Ray Allen         ,10
+2005-01-14 ,22,4,1,Ray Allen         ,10
+2005-01-16 ,27,0,6,Ray Allen         ,10
+2005-01-18 ,17,3,5,Ray Allen         ,10
+2005-01-21 ,25,4,6,Ray Allen         ,10
+2005-01-23 ,20,3,3,Ray Allen         ,10
+2005-01-25 ,25,4,4,Ray Allen         ,10
+2005-01-26 ,27,3,3,Ray Allen         ,10
+2005-01-28 ,26,3,5,Ray Allen         ,10
+2005-02-05 ,25,5,4,Ray Allen         ,10
+2005-02-08 ,26,5,4,Ray Allen         ,10
+2005-02-10 ,34,3,4,Ray Allen         ,10
+2005-02-11 ,21,3,4,Ray Allen         ,10
+2005-02-13 ,10,3,4,Ray Allen         ,10
+2005-02-16 ,26,7,5,Ray Allen         ,10
+2005-02-22 ,29,2,5,Ray Allen         ,10
+2005-02-23 ,25,1,5,Ray Allen         ,10
+2005-02-25 ,32,6,4,Ray Allen         ,10
+2005-02-27 ,16,0,1,Ray Allen         ,10
+2005-03-01 ,18,2,3,Ray Allen         ,10
+2005-03-02 ,31,3,5,Ray Allen         ,10
+2005-03-04 ,15,6,7,Ray Allen         ,10
+2005-03-06 ,27,2,6,Ray Allen         ,10
+2005-03-08 ,32,4,7,Ray Allen         ,10
+2005-03-11 ,17,1,4,Ray Allen         ,10
+2005-03-13 ,19,1,1,Ray Allen         ,10
+2005-03-15 ,17,7,1,Ray Allen         ,10
+2005-03-16 ,20,3,6,Ray Allen         ,10
+2005-03-18 ,38,4,7,Ray Allen         ,10
+2005-03-20 ,6,3,1,Ray Allen         ,10
+2005-03-24 ,19,1,8,Ray Allen         ,10
+2005-03-25 ,40,2,9,Ray Allen         ,10
+2005-03-27 ,27,2,8,Ray Allen         ,10
+2005-03-29 ,22,2,6,Ray Allen         ,10
+2005-03-30 ,14,1,4,Ray Allen         ,10
+2005-04-01 ,19,4,3,Ray Allen         ,10
+2005-04-03 ,27,5,9,Ray Allen         ,10
+2005-04-05 ,23,4,6,Ray Allen         ,10
+2005-04-08 ,30,3,4,Ray Allen         ,10
+2005-04-09 ,32,5,2,Ray Allen         ,10
+2005-04-11 ,18,3,5,Ray Allen         ,10
+2005-04-13 ,19,3,6,Ray Allen         ,10
+2005-04-15 ,32,7,0,Ray Allen         ,10
+2005-04-17 ,34,2,10,Ray Allen         ,10
+2005-04-19 ,21,3,4,Ray Allen         ,10
+2004-11-03 ,28,7,20,Kevin Garnett     ,11
+2004-11-04 ,25,7,15,Kevin Garnett     ,11
+2004-11-06 ,29,4,15,Kevin Garnett     ,11
+2004-11-09 ,22,8,10,Kevin Garnett     ,11
+2004-11-11 ,20,9,17,Kevin Garnett     ,11
+2004-11-16 ,25,8,21,Kevin Garnett     ,11
+2004-11-17 ,24,4,13,Kevin Garnett     ,11
+2004-11-20 ,20,5,12,Kevin Garnett     ,11
+2004-11-22 ,21,9,17,Kevin Garnett     ,11
+2004-11-23 ,16,6,14,Kevin Garnett     ,11
+2004-11-25 ,23,5,9,Kevin Garnett     ,11
+2004-11-26 ,26,5,15,Kevin Garnett     ,11
+2004-11-28 ,28,3,16,Kevin Garnett     ,11
+2004-12-01 ,17,9,16,Kevin Garnett     ,11
+2004-12-03 ,23,8,19,Kevin Garnett     ,11
+2004-12-04 ,22,3,15,Kevin Garnett     ,11
+2004-12-07 ,32,5,12,Kevin Garnett     ,11
+2004-12-08 ,19,7,8,Kevin Garnett     ,11
+2004-12-10 ,35,9,18,Kevin Garnett     ,11
+2004-12-11 ,16,5,21,Kevin Garnett     ,11
+2004-12-14 ,19,5,19,Kevin Garnett     ,11
+2004-12-15 ,23,5,15,Kevin Garnett     ,11
+2004-12-17 ,28,7,10,Kevin Garnett     ,11
+2004-12-21 ,26,6,13,Kevin Garnett     ,11
+2004-12-23 ,15,9,10,Kevin Garnett     ,11
+2004-12-26 ,18,8,12,Kevin Garnett     ,11
+2004-12-29 ,17,8,13,Kevin Garnett     ,11
+2005-01-01 ,30,4,10,Kevin Garnett     ,11
+2005-01-04 ,47,4,17,Kevin Garnett     ,11
+2005-01-05 ,23,5,20,Kevin Garnett     ,11
+2005-01-07 ,18,5,18,Kevin Garnett     ,11
+2005-01-08 ,25,8,19,Kevin Garnett     ,11
+2005-01-10 ,23,7,13,Kevin Garnett     ,11
+2005-01-12 ,19,8,25,Kevin Garnett     ,11
+2005-01-14 ,15,7,10,Kevin Garnett     ,11
+2005-01-15 ,17,4,10,Kevin Garnett     ,11
+2005-01-17 ,20,4,14,Kevin Garnett     ,11
+2005-01-19 ,27,4,9,Kevin Garnett     ,11
+2005-01-21 ,24,7,8,Kevin Garnett     ,11
+2005-01-22 ,14,4,16,Kevin Garnett     ,11
+2005-01-24 ,22,4,9,Kevin Garnett     ,11
+2005-01-26 ,17,4,10,Kevin Garnett     ,11
+2005-01-28 ,25,5,14,Kevin Garnett     ,11
+2005-01-30 ,21,7,13,Kevin Garnett     ,11
+2005-02-01 ,15,7,13,Kevin Garnett     ,11
+2005-02-02 ,12,3,13,Kevin Garnett     ,11
+2005-02-04 ,22,5,14,Kevin Garnett     ,11
+2005-02-06 ,21,7,13,Kevin Garnett     ,11
+2005-02-08 ,24,4,7,Kevin Garnett     ,11
+2005-02-09 ,24,6,11,Kevin Garnett     ,11
+2005-02-11 ,12,1,8,Kevin Garnett     ,11
+2005-02-13 ,23,5,14,Kevin Garnett     ,11
+2005-02-15 ,17,3,8,Kevin Garnett     ,11
+2005-02-17 ,20,6,18,Kevin Garnett     ,11
+2005-02-24 ,14,2,8,Kevin Garnett     ,11
+2005-02-25 ,31,4,14,Kevin Garnett     ,11
+2005-02-27 ,17,5,12,Kevin Garnett     ,11
+2005-03-02 ,28,5,13,Kevin Garnett     ,11
+2005-03-04 ,25,5,10,Kevin Garnett     ,11
+2005-03-06 ,21,9,13,Kevin Garnett     ,11
+2005-03-08 ,30,3,15,Kevin Garnett     ,11
+2005-03-10 ,22,5,19,Kevin Garnett     ,11
+2005-03-11 ,25,6,18,Kevin Garnett     ,11
+2005-03-13 ,24,6,13,Kevin Garnett     ,11
+2005-03-15 ,25,7,12,Kevin Garnett     ,11
+2005-03-16 ,12,0,11,Kevin Garnett     ,11
+2005-03-18 ,30,6,19,Kevin Garnett     ,11
+2005-03-20 ,30,6,17,Kevin Garnett     ,11
+2005-03-23 ,24,5,13,Kevin Garnett     ,11
+2005-03-26 ,13,8,8,Kevin Garnett     ,11
+2005-03-27 ,20,4,13,Kevin Garnett     ,11
+2005-03-31 ,23,6,12,Kevin Garnett     ,11
+2005-04-01 ,15,3,15,Kevin Garnett     ,11
+2005-04-03 ,30,6,13,Kevin Garnett     ,11
+2005-04-06 ,18,6,16,Kevin Garnett     ,11
+2005-04-08 ,26,7,16,Kevin Garnett     ,11
+2005-04-09 ,31,7,12,Kevin Garnett     ,11
+2005-04-13 ,21,11,15,Kevin Garnett     ,11
+2005-04-15 ,22,5,9,Kevin Garnett     ,11
+2005-04-17 ,17,5,8,Kevin Garnett     ,11
+2005-04-18 ,14,7,4,Kevin Garnett     ,11
+2005-04-20 ,15,5,11,Kevin Garnett     ,11
+2004-11-04 ,19,8,7,Gilbert Arenas    ,12
+2004-11-06 ,27,5,0,Gilbert Arenas    ,12
+2004-11-09 ,20,6,0,Gilbert Arenas    ,12
+2004-11-10 ,10,6,4,Gilbert Arenas    ,12
+2004-11-13 ,25,2,1,Gilbert Arenas    ,12
+2004-11-14 ,20,9,2,Gilbert Arenas    ,12
+2004-11-17 ,25,7,5,Gilbert Arenas    ,12
+2004-11-20 ,7,5,3,Gilbert Arenas    ,12
+2004-11-23 ,26,4,5,Gilbert Arenas    ,12
+2004-11-26 ,23,4,3,Gilbert Arenas    ,12
+2004-11-28 ,27,5,2,Gilbert Arenas    ,12
+2004-12-01 ,30,5,7,Gilbert Arenas    ,12
+2004-12-03 ,13,8,4,Gilbert Arenas    ,12
+2004-12-04 ,34,3,3,Gilbert Arenas    ,12
+2004-12-08 ,28,3,4,Gilbert Arenas    ,12
+2004-12-10 ,20,7,5,Gilbert Arenas    ,12
+2004-12-12 ,16,6,6,Gilbert Arenas    ,12
+2004-12-13 ,18,4,2,Gilbert Arenas    ,12
+2004-12-15 ,22,8,7,Gilbert Arenas    ,12
+2004-12-17 ,37,7,6,Gilbert Arenas    ,12
+2004-12-18 ,19,4,4,Gilbert Arenas    ,12
+2004-12-20 ,29,5,7,Gilbert Arenas    ,12
+2004-12-21 ,22,4,6,Gilbert Arenas    ,12
+2004-12-26 ,21,3,5,Gilbert Arenas    ,12
+2004-12-27 ,17,3,4,Gilbert Arenas    ,12
+2004-12-29 ,34,4,4,Gilbert Arenas    ,12
+2005-01-02 ,17,4,2,Gilbert Arenas    ,12
+2005-01-04 ,20,3,6,Gilbert Arenas    ,12
+2005-01-06 ,27,4,7,Gilbert Arenas    ,12
+2005-01-08 ,40,4,1,Gilbert Arenas    ,12
+2005-01-12 ,26,5,4,Gilbert Arenas    ,12
+2005-01-14 ,20,2,7,Gilbert Arenas    ,12
+2005-01-15 ,26,7,7,Gilbert Arenas    ,12
+2005-01-17 ,3,2,2,Gilbert Arenas    ,12
+2005-01-18 ,43,3,3,Gilbert Arenas    ,12
+2005-01-21 ,23,8,2,Gilbert Arenas    ,12
+2005-01-22 ,33,6,2,Gilbert Arenas    ,12
+2005-01-24 ,30,1,4,Gilbert Arenas    ,12
+2005-01-26 ,33,9,6,Gilbert Arenas    ,12
+2005-01-28 ,30,8,4,Gilbert Arenas    ,12
+2005-01-29 ,37,6,8,Gilbert Arenas    ,12
+2005-02-01 ,21,8,6,Gilbert Arenas    ,12
+2005-02-04 ,21,4,0,Gilbert Arenas    ,12
+2005-02-05 ,31,9,6,Gilbert Arenas    ,12
+2005-02-07 ,43,6,9,Gilbert Arenas    ,12
+2005-02-09 ,24,4,6,Gilbert Arenas    ,12
+2005-02-11 ,35,9,2,Gilbert Arenas    ,12
+2005-02-12 ,24,5,1,Gilbert Arenas    ,12
+2005-02-14 ,34,6,4,Gilbert Arenas    ,12
+2005-02-15 ,11,9,4,Gilbert Arenas    ,12
+2005-02-23 ,30,6,10,Gilbert Arenas    ,12
+2005-02-25 ,36,7,5,Gilbert Arenas    ,12
+2005-02-27 ,43,3,7,Gilbert Arenas    ,12
+2005-03-02 ,33,5,8,Gilbert Arenas    ,12
+2005-03-04 ,23,8,3,Gilbert Arenas    ,12
+2005-03-05 ,21,1,4,Gilbert Arenas    ,12
+2005-03-08 ,23,2,8,Gilbert Arenas    ,12
+2005-03-13 ,25,6,2,Gilbert Arenas    ,12
+2005-03-14 ,21,5,2,Gilbert Arenas    ,12
+2005-03-16 ,29,4,4,Gilbert Arenas    ,12
+2005-03-18 ,27,7,10,Gilbert Arenas    ,12
+2005-03-19 ,22,5,8,Gilbert Arenas    ,12
+2005-03-22 ,25,3,5,Gilbert Arenas    ,12
+2005-03-24 ,29,6,3,Gilbert Arenas    ,12
+2005-03-25 ,33,4,7,Gilbert Arenas    ,12
+2005-03-27 ,18,9,7,Gilbert Arenas    ,12
+2005-03-28 ,28,2,6,Gilbert Arenas    ,12
+2005-03-30 ,36,2,4,Gilbert Arenas    ,12
+2005-04-01 ,31,4,4,Gilbert Arenas    ,12
+2005-04-03 ,22,4,7,Gilbert Arenas    ,12
+2005-04-05 ,43,4,9,Gilbert Arenas    ,12
+2005-04-06 ,19,5,4,Gilbert Arenas    ,12
+2005-04-08 ,14,2,3,Gilbert Arenas    ,12
+2005-04-09 ,44,3,4,Gilbert Arenas    ,12
+2005-04-11 ,8,13,2,Gilbert Arenas    ,12
+2005-04-13 ,21,3,7,Gilbert Arenas    ,12
+2005-04-15 ,33,9,4,Gilbert Arenas    ,12
+2005-04-17 ,27,4,8,Gilbert Arenas    ,12
+2005-04-19 ,8,6,6,Gilbert Arenas    ,12
+2005-04-20 ,25,2,8,Gilbert Arenas    ,12
+2004-11-03 ,16,6,3,Vince Carter      ,13
+2004-11-05 ,12,5,8,Vince Carter      ,13
+2004-11-07 ,25,4,3,Vince Carter      ,13
+2004-11-09 ,12,1,4,Vince Carter      ,13
+2004-11-10 ,16,5,1,Vince Carter      ,13
+2004-11-12 ,15,3,4,Vince Carter      ,13
+2004-11-13 ,4,4,3,Vince Carter      ,13
+2004-11-16 ,21,0,5,Vince Carter      ,13
+2004-11-17 ,14,4,4,Vince Carter      ,13
+2004-11-19 ,21,5,2,Vince Carter      ,13
+2004-11-21 ,4,1,2,Vince Carter      ,13
+2004-11-23 ,25,1,9,Vince Carter      ,13
+2004-11-24 ,22,3,1,Vince Carter      ,13
+2004-11-27 ,19,3,4,Vince Carter      ,13
+2004-11-28 ,26,4,4,Vince Carter      ,13
+2004-11-30 ,5,4,1,Vince Carter      ,13
+2004-12-01 ,21,3,3,Vince Carter      ,13
+2004-12-03 ,12,3,5,Vince Carter      ,13
+2004-12-06 ,22,1,0,Vince Carter      ,13
+2004-12-08 ,5,1,0,Vince Carter      ,13
+2004-12-27 ,23,5,4,Vince Carter      ,13
+2004-12-28 ,25,2,6,Vince Carter      ,13
+2004-12-30 ,25,3,8,Vince Carter      ,13
+2005-01-01 ,16,5,6,Vince Carter      ,13
+2005-01-04 ,31,3,7,Vince Carter      ,13
+2005-01-05 ,15,2,3,Vince Carter      ,13
+2005-01-07 ,22,4,6,Vince Carter      ,13
+2005-01-08 ,16,3,9,Vince Carter      ,13
+2005-01-11 ,19,4,7,Vince Carter      ,13
+2005-01-13 ,17,6,7,Vince Carter      ,13
+2005-01-15 ,29,5,5,Vince Carter      ,13
+2005-01-17 ,23,6,7,Vince Carter      ,13
+2005-01-19 ,33,9,9,Vince Carter      ,13
+2005-01-21 ,25,7,0,Vince Carter      ,13
+2005-01-23 ,32,4,9,Vince Carter      ,13
+2005-01-25 ,23,3,2,Vince Carter      ,13
+2005-01-26 ,17,9,1,Vince Carter      ,13
+2005-01-28 ,30,9,2,Vince Carter      ,13
+2005-01-29 ,30,10,8,Vince Carter      ,13
+2005-02-01 ,31,6,5,Vince Carter      ,13
+2005-02-02 ,22,5,3,Vince Carter      ,13
+2005-02-05 ,41,5,11,Vince Carter      ,13
+2005-02-07 ,43,5,14,Vince Carter      ,13
+2005-02-09 ,27,4,6,Vince Carter      ,13
+2005-02-11 ,43,3,4,Vince Carter      ,13
+2005-02-13 ,23,3,3,Vince Carter      ,13
+2005-02-15 ,32,4,3,Vince Carter      ,13
+2005-02-16 ,21,5,6,Vince Carter      ,13
+2005-02-22 ,22,4,7,Vince Carter      ,13
+2005-02-23 ,26,2,4,Vince Carter      ,13
+2005-02-25 ,28,3,5,Vince Carter      ,13
+2005-02-27 ,34,1,11,Vince Carter      ,13
+2005-03-02 ,32,7,8,Vince Carter      ,13
+2005-03-03 ,27,9,3,Vince Carter      ,13
+2005-03-05 ,20,5,6,Vince Carter      ,13
+2005-03-08 ,13,2,9,Vince Carter      ,13
+2005-03-09 ,24,3,10,Vince Carter      ,13
+2005-03-12 ,20,2,5,Vince Carter      ,13
+2005-03-13 ,33,3,7,Vince Carter      ,13
+2005-03-16 ,30,8,8,Vince Carter      ,13
+2005-03-18 ,23,4,3,Vince Carter      ,13
+2005-03-20 ,39,4,11,Vince Carter      ,13
+2005-03-22 ,33,7,5,Vince Carter      ,13
+2005-03-24 ,22,8,4,Vince Carter      ,13
+2005-03-26 ,16,4,4,Vince Carter      ,13
+2005-03-28 ,39,2,6,Vince Carter      ,13
+2005-03-30 ,31,5,5,Vince Carter      ,13
+2005-04-01 ,31,6,4,Vince Carter      ,13
+2005-04-02 ,21,6,2,Vince Carter      ,13
+2005-04-05 ,27,8,6,Vince Carter      ,13
+2005-04-07 ,32,2,3,Vince Carter      ,13
+2005-04-09 ,45,3,7,Vince Carter      ,13
+2005-04-13 ,22,0,5,Vince Carter      ,13
+2005-04-15 ,39,4,9,Vince Carter      ,13
+2005-04-17 ,43,5,11,Vince Carter      ,13
+2005-04-19 ,26,9,2,Vince Carter      ,13
+2005-04-20 ,37,1,4,Vince Carter      ,13
+2004-11-02 ,8,1,16,Marcus Camby      ,15
+2004-11-04 ,8,4,10,Marcus Camby      ,15
+2004-11-06 ,4,0,9,Marcus Camby      ,15
+2004-11-08 ,8,1,4,Marcus Camby      ,15
+2004-11-09 ,7,1,7,Marcus Camby      ,15
+2004-11-11 ,4,0,7,Marcus Camby      ,15
+2004-11-19 ,2,1,3,Marcus Camby      ,15
+2004-11-21 ,6,0,2,Marcus Camby      ,15
+2004-11-23 ,12,2,9,Marcus Camby      ,15
+2004-11-26 ,13,2,11,Marcus Camby      ,15
+2004-11-27 ,13,1,14,Marcus Camby      ,15
+2004-11-29 ,0,4,11,Marcus Camby      ,15
+2004-12-02 ,7,2,10,Marcus Camby      ,15
+2004-12-04 ,8,1,13,Marcus Camby      ,15
+2004-12-06 ,2,1,4,Marcus Camby      ,15
+2004-12-08 ,16,2,9,Marcus Camby      ,15
+2004-12-12 ,21,2,14,Marcus Camby      ,15
+2004-12-14 ,16,3,8,Marcus Camby      ,15
+2004-12-15 ,16,4,11,Marcus Camby      ,15
+2004-12-17 ,8,3,7,Marcus Camby      ,15
+2004-12-18 ,4,2,6,Marcus Camby      ,15
+2004-12-22 ,3,1,4,Marcus Camby      ,15
+2004-12-26 ,9,1,11,Marcus Camby      ,15
+2004-12-27 ,16,1,12,Marcus Camby      ,15
+2004-12-31 ,8,0,2,Marcus Camby      ,15
+2005-01-08 ,10,3,15,Marcus Camby      ,15
+2005-01-09 ,9,1,4,Marcus Camby      ,15
+2005-01-11 ,8,2,11,Marcus Camby      ,15
+2005-01-12 ,8,1,15,Marcus Camby      ,15
+2005-01-14 ,12,5,12,Marcus Camby      ,15
+2005-01-18 ,25,5,24,Marcus Camby      ,15
+2005-01-21 ,18,3,13,Marcus Camby      ,15
+2005-01-23 ,4,0,4,Marcus Camby      ,15
+2005-01-26 ,10,1,14,Marcus Camby      ,15
+2005-01-28 ,14,4,9,Marcus Camby      ,15
+2005-01-29 ,13,2,12,Marcus Camby      ,15
+2005-02-01 ,10,2,10,Marcus Camby      ,15
+2005-02-02 ,10,0,11,Marcus Camby      ,15
+2005-02-05 ,6,2,9,Marcus Camby      ,15
+2005-02-08 ,8,5,14,Marcus Camby      ,15
+2005-02-09 ,15,3,3,Marcus Camby      ,15
+2005-02-11 ,6,0,1,Marcus Camby      ,15
+2005-02-15 ,17,3,10,Marcus Camby      ,15
+2005-02-16 ,12,2,13,Marcus Camby      ,15
+2005-02-23 ,6,3,9,Marcus Camby      ,15
+2005-02-25 ,17,1,15,Marcus Camby      ,15
+2005-02-27 ,5,2,10,Marcus Camby      ,15
+2005-03-01 ,11,2,13,Marcus Camby      ,15
+2005-03-03 ,17,7,22,Marcus Camby      ,15
+2005-03-05 ,14,5,12,Marcus Camby      ,15
+2005-03-12 ,8,1,7,Marcus Camby      ,15
+2005-03-16 ,7,4,12,Marcus Camby      ,15
+2005-03-18 ,20,3,17,Marcus Camby      ,15
+2005-03-20 ,9,4,9,Marcus Camby      ,15
+2005-03-22 ,6,2,5,Marcus Camby      ,15
+2005-03-28 ,14,3,9,Marcus Camby      ,15
+2005-03-30 ,23,2,16,Marcus Camby      ,15
+2005-04-01 ,15,5,10,Marcus Camby      ,15
+2005-04-02 ,6,3,8,Marcus Camby      ,15
+2005-04-05 ,14,3,7,Marcus Camby      ,15
+2005-04-06 ,11,3,13,Marcus Camby      ,15
+2005-04-08 ,10,0,9,Marcus Camby      ,15
+2005-04-09 ,9,3,13,Marcus Camby      ,15
+2005-04-11 ,14,4,9,Marcus Camby      ,15
+2005-04-13 ,6,5,10,Marcus Camby      ,15
+2005-04-15 ,7,3,8,Marcus Camby      ,15
+2004-11-03 ,10,2,9,Shawn Marion      ,16
+2004-11-05 ,24,3,11,Shawn Marion      ,16
+2004-11-06 ,13,3,5,Shawn Marion      ,16
+2004-11-09 ,14,1,13,Shawn Marion      ,16
+2004-11-10 ,22,3,12,Shawn Marion      ,16
+2004-11-13 ,14,3,15,Shawn Marion      ,16
+2004-11-16 ,18,0,14,Shawn Marion      ,16
+2004-11-17 ,23,3,9,Shawn Marion      ,16
+2004-11-19 ,27,1,15,Shawn Marion      ,16
+2004-11-21 ,22,4,14,Shawn Marion      ,16
+2004-11-22 ,21,0,16,Shawn Marion      ,16
+2004-11-24 ,23,2,12,Shawn Marion      ,16
+2004-11-26 ,33,4,15,Shawn Marion      ,16
+2004-11-30 ,21,3,9,Shawn Marion      ,16
+2004-12-01 ,10,3,12,Shawn Marion      ,16
+2004-12-03 ,21,1,18,Shawn Marion      ,16
+2004-12-05 ,16,2,12,Shawn Marion      ,16
+2004-12-07 ,23,4,10,Shawn Marion      ,16
+2004-12-08 ,19,4,9,Shawn Marion      ,16
+2004-12-10 ,20,0,8,Shawn Marion      ,16
+2004-12-13 ,19,3,10,Shawn Marion      ,16
+2004-12-15 ,16,1,13,Shawn Marion      ,16
+2004-12-17 ,22,1,6,Shawn Marion      ,16
+2004-12-18 ,36,2,14,Shawn Marion      ,16
+2004-12-20 ,12,1,5,Shawn Marion      ,16
+2004-12-23 ,29,4,7,Shawn Marion      ,16
+2004-12-26 ,18,3,18,Shawn Marion      ,16
+2004-12-28 ,6,1,8,Shawn Marion      ,16
+2004-12-29 ,9,4,7,Shawn Marion      ,16
+2005-01-02 ,15,3,9,Shawn Marion      ,16
+2005-01-04 ,28,2,8,Shawn Marion      ,16
+2005-01-05 ,22,3,9,Shawn Marion      ,16
+2005-01-08 ,22,2,11,Shawn Marion      ,16
+2005-01-09 ,21,1,7,Shawn Marion      ,16
+2005-01-11 ,26,2,11,Shawn Marion      ,16
+2005-01-12 ,20,0,6,Shawn Marion      ,16
+2005-01-14 ,12,0,3,Shawn Marion      ,16
+2005-01-15 ,14,4,15,Shawn Marion      ,16
+2005-01-17 ,11,0,7,Shawn Marion      ,16
+2005-01-19 ,18,5,12,Shawn Marion      ,16
+2005-01-21 ,37,1,15,Shawn Marion      ,16
+2005-01-23 ,10,5,13,Shawn Marion      ,16
+2005-01-25 ,20,3,11,Shawn Marion      ,16
+2005-01-26 ,24,1,12,Shawn Marion      ,16
+2005-01-28 ,16,4,11,Shawn Marion      ,16
+2005-01-30 ,21,3,17,Shawn Marion      ,16
+2005-02-01 ,15,2,14,Shawn Marion      ,16
+2005-02-02 ,19,1,4,Shawn Marion      ,16
+2005-02-05 ,23,2,10,Shawn Marion      ,16
+2005-02-08 ,19,1,16,Shawn Marion      ,16
+2005-02-11 ,14,1,11,Shawn Marion      ,16
+2005-02-13 ,21,1,16,Shawn Marion      ,16
+2005-02-14 ,18,0,7,Shawn Marion      ,16
+2005-02-17 ,17,2,6,Shawn Marion      ,16
+2005-02-23 ,13,3,5,Shawn Marion      ,16
+2005-02-26 ,25,0,13,Shawn Marion      ,16
+2005-02-27 ,15,3,20,Shawn Marion      ,16
+2005-03-03 ,13,2,11,Shawn Marion      ,16
+2005-03-05 ,26,0,9,Shawn Marion      ,16
+2005-03-06 ,18,0,10,Shawn Marion      ,16
+2005-03-09 ,18,1,17,Shawn Marion      ,16
+2005-03-13 ,19,1,15,Shawn Marion      ,16
+2005-03-18 ,28,2,17,Shawn Marion      ,16
+2005-03-20 ,14,2,16,Shawn Marion      ,16
+2005-03-22 ,21,0,11,Shawn Marion      ,16
+2005-03-23 ,26,1,10,Shawn Marion      ,16
+2005-03-25 ,15,1,11,Shawn Marion      ,16
+2005-03-26 ,27,0,14,Shawn Marion      ,16
+2005-03-28 ,30,3,14,Shawn Marion      ,16
+2005-03-30 ,26,0,9,Shawn Marion      ,16
+2005-04-01 ,14,2,16,Shawn Marion      ,16
+2005-04-03 ,23,2,18,Shawn Marion      ,16
+2005-04-05 ,22,4,12,Shawn Marion      ,16
+2005-04-08 ,15,2,10,Shawn Marion      ,16
+2005-04-09 ,20,3,9,Shawn Marion      ,16
+2005-04-11 ,24,3,13,Shawn Marion      ,16
+2005-04-12 ,18,0,17,Shawn Marion      ,16
+2005-04-15 ,20,0,10,Shawn Marion      ,16
+2005-04-16 ,17,1,8,Shawn Marion      ,16
+2005-04-18 ,18,3,9,Shawn Marion      ,16
+2005-04-20 ,0,0,4,Shawn Marion      ,16

@@ -195,25 +195,97 @@ def load_combined_mvp_2001_2023():
 
 
 
-
 # Function to fetch data for each year using the players of that year
 def fetch_mvp_stats_by_year(mvp_dataframe: pd.DataFrame, include_playoffs: bool, output_dir: str):
+    # Ensure that all column names are stripped of leading/trailing whitespace
+    mvp_dataframe.columns = mvp_dataframe.columns.str.strip()
+    
+    # Group players by year
     players_by_year = mvp_dataframe.groupby('year')['Player'].apply(list).to_dict()
 
     for year, players in players_by_year.items():
+        # Strip leading/trailing spaces from player names
         stripped_players = [player.strip() for player in players]
         print(year, ": ", players)
         output_file = f"{output_dir}/mvp_stats_{year}.csv"
 
         # Check if the file already exists
         if os.path.exists(output_file):
-            print(f"Data for year {year} already exists at {output_file}. Skipping fetching...")
+            print(f"Data for year {year} already exists at {output_file}. Checking formatting...")
+            
+            # Load the existing CSV file and check for column formatting
+            existing_data = pd.read_csv(output_file)
+            existing_data.columns = existing_data.columns.str.strip()  # Ensure columns are stripped
+            
+            # Save back the corrected file if columns were modified
+            existing_data.to_csv(output_file, index=False)
+            print(f"Column names reformatted for year {year} if necessary. Skipping fetching...")
             continue  # Skip to the next year if the file already exists
-        
         
         print(f"Fetching stats for year {year} with {len(stripped_players)} players...")
         # Call the collect_player_stats function for each year
         collect_player_stats(stripped_players, year, include_playoffs, output_file)
 
 
+
         
+def check_missing_players(players_by_year: dict, output_dir: str):
+    missing_players_by_year = {}
+
+    for year, expected_players in players_by_year.items():
+        # Strip leading/trailing spaces from each player's name
+        expected_players = [player.strip() for player in expected_players]
+
+        # Define the path to the saved CSV file for this year
+        output_file = f"{output_dir}/mvp_stats_{year}.csv"
+
+        # Check if the file exists
+        if os.path.exists(output_file):
+            # Load the saved player stats for this year
+            saved_data = pd.read_csv(output_file)
+
+            # Extract the list of players in the saved data
+            if 'Player' in saved_data.columns:
+                saved_players = saved_data['Player'].tolist()
+                # Strip any whitespace from saved player names
+                saved_players = [player.strip() for player in saved_players]
+            else:
+                print(f"Warning: No 'Player' column found in {output_file}.")
+                saved_players = []
+
+            # Identify the missing players
+            missing_players = [player for player in expected_players if player not in saved_players]
+
+            # If there are any missing players, add them to the result
+            if missing_players:
+                missing_players_by_year[year] = missing_players
+                print(f"Missing players for year {year}: {missing_players}")
+        else:
+            print(f"File for year {year} does not exist at {output_file}. All players are considered missing.")
+            missing_players_by_year[year] = expected_players
+
+    return missing_players_by_year
+
+def print_missing_players(missing_players_by_year: dict):
+    for year, missing_players in missing_players_by_year.items():
+        # Print year and number of missing players
+        print(f"Year {year}: {len(missing_players)} missing player(s)")
+        
+        # If there are missing players, print their names
+        if missing_players:
+            print("Missing Players:")
+            for player in missing_players:
+                print(f" - {player}")
+        print("-" * 40)  # Separator for clarity
+
+
+
+def generate_3_wide_window(players_by_year: dict):
+    # Get the sorted list of unique years from the dictionary keys
+    years = sorted(players_by_year.keys())
+    
+    # Create a list of lists where each list is a 3-wide window over the years
+    windowed_years = [years[i:i + 3] for i in range(len(years) - 2)]
+    
+    return windowed_years
+
