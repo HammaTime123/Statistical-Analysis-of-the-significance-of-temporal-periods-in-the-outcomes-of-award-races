@@ -56,7 +56,18 @@ def get_player_season(player_name, season_year: int, include_playoffs: bool, pos
 
 
 
-def collect_player_stats(players: list, target_year: int, include_playoffs: bool, output_file: str):
+# Original function to append MVP Share
+def append_mvp_share(mvp_stats, combined_mvp_data, year):
+    # Filter combined MVP dataset for the given year
+    filtered_mvp_data = combined_mvp_data[combined_mvp_data['year'] == year]
+
+    # Merge the MVP stats with the filtered MVP dataset based on player names
+    merged_stats = pd.merge(mvp_stats, filtered_mvp_data[['Player', 'Share']], on='Player', how='left')
+
+    return merged_stats
+
+# Modified function to collect player stats and append MVP share
+def collect_player_stats(players: list, target_year: int, include_playoffs: bool, output_file: str, combined_mvp_data_path: str):
     # ANSI escape codes for green color
     GREEN = "\033[92m"
     RESET = "\033[0m"
@@ -69,6 +80,9 @@ def collect_player_stats(players: list, target_year: int, include_playoffs: bool
         f"{RESET}"  # Reset color
         "| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]"
     )
+
+    # Load the combined MVP dataset
+    combined_mvp_data = pd.read_csv(combined_mvp_data_path)
 
     # Initialize a list to store individual player DataFrames
     mvp_stats_list = []
@@ -98,8 +112,10 @@ def collect_player_stats(players: list, target_year: int, include_playoffs: bool
     if mvp_stats_list:
         try:
             mvp_stats = pd.concat(mvp_stats_list, ignore_index=True)
+            # Append MVP share data
+            mvp_stats = append_mvp_share(mvp_stats, combined_mvp_data, target_year)
             # Save the combined DataFrame to a CSV file
-            if(output_file):
+            if output_file:
                 mvp_stats.to_csv(output_file, index=False)
                 logging.info(f"Combined statistics saved to {output_file}.")
         except Exception as e:
@@ -147,13 +163,16 @@ def load_combined_mvp_2001_2023():
 
 
 
-# Function to fetch data for each year using the players of that year
-def fetch_mvp_stats_by_year(mvp_dataframe: pd.DataFrame, include_playoffs: bool, output_dir: str):
+# Function to fetch MVP stats by year and append MVP share
+def fetch_mvp_stats_by_year(mvp_dataframe: pd.DataFrame, include_playoffs: bool, output_dir: str, combined_mvp_data_path: str):
     # Ensure that all column names are stripped of leading/trailing whitespace
     mvp_dataframe.columns = mvp_dataframe.columns.str.strip()
-    
+
     # Group players by year
     players_by_year = mvp_dataframe.groupby('year')['Player'].apply(list).to_dict()
+
+    # Load the combined MVP dataset
+    combined_mvp_data = pd.read_csv(combined_mvp_data_path)
 
     for year, players in players_by_year.items():
         # Strip leading/trailing spaces from player names
@@ -164,19 +183,24 @@ def fetch_mvp_stats_by_year(mvp_dataframe: pd.DataFrame, include_playoffs: bool,
         # Check if the file already exists
         if os.path.exists(output_file):
             print(f"Data for year {year} already exists at {output_file}. Checking formatting...")
-            
+
             # Load the existing CSV file and check for column formatting
             existing_data = pd.read_csv(output_file)
             existing_data.columns = existing_data.columns.str.strip()  # Ensure columns are stripped
-            
-            # Save back the corrected file if columns were modified
-            existing_data.to_csv(output_file, index=False)
-            print(f"Column names reformatted for year {year} if necessary. Skipping fetching...")
+
+            # Append MVP share data if not already present
+            if 'Share' not in existing_data.columns:
+                existing_data = append_mvp_share(existing_data, combined_mvp_data, year)
+                existing_data.to_csv(output_file, index=False)
+                print(f"MVP Share data appended for year {year}.")
+            else:
+                print(f"MVP Share data already present for year {year}. Skipping fetching...")
             continue  # Skip to the next year if the file already exists
-        
+
         print(f"Fetching stats for year {year} with {len(stripped_players)} players...")
         # Call the collect_player_stats function for each year
-        collect_player_stats(stripped_players, year, include_playoffs, output_file)
+        collect_player_stats(stripped_players, year, include_playoffs, output_file, combined_mvp_data_path)
+
 
 
 
@@ -229,3 +253,13 @@ def print_missing_players(missing_players_by_year: dict):
             for player in missing_players:
                 print(f" - {player}")
         print("-" * 40)  # Separator for clarity
+
+# Original function to append MVP Share
+def append_mvp_share(mvp_stats, combined_mvp_data, year):
+    # Filter combined MVP dataset for the given year
+    filtered_mvp_data = combined_mvp_data[combined_mvp_data['year'] == year]
+
+    # Merge the MVP stats with the filtered MVP dataset based on player names
+    merged_stats = pd.merge(mvp_stats, filtered_mvp_data[['Player', 'Share']], on='Player', how='left')
+
+    return merged_stats

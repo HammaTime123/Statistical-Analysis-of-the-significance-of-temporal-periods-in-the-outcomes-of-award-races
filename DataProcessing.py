@@ -81,7 +81,7 @@ def split_season_into_sections(season_df):
     
     return start_section, middle_section, finish_section
 
-def get_iterable_window_data(players_by_year, data_path: str, mvp_data_path: str, split_into_sections=True):
+def get_iterable_window_data(players_by_year, data_path: str, mvp_data_path: str, split_into_sections=True, return_aggregated=False):
     """
     Generate an iterator over combined data sections for each 3-year window.
     
@@ -90,12 +90,15 @@ def get_iterable_window_data(players_by_year, data_path: str, mvp_data_path: str
     data_path (str): The path to the directory containing the season data CSV files.
     mvp_data_path (str): The path to the MVP CSV data file.
     split_into_sections (bool): Whether to split the season data into start, middle, and finish sections.
+    return_aggregated (bool): Whether to return aggregated player data.
     
     Yields:
-    dict: A dictionary containing window_years, and combined data sections (split or whole).
+    dict: A dictionary containing window_years, and combined data sections (split, whole, or aggregated).
     """
     # Generate the 3-year windows using the players_by_year dictionary
     windows = generate_3_wide_window(players_by_year)
+    print(windows)
+    print(len(windows))
     
     # Iterate over each window
     for window in windows:
@@ -138,30 +141,42 @@ def get_iterable_window_data(players_by_year, data_path: str, mvp_data_path: str
                 combined_middle_section = pd.concat(middle_sections)
                 combined_finish_section = pd.concat(finish_sections)
                 
-                # Add MVP share to each combined section
-                combined_start_section = add_mvp_share_to_sections(combined_start_section, mvp_data_path)
-                combined_middle_section = add_mvp_share_to_sections(combined_middle_section, mvp_data_path)
-                combined_finish_section = add_mvp_share_to_sections(combined_finish_section, mvp_data_path)
-                
-                # Yield the combined sections as an iterator
-                yield {
-                    "window_years": window,
-                    "combined_start_section": combined_start_section,
-                    "combined_middle_section": combined_middle_section,
-                    "combined_finish_section": combined_finish_section
-                }
+                if return_aggregated:
+                    # Aggregate player data for each section separately
+                    aggregated_start = aggregate_single_section(combined_start_section)
+                    aggregated_middle = aggregate_single_section(combined_middle_section)
+                    aggregated_finish = aggregate_single_section(combined_finish_section)
+                    yield {
+                        "window_years": window,
+                        "combined_start_section": aggregated_start,
+                        "combined_middle_section": aggregated_middle,
+                        "combined_finish_section": aggregated_finish
+                    }
+                else:
+                    # Yield the combined sections as an iterator
+                    yield {
+                        "window_years": window,
+                        "combined_start_section": combined_start_section,
+                        "combined_middle_section": combined_middle_section,
+                        "combined_finish_section": combined_finish_section
+                    }
             else:
                 # Concatenate the entire seasons from all years in the window
                 combined_season = pd.concat(normalized_dfs)
                 
-                # Add MVP share to the combined season
-                combined_season = add_mvp_share_to_sections(combined_season, mvp_data_path)
-                
-                # Yield the combined season as an iterator
-                yield {
-                    "window_years": window,
-                    "combined_season": combined_season
-                }
+                if return_aggregated:
+                    # Aggregate player data for the entire season
+                    aggregated_data = aggregate_single_section(combined_season)
+                    yield {
+                        "window_years": window,
+                        "combined_season": aggregated_data
+                    }
+                else:
+                    # Yield the combined season as an iterator
+                    yield {
+                        "window_years": window,
+                        "combined_season": combined_season
+                    }
 
 def print_combined_section_intervals(section_list):
     """
@@ -182,41 +197,24 @@ def print_combined_section_intervals(section_list):
         print(f"Interval {idx + 1}: Start Date: {start_date}, End Date: {end_date}, Length: {length}")
         print("---")
 
-def add_mvp_share_to_sections(section_data, mvp_data_path):
+def aggregate_single_section(section_df):
     """
-    Add MVP share to each player in the provided sections based on the player name and year.
+    Aggregate each player's data by calculating the mean for specified columns within a single section.
     
     Parameters:
-    section_data (DataFrame): A pandas DataFrame containing player statistics for a section.
-    mvp_data_path (str): The path to the MVP CSV data file.
+    section_df (DataFrame): A DataFrame containing a section of the season data.
     
     Returns:
-    DataFrame: The updated section data with MVP share added.
+    DataFrame: A DataFrame with each player's aggregated data.
     """
-    # Load the MVP data from the CSV file
-    mvp_data = pd.read_csv(mvp_data_path)
+    # Drop the 'DATE' column as it is not needed for aggregation
+    section_df = section_df.drop(columns=['DATE'])
     
-    # Ensure the column names are consistent
-    if 'Year' in mvp_data.columns:
-        mvp_data.rename(columns={'Year': 'year'}, inplace=True)
-    if 'Year' in section_data.columns:
-        section_data.rename(columns={'Year': 'year'}, inplace=True)
+    # Aggregate the data by calculating the mean for each player
+    aggregated_data = section_df.groupby(['Player', 'Position', 'Share']).mean().reset_index()
     
-    # Extract the year from the DATE column in section_data if year column is missing
-    if 'year' not in section_data.columns:
-        section_data['year'] = pd.to_datetime(section_data['DATE']).dt.year
+    # Keep only the specified columns
+    columns_to_keep = ['Player', 'Position', 'Share', 'PTS', 'AST', 'TRB', 'BLK', 'STL']
+    aggregated_data = aggregated_data[columns_to_keep]
     
-    # Make sure column names are consistent for merging
-    mvp_data.rename(columns={"Player": "Player", "year": "year"}, inplace=True)
-    
-    # Print columns to ensure consistency before merging (for debugging)
-    print("Section Data Columns:", section_data.columns)
-    print("MVP Data Columns:", mvp_data.columns)
-    
-    # Merge the section data with the MVP data based on 'Player' and 'year'
-    try:
-        section_data = section_data.merge(mvp_data[['Player', 'year', 'Share']], on=['Player', 'year'], how='left')
-    except KeyError as e:
-        print(f"KeyError during merging: {e}")
-    
-    return section_data
+    return aggregated_data
